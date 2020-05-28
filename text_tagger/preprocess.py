@@ -21,9 +21,7 @@ class Preprocess_Text():
                 
             return text
 
-        for (key, value) in database[self.text_label].items():
-            database["key"] = filter(value)
-        
+        database[self.text_label] = database[self.text_label].apply(filter)        
         return database 
 
     def open(self, file):
@@ -35,6 +33,7 @@ class Preprocess_Text():
         # Abre o arquivo de dados
         database = pd.read_csv(file)
         database = self.preprocess(database)
+        return database
 
 
 class Preprocess_Tags():
@@ -51,23 +50,23 @@ class Preprocess_Tags():
         """ 
         if method == 'simple':
             new_data = pd.DataFrame()
-            for column in data.columns():
-                tags = data[column].unique().sort()
+            for column in data.columns:
+                tags = sorted(data[column].unique())
                 tags_ref, i = {}, n
                 while i < len(tags):
                     for tag in tags[i-n:i]:
-                        tags_ref[tag] = i 
+                        tags_ref[tag] = int(i/n)
                     i += n
 
                 for tag in tags[i-n:i]:
-                    tags_ref[tag] = i 
+                    tags_ref[tag] = int(i/n)
 
                 new_data[column] = data[column].apply(lambda x: str(tags_ref[x]))
             new_data = new_data.sum(axis=1)
 
         elif method == "cluster":
             k = KMeans(n_clusters=n)
-            k.fit(data.values())
+            k.fit(data.values)
 
             new_data = pd.Series(k.labels_, index=data.index)
 
@@ -82,39 +81,37 @@ class Preprocess_Tags():
                         ["absolute", ("numeric-simple", # de divs, [tags]), ("numeric-cluster", # de clusters, [tags])]
                         para tags numeric2d usar (nome da coluna: tipo-numero_unico")
         """ 
-        database = pd.read_csv(file)
+        database = pd.read_csv(file, index_col=0)
         database = database[tags_columns]
 
         processed = pd.DataFrame(index=database.index)
         done = []
         for tag in tags_columns:
             if tag in tags_types.keys() and tag not in done:
-                done.append(tag)
                 
+                done.append(tag)
                 tag_type = tags_types[tag]
                 if isinstance(tag_type, tuple):
-                    if tag_type[0] == "numeric":
+                    if tag_type[0].split("-")[0] == "numeric":
                         method = tag_type[0].split("-")[1]
                         if len(tag_type) == 3:
                             processed[tag] = self.numeric_process(database[[tag]+tag_type[2]], method=method, n=tag_type[1])
+                            for other_tag in tag_type[2]:
+                                done.append(other_tag)
                         else:
                             processed[tag] = self.numeric_process(database[[tag]], method=method, n=tag_type[1])
-                        for other_tag in tag_type[1]:
-                            done.append(other_tag)
 
                 elif tag_type == "absolute":
                     processed[tag] = database[tag]
 
                 else:
                     raise ValueError(f"tag_type {tags_types[tag]} does no exist")
-
-        file_name = file.split("/")[-1]
-        processed.to_csv(f"../storage/{file_name}")
+                    
+        return processed
 
         
+if __name__ == "__main__":
+    dt = Preprocess_Text("Tweet content").open("../datasets_samples/Tweets_USA.csv")
 
-dt = Preprocess_Text("Tweet content").open("../datasets_samples/Tweets_USA.csv")
-
-preprocess_tags = Preprocess_Tags()
-preprocess_tags.preprocess("../datasets_samples/Tweets_USA.csv", ["Latitude", "Longitude"], 
-                           {"Latitude":("numeric-simple", 50, ["Longitude"])})
+    tags = Preprocess_Tags().preprocess("../datasets_samples/Tweets_USA.csv", ["Latitude", "Longitude"], 
+                                        {"Latitude":("numeric-simple", 50, ["Longitude"])})
