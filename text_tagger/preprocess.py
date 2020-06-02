@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 
 class Preprocess_Text():
         
-    def __init__(self, text_label, filter_flags = {"digits": True, "stopwords": True}):
+    def __init__(self, text_label, filter_flags = {"digits": True, "stopwords": True, "links": True}):
         self.text_label     = text_label
         self.filter_flags   = filter_flags
 
@@ -15,6 +15,9 @@ class Preprocess_Text():
         def filter(text):
             if(self.filter_flags["digits"]):
                 re.sub(r"[\d]", "", text, flags=re.DOTALL|re.MULTILINE)
+
+            if(self.filter_flags["links"]):
+                re.sub(r"http.*? ", "", text, flags=re.DOTALL|re.MULTILINE)
 
             if(self.filter_flags["stopwords"]):
                 re.sub('|'.join(stopwords.words('english')), "", text)
@@ -113,5 +116,6 @@ class Preprocess_Tags():
 if __name__ == "__main__":
     dt = Preprocess_Text("Tweet content").open("../datasets_samples/Tweets_USA.csv")
 
+    print(dt["Tweet content"][3])
     tags = Preprocess_Tags().preprocess("../datasets_samples/Tweets_USA.csv", ["Latitude", "Longitude"], 
                                         {"Latitude":("numeric-simple", 50, ["Longitude"])})
