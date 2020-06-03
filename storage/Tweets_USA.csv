@@ -1,1001 +1,829 @@
 ,Tweet content,Latitude
-125373,"[""i'm"", 'mexfam', 'tlalpan', 'tlalpan', 'df', 'df', '']",16.0
-149977,"[""i'm"", 'homestead', 'placentia', 'ca', '']",73.0
-45553,[''],27.0
-33988,"['celebrating', 'mchixon', 'birthday', 'hands', 'smiles', '💞', 'buca', 'di', 'beppo', 'dallas', '-…', '']",67.0
-187996,"['recommend', 'anyone', 'nursing', 'job', 'travelnurse', 'nurselife', 'snellville', 'ga', '']",712.0
-194935,"['corporate', 'recruiter', '-', 'apex', 'systems', '(stlouis', 'mo)', 'recruiting', 'job', 'jobs', 'hiring']",129.0
-160281,"['american', 'woodmark', 'sales', 'rep', 'builder', 'direct', '(phoenix', 'az)', 'sales', 'americanjobs', 'woodmark', 'job', 'jobs', 'hiring']",64.0
-161709,"['hospitality', 'professional', 'oakland', 'tn', 'check', 'job', 'sonic', 'hiring', 'careerarc']",910.0
-52466,"['retail', 'professional', 'columbia', 'tn', 'check', 'job', 'hiring']",911.0
-38113,"['drinking', ""nick's"", 'purple', 'surprise', 'abnormalbeercosaintarcherbrew', 'churchills', '—', 'photo']",63.0
-177890,"['catawbafalls', 'ashevillestory', 'carlsgood', 'amazing', 'waterfall', 'perfect', 'end', '…', '']",913.0
-76085,"['counter', 'sales', '(retail)', 'part-time', '-', 'genuine', 'parts', 'napa', '(abingdon', 'md)', 'sales', 'job', 'jobs', 'hiring']",1317.0
-170862,"['want', 'work', 'sanantonio', 'tx', 'view', 'latest', 'opening', 'transportation', 'veterans', 'job', 'jobs', 'hiring']",37.0
-156160,"[""we're"", 'hiring', 'click', 'apply', 'full', 'time', 'personal', 'banker', '-', 'job', 'bankjobs', 'westallis', 'wi', '']",1810.0
-168717,"['natural', 'gas', 'leak', '|', 'summerhill', 'ave', 'amp', 'edgewood', 'cres', 'div', 'midtown_toronto']",1915.0
-62684,"['know', 'gonna', 'good', 'night', 'oyster_bake', 'less', 'minutes', 'and…', '']",37.0
-42531,"['ona', 'skiatook', 'oklahoma', '']",108.0
-204631,"['never', 'expected', 'mean', 'good', 'bad', 'way']",1719.0
-81184,"['healthcare', 'job', 'might', 'great', 'fit', 'surgical', 'techn', 'adv', '-', 'dallas', 'tx', 'hiring', 'careerarc']",57.0
-28111,"['ciudad_segura', 'fue', 'entre', 'auditorio', 'fuente', 'de', 'petroleos']",16.0
-142712,"['check', 'buddies', 'book', 'project', 'cancer', 'research', 'cancerssos', ""dutch's"", 'brewhouse', '']",73.0
-183440,"['join', 'yale-new', 'hospital', 'team', 'see', 'latest', 'clerical', 'job', 'opening', 'newhaven', 'ct', 'hiring', 'careerarc']",1619.0
-83668,"['registered', 'nurse', '|', 'rn', '|', '(contract)', '-', 'favorite', 'health', 'care', 'staffing', '(chandler', 'az)', 'nursing', 'job', 'jobs', 'hiring']",64.0
-202066,"['benoit', ""paire's"", 'wide', 'variance', 'level', 'fluctuate', 'match', 'fluctuates', 'middle', 'games', 'even', 'points']",314.0
-135531,"['live', 'like', 'artist', 'recreate', '']",1518.0
-92502,"['recommend', 'anyone', 'clerical', 'job', 'miami', 'fl', 'hiring', 'careerarc']",214.0
-81382,"['citi', 'senior', 'vice', 'president', '–', 'statement', 'card', 'carrier', 'crisis', '(jacksonville', 'fl)', 'businessmgmt', 'citijobs', 'job']",413.0
-76558,"['famousfridays', 'the🌊🌊🌊tonite', 'wit', 'dj_keithscott', 'ninthwardjug…', '']",49.0
-180197,"['careerarc', 'hospitality', 'job', 'alert', 'shift', 'supervisor', '(us)', '|', 'starbucks', '|', 'veterans', 'jobs', 'hiring']",1618.0
-144164,"['🌊🌊🌊🌊', 'paterson', 'new', 'jersey', '']",1617.0
-32438,"['sutter', 'tracy', 'community', 'hospital', 'nursing', 'job', 'rn', 'ambulatory', 'care', 'unit', 'giendoscopy', '(tracy', 'ca)', 'jobs', 'hiring']",111.0
-57886,"['posted', 'video', 'silver', 'dollar', '']",515.0
-61160,"['frriiiiidaaayy', 'niiiiight', 'cradle', 'life', 'tgif', 'toronto', 'loveourbartenders', 'theix', 'corktown…', '']",1915.0
-88592,"['facilities', 'maintenance', '-', 'select', 'staffing', '(usa)', 'facilitiesmgmt', 'job', 'jobs', 'hiring', 'careerarc']",82.0
-198721,"['great', 'clips', 'hair', 'stylist', '(oakforest', 'il)', 'cosmetology', 'job', 'jobs', 'hiring', 'careerarc']",1710.0
-191214,"['aurora', 'health', 'care', 'nursing', 'assistant', 'amp', 'health', 'unit', 'coordinator', '-', 'part', 'time', '-', 'noc', '-', '(hartford', 'wi)', 'nursing']",1910.0
-169851,"['want', 'work', 'cvs', 'health', ""we're"", 'hiring', 'springfield', 'va', 'click', 'details', 'retail', 'job', 'jobs', 'careerarc']",1216.0
-129861,"['cool', 'rt', 'harvardbiz', 'high', 'school', 'students', 'creating', 'future', 'via', 'blueoceanstrtgy']",1819.0
-81429,"['🚨bahamas', 'event', 'alert🚨', 'labor', 'day', 'weekend', 'ethnonightlife', 'ultimate', 'retreat', 'miami', 'to…', '']",216.0
-105976,"[""chico's"", 'retail', 'job', 'sales', 'associate', '(canton', 'ct)', 'jobs', 'hiring']",1719.0
-33599,"['ahora', 'si', 'back', 'home', '(la', 'segunda', 'es', 'la', 'vencida', '-ayer', 'se', 'canceló', 'mi', 'vuelo)', 'pedido', 'del…', '']",214.0
-124576,"['greeting', 'clarksvilletn', 'finalsitefriday', 'spending', 'next', 'weeks', 'south…', '']",1010.0
-196753,"['""what', 'zaha', 'hadid', 'meant', 'didn\'t""', '']",111.0
-50432,"['favorite', 'omicron', 'week', 'coaches', '~striking', 'arthritis~', 'one', 'pitch', 'time', '❤️💙', '…', '']",199.0
-157959,"['-', 'newyork', 'bryant', 'park', '']",1518.0
-132359,"['dallas', 'march', 'babies', 'scheduled', 'april', 'white', 'rock', 'lake', '']",58.0
-175010,"['horannftjacob', 'call', 'house', 'phone']",1710.0
-75450,"['want', 'work', 'norristown', 'pa', 'view', 'latest', 'opening', 'healthcare', 'job', 'jobs', 'hiring']",1417.0
-60397,"['sales', 'representative', '-', 'lithia', 'auto', 'stores', '(fresno', 'ca)', 'sales', 'job', 'jobs', 'hiring', 'careerarc']",102.0
-7699,"['girls', ')', 'missed', 'hanging', 'peks', 'buwi', 'molly', 'malone', 'losangeles', '']",82.0
-200413,"['director', 'clinical', 'equipment', 'solutions', '-', 'chicago', 'il', '-', 'compass', 'group', 'usa', '(chicago', 'il)', 'medicaldevices', 'jobhunt']",1710.0
-31723,"[""i'm"", 'plaza', 'universidad', '-', 'p_universidad', 'benito', 'juárez', 'df', '']",16.0
-19723,"['😎', 'harvard', 'ave', '']",1613.0
-119792,"['front', 'back', 'fade', '⬅️➡️', 'menstyle', 'menshair', 'cle', 'clewiseguys', 'westlake', 'lakewood', 'fade…', '']",1613.0
-119370,"['want', 'work', 'houston', 'tx', 'view', 'latest', 'opening', 'businessmgmt', 'job', 'jobs', 'hiring']",48.0
-33933,"['happy', 'birthday', 'suzanne', '(', ""gianmarco's"", 'homewood', 'al)', '']",611.0
-44827,"['need', 'like', 'week', 'shopping', 'trip', 'w', 'unlimited', '']",611.0
-159662,"[""lowe's"", 'stores', 'store', 'seasonal', 'employee', '(mebane', 'nc)', 'labor', 'job', 'jobs', 'hiring']",1015.0
-122016,"['babylovefest', 'keeps', ""comin'"", 'revellife', 'capturedourhearts', 'doesntgetsweeterthanthis', '…', '']",1914.0
-134354,"['join', 'j', 'crew', 'team', 'see', 'latest', 'sales', 'job', 'opening', 'tintonfalls', 'nj', 'hiring']",1417.0
-119191,"['pretty', 'spectacular', 'grabbing', 'couple', 'bottles', 'sure', '-', 'drinking', 'au', 'ra', 'alsofhampden', '-', 'photo']",1416.0
-136311,"['salud', 'para', 'todos', 'yayoboyz', 'elestadodeljardin', 'atlanticcitynj', 'margaritaville', 'atlantic', 'city', '']",1317.0
-177539,"[""we're"", 'hiring', 'click', 'apply', 'manager', 'integrated', 'digital', 'technology', '-', 'businessmgmt', 'woodclifflake', 'nj', 'job', 'jobs']",1618.0
-198371,"[""i'm"", 'cinépolis', 'corporativo', '-', 'cinepolis', 'alvaro', 'obregon', 'df', 'w', 'axelmebu', '']",16.0
-16246,"[""i'm"", 'bocanegra', 'miscelanea', 'rustica', 'w', 'misterlonely_', '']",15.0
-152101,"['lil', 'lady', 'enjoying', 'breeze', 'storm', 'msbelle', 'zazzazoo', 'beachsideliving', '…', '']",314.0
-197157,"[""i'm"", 'officedepot', 'odessa', 'tx', '']",55.0
-39754,"['movie', 'time', '(at', 'cinemex', 'jungle', 'book', 'disney', 'digital', 'miguel', 'hidalgo', 'df', 'w', 'edgaruseches)', '']",16.0
-171862,"['us', 'commercial', 'real', 'estate', 'prices', 'take', 'dip', '']",82.0
-7410,"['el', 'dia', 'de', 'hoy', 'toca', 'felicitar', 'mi', 'madre', 'darle', 'gracias', 'ah', 'dios…', '']",34.0
-95674,"['always', 'island', 'phi', 'gamma', 'delta', '']",610.0
-133923,"['want', 'work', 'peru', 'il', 'view', 'latest', 'opening', 'accounting', 'job', 'jobs', 'hiring', '']",1610.0
-34082,"['natgeo', '🌐', 'washington', 'district', 'columbia', '']",1216.0
-152391,"['posted', 'photo', 'lincoln', 'memorial', '']",1216.0
-1066,"['mahallamiz', 'moshinlari', 'farmington', 'hills', 'michigan', '']",1812.0
-107552,"['never', 'wanted', 'perfect', 'wanted', 'me…', '']",48.0
-166312,"['red', 'flag', 'warning', 'due', 'strong', 'winds', 'low', 'humidities', 'afternoon', 'west', 'central', 'south', 'central', 'minnes', '']",198.0
-81771,"['recommend', 'anyone', 'job', 'sonographer', '-', 'alexandria', 'va', 'healthcare', 'hiring', 'careerarc']",1216.0
-2266,"['posted', 'photo', 'philadelphia', 'pennsylvania', '']",1417.0
-44956,"[""i'm"", 'downtown', 'st', 'augustine', 'st', 'augustine', 'fl', '']",414.0
-15623,"['finally', 'got', 'spend', 'quality', 'time', 'hon', 'kennedy', 'added', 'judge', 'personal…', '']",1518.0
-12474,"['princess', '👑', 'patriot', 'saloon', '']",1518.0
-120758,"['bayada', 'home', 'health', 'care', 'certified', 'home', 'health', 'aide', '(chha)', '-', 'weekends', '(clark', 'nj)', 'job', 'jobs', 'hiring']",1517.0
-95881,"['spring', 'break', 'fun\na', 'frozen', 'fever', 'painting', 'party\nwho', 'little', 'one', 'choose', 'paint…', '']",1619.0
-25001,"['', 'napping', 'spongebob', 'thank', 'aunt', 'sandy😂😙🤓💙', 'friyay', 'silly', 'funnyboy…', '']",1812.0
-38786,"[""i'm"", 'tokyotable', 'irvine', 'ca', '']",63.0
-189871,"['😎', '(', 'bucaneros', 'mariscos', 'playa', 'del', 'carmen', 'quintana', 'roo)', '']",211.0
-191929,"['languageline', 'solutions', 'customerservice', 'job', 'portuguese', 'interpreters', '(sanjose', 'ca)', 'interpreter', 'bilingual', 'jobs']",101.0
-5462,"['want', 'work', 'longbeach', 'ca', 'view', 'latest', 'opening', 'healthcare', 'job', 'jobs', 'hiring', '']",73.0
-97805,"['winterpark', 'fl', 'retail', 'job', 'meat', 'cutter', 'winn', 'dixie', 'jobs', 'hiring', 'careerarc']",314.0
-201769,"['really', 'feel', 'like', 'getting']",108.0
-165752,"['posted', 'photo', 'matthiessen', 'state', 'park', '']",1610.0
-190031,"['philips', 'north', 'america', 'software', 'application', 'architect', '(sanjose', 'ca)', 'job', 'jobs', 'hiring']",101.0
-121820,"['see', 'video', 'tour', 'listing', 'mcdade', 'farm', 'road', 'hephziabh', 'ga', 'realestate', '']",613.0
-94349,"['would', 'love', 'wardrobe', 'connoisseur', '💞💕💞💗💖💓💕💞💖💞💕💓💖💗💞💕💞', '\n\nxoxo', 'muah', '\n\nthe', '""full', 'look""…', '']",48.0
-155811,"['jumped', 'plane', 'amos', 'made', 'bed', 'back', 'seat', ')', 'ilovehimsomuch', 'long…', '']",73.0
-149736,"['tonight', 'pm', 'baltimorecocktailweek', 'chartruese', 'cocktail', 'throw', 'bookmakersbmore', '…', '']",1316.0
-28653,"['golf', 'together', 'stay', 'together', '🏌🏌🏌', 'bunker', 'hills', 'golf', 'club…', '']",199.0
-58917,"['date', 'night', 'hunky', 'husband', 'favorite', 'beverage…', '']",57.0
-129797,"['interested', 'projectmgmt', 'job', 'near', 'waterloo', 'could', 'great', 'fit', 'hiring']",1914.0
-118954,"[""chico's"", 'sales', 'associate', '(hurst', 'tx)', 'retail', 'job', 'jobs', 'hiring']",67.0
-157976,"['suspiciousperson', 'international', 'dr', 'amp', 'carrier', 'dr', 'orlpol', 'ocso']",313.0
-68977,"['hi', 'dristenblack', 'zombie', 'squad', '']",187.0
-155482,"['drinks', 'eric', 'dear', 'friend', 'mustafa', '🍻🍺👍\ndrinks\nhappyhour', 'netherwood', '']",1517.0
-135572,"['interested', 'healthcare', 'job', 'near', 'statenisland', 'ny', 'could', 'great', 'fit', 'jobhunt', 'hiring']",1518.0
-66419,"['thank', 'red', 'rock', 'canyon', 'natural', 'eye', 'candy', '\n\nredrock', 'redrockcanyon…', '']",104.0
-128043,"['projectmgmt', 'job', 'might', 'great', 'fit', 'data', 'analyst', 'usms', 'arlingtonva', 'ts', 'preferred', 'scif', '-', '']",1216.0
-197534,"['office', '(', 'centro', 'de', 'negocios', 'cotsamty', 'garza', 'garcía', 'nuevo', 'león)', '']",25.0
-50807,"['roasted', 'hen', 'potato', 'pave', 'creme', 'sorrel', 'lardons', 'thestaffcanteen', 'star_chefs', 'truecooks…', '']",125.0
-119510,"['job', 'might', 'great', 'fit', 'food', 'service', 'supervisor', '-', 'freeland', 'mi', 'hiring', 'careerarc']",1912.0
-166063,"['hospitality', 'professional', 'mountvernon', 'mo', 'check', 'job', 'sonic', 'hiring', 'careerarc']",108.0
-81561,"['interested', 'retail', 'job', 'near', 'raleigh', 'nc', 'could', 'great', 'fit', 'hiring']",915.0
-198067,"['join', 'aerotek', 'team', 'see', 'latest', 'construction', 'job', 'opening', 'riverdale', 'ia', 'hiring']",169.0
-115095,"['mi', 'ex', 'novio', 'plataformero', 'ahora', 'ya', 'hace', 'videos', 'qué', 'barbaridad', 'saludos', 'todos', 'los…', '']",16.0
-104648,"[""i'm"", 'xsport', 'fitness', 'fairfax', 'va', '']",1216.0
-128046,"['liverpool', 'ny', 'customerservice', 'job', 'customer', 'service', 'associate', ""lowe's"", 'stores', 'jobs', 'hiring']",1817.0
-179103,"['recommend', 'anyone', 'job', 'picker', '-', 'cintasjobs', 'montgomery', 'al', 'manufacturing', '']",511.0
-27340,"[""we're"", 'amherst', 'finished', 'day', 'one', 'trip', 'tomorrow', 'performance', 'day🎶', 'umass', 'amherst', '']",1819.0
-99596,"['want', 'work', 'paloalto', 'ca', 'view', 'latest', 'opening', 'clerical', 'job', 'jobs', 'hiring', 'careerarc']",101.0
-115191,"['provider', 'network', 'specialist', 'i-cincinnati', '-', 'buckeye', 'community', 'health', '(cincinnati', 'oh)', 'insurance', 'job', 'jobs']",1312.0
-114686,"['job', 'might', 'great', 'fit', 'attending', '-', 'anesthesiologist', '-', 'brownsmills', 'nj', '']",1417.0
-75713,"['physical', 'therapist', 'outpatient', '-', 'supplemental', 'health', 'care', '(dearborn', 'mi)', 'nursing', 'job', 'jobs', 'hiring', 'careerarc']",1812.0
-201089,"['strong', 'winds', 'impact', 'parts', 'county', 'today', ""i'll"", 'pinpoint', 'winds', 'could', 'reach', 'mph', 'news', '']",53.0
-131642,"['drinking', 'coco', 'loco', 'nodabrewing', ""paxton's"", 'pad', '—', '']",64.0
-196220,"['breakfast', 'sisterroomie', '(at', 'ihop', 'totowa', 'nj', 'w', 'wickitrocker)', '']",1617.0
-123569,"['pontiac', 'mi', 'automotive', 'job', 'automotive', 'mechanic', 'ups', 'jobs', 'hiring', 'careerarc']",1812.0
-55419,"['posted', 'video', 'aampg', 'conventions', '']",1312.0
-179507,"['see', 'latest', 'monroe', 'la', 'job', 'click', 'apply', 'retail', 'store', 'positions', '-', 'retail', 'hiring', 'careerarc']",59.0
-101269,"[""i'm"", 'homedepot', 'cockeysville', 'md', '']",1316.0
-18747,"['chilifest', '🍻', 'snook', 'texas', '']",48.0
-23798,"['puppies', 'sale', 'springsale', 'gorgeous', 'cairnterrier', 'puppiesforsale', 'bayside…', '']",1619.0
-186267,"['got', 'curds', 'dineoutlifephl', 'cowandthecurd', 'eatcurds', 'yummy', '']",1417.0
-113629,"['northkingstown', 'ri', 'customerservice', 'job', 'technical', 'customer', 'support', 'aerotek', 'jobs', 'hiring']",1719.0
-8314,"['see', 'latest', 'sanfrancisco', 'ca', 'job', 'click', 'apply', 'registered', 'nurse', '(rn)', '-', '']",111.0
-72531,"['huge', 'thank', 'smexaminer', 'monumentaldrive', 'phil_mershon', 'lovely', 'welcome', 'hugs…', '']",53.0
-159244,"['foxnews', 'jonahnro', 'nikkihaley', 'teamcavuto', 'another', '""young', 'generational""', 'anti-trump', 'stoptheestablishment']",129.0
-81735,[''],1011.0
-131492,"['wind', 'mph', 'w', 'barometer', 'steady', 'temperature', '°f', 'rain', 'today', 'humidity', '']",59.0
-62099,"['physician', 'alert', 'physician', 'emergency', '|', 'providence', 'health', 'amp', 'services', '|', 'missoula', 'mt', '']",194.0
-59437,"['🔝👭👭👭👭💕', 'universidad', 'mondragon', 'uco', '']",25.0
-66470,"['city', 'beautiful', 'letsgobucs', 'pnc', 'park', '']",1415.0
-99663,"['meanwhile', 'hardly', 'watch', 'regularseason', 'pelicansnba', 'made', 'real', 'hard', 'wanna…', '']",49.0
-177391,"['recommend', 'anyone', 'hospitality', 'job', 'john', 'hawkins', 'pkwy', 'hoover', 'al', 'veterans', 'hiring']",611.0
-94271,"[""i'm"", 'petescoffeeshop', 'knoxville', 'tn', '']",912.0
-101276,"['interested', 'hospitality', 'job', 'near', 'buffalogrove', 'il', 'could', 'great', 'fit', 'hiring', 'careerarc']",1710.0
-198761,"['want', 'work', 'remx', ""we're"", 'hiring', 'glenallen', 'va', 'click', 'details', 'clerical', 'job', 'jobs', 'careerarc']",1115.0
-177484,"['tonight', 'halffullbrewery', 'pintnight', 'localbeerbar', 'fairfield', 'baltic', 'porter', 'ipl', 'liquid…', '']",1619.0
-133804,"['keep', 'doubting', ""i'm"", ""pressin'"", ""i'm"", ""postin'"", '…', '']",1215.0
-26073,"['', 'fuckingbernie', 'smh', 'votefortrump', 'makeamericagreatagain']",313.0
-3889,"['see', 'latest', 'spartanburg', 'sc', 'job', 'click', 'apply', 'mcat', 'instructor', '-', 'spartanburg', 'sc', '-', 'education', 'hiring']",813.0
-43792,"['thought', 'one', 'many', 'experiencing', 'message', 'josephvassiliou…', '']",1518.0
-48816,"['cavaliers', 'advance', 'final', 'hendersonville', 'invitational', 'hendersonville', 'memorial', 'park', '']",1011.0
-20221,"[""i'm"", 'amc', 'baton', 'rouge', '-', 'amctheatres', 'baton', 'rouge', 'la', '']",49.0
-7293,"['girl', 'two', 'things', 'classy', 'fabulous', '-', 'coco', 'chanel', '']",111.0
-161391,"[""i'm"", 'adkins', 'household', 'newell', 'alabama', 'woodland', 'al', '']",611.0
-127655,"['pharmacy', 'technician', '-', 'cvs', 'health', '(albany', 'ny)', 'healthcare', 'job', 'jobs', 'hiring', 'careerarc']",1819.0
-159436,"['del', 'md', 'anderson', 'pal', 'mundo', 'dr', 'bruera', '💁🏼palliativecare', 'congreso', 'alcp…', '']",16.0
-184236,"['bucket', 'list', 'crowd', 'surf', 'one', 'favorite', 'bands', '✔️…', '']",64.0
-51351,"['nso', 'concert', 'nso', '(', 'kennedy', 'center', 'concert', 'hall', '-', 'nso', 'washington', 'dc)', '']",1216.0
-135004,"['want', 'work', 'atlanta', 'ga', 'view', 'latest', 'opening', 'nursing', 'rn', 'nursing', 'job', 'jobs', '']",712.0
-160140,"['love', 'art', 'deco', 'bloomingdales', 'building', 'font💕', '(took', 'pic', 'days', 'ago', 'walking', 'in…', '']",1518.0
-162945,"['polar', 'bear', 'cub', 'nora', 'make', 'public', 'debut', 'columbus', 'zoo', 'tv', '']",1412.0
-119254,"['sales', 'associate', 'levis', 'outlet', 'store', 'wrentham', '-', 'levi', 'strauss', 'amp', 'co', '(wrentham', 'ma)', 'retail', 'job', 'jobs', 'hiring']",1719.0
-1576,"['rise', 'shine', 'training', 'ride', 'time', 'rfac', '(', 'lakefront', 'belmont', 'chicago', 'il)', '']",1710.0
-36540,"['la', 'película', 'empieza', 'las', 'pm', 'la', 'verdad', 'puro', 'niños', 'lo', 'que', 'uno', 'hace', 'por', 'los', 'sobrinos']",82.0
-170385,"[""i'm"", 'chaikfe', 'guadalajara', 'jalisco', '']",25.0
-20469,"[""i'm"", 'marqueeny', 'new', 'york', 'ny', '']",1518.0
-108079,"['baby', 'say', 'along', 'way', 'lakes', 'grew', 'swimming', 'in🙏🏾😎', 'wethankful', 'godisgood…', '']",314.0
-76931,"['accident', 'shoulder', 'blocked', 'cleveland', 'i-', 'nb', 'south', 'indian', 'hills', 'rd', 'slow', 'traffic', 'back', 'tecumseh', 'rd', 'delay', 'mins', 'okctraffic']",97.0
-128856,"['günaydın', '🌞', '(', 'kuweyka', 'malikanesi', 'montgomery', 'al)', '']",511.0
-177371,"['customerservice', 'job', 'alert', 'gujarati', 'interpreters', '|', 'languageline', 'solutions', '|', 'chicago', 'il', 'interpreter', 'bilingual']",1710.0
-50295,"['⚠️', 'severe', 'thunderstorm', 'warning', 'including', 'sturgis', 'ok', 'eva', 'ok', 'pm', 'cdt', '']",105.0
-138183,"['recommend', 'anyone', 'hospitality', 'job', 'bartlett', 'tn', 'hiring']",99.0
-127671,"['see', 'latest', 'westmemphis', 'ar', 'job', 'click', 'apply', 'maintenance', 'technician', '-', 'manufacturing', 'hiring']",99.0
-69202,"['see', 'latest', 'grandsaline', 'tx', 'job', 'click', 'apply', 'store', 'manager', '-', 'diversity', '']",58.0
-171074,"['picking', 'lebron', ""'s"", '(at', 'jasonmarkk', 'flagship', 'store', 'los', 'angeles', 'ca)', '']",72.0
-202470,"['usgs', 'reports', 'earthquake', 'km', 'wnw', 'pioche', 'nevada', 'utc', 'quake']",114.0
-93291,"['construction', 'professional', 'fonddulac', 'wi', 'check', 'job', 'hiring', '']",1910.0
-139694,"['unusual', 'surrealistic', 'place', 'ny', 'central', 'park', '🌿', 'new', 'york', 'central', 'park', '']",1618.0
-55190,"['recommend', 'anyone', 'job', 'caregiver', '-', 'home', 'health', 'aide', '-', 'englewood', 'colorado', 'healthwelfare', 'hiring']",135.0
-179779,"['see', 'latest', 'towson', 'md', 'job', 'click', 'apply', 'director', 'learning', 'organization', 'development', '-', 'hiring']",1316.0
-182970,"['nursing', 'job', 'might', 'great', 'fit', 'cath', 'lab', '-', 'travelnurse', 'phoenix', 'az', '']",64.0
-10932,"['good', 'time', 'charley', 'hanging', 'tonight', 'kimthestarvingartist', 'oldschooltattooing…', '']",73.0
-163231,"['roundrock', 'tx', 'job', 'dfs', 'sr', 'manager', 'end', 'lease', 'lease', 'servicing', 'dell', 'delljobs', 'jobs', 'hiring']",47.0
-130677,"['bike', 'killer', ""jesse's"", 'burritos', 'stinnett', '']",95.0
-97133,"['adoro', 'la', 'casa', 'della', 'mia', 'amica', 'annalisa', '😍', 'hampton', 'virginia', '']",1016.0
-44114,"['molly', 'rough', 'week', 'mark', ""aymee's"", 'house', '']",511.0
-102130,"['❤️', 'ramen', 'beach', 'penscola', 'beach', '']",411.0
-129178,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'press', 'operator', '-', 'springfield', 'oh', 'skilledtrade']",1412.0
-152448,"['want', 'work', 'oakland', 'ca', 'view', 'latest', 'opening', 'job', 'jobs', 'hiring', '']",111.0
-44525,"['baptist', 'hospital', 'physician', 'appreciation', 'dinner', 'wittemuseum', 'witte', 'museum', '']",37.0
-133865,"['ebbtideapp', 'tide', 'morehead', 'city', 'north', 'carolina', '\n', 'low', '\nhigh', 'pm', '\n', 'low', 'pm', '\nhigh', '']",816.0
-89172,"['picture', 'make', 'like', 'ou', 'okay', 'bye', 'lol', 'joke', 'love', ""y'all💕🙈👽"", 'del', 'city', 'high', 'school', '']",97.0
-111743,"['joy', 'break', 'bread', 'beauties', 'blackgirlmagic', '…', '']",1316.0
-179085,"['see', 'latest', 'highlands', 'tx', 'job', 'click', 'apply', 'maintenance', 'technician', '-', 'facilitiesmgmt', 'veterans', 'hiring']",48.0
-73005,"['see', 'latest', 'riorancho', 'nm', 'job', 'click', 'apply', 'route', 'manager', '-', 'combo', '-', 'veterans', '']",95.0
-154448,"['acaso', 'te', 'basto', 'con', 'haberte', 'otorgado', 'el', 'privilegio', 'de', 'ser', 'el', 'primero', 'en', 'mi', 'vida', '😍😘']",16.0
-111593,"['hb', 'new', 'amend', 'title', 'united', 'states', 'code', 'limit', 'length', 'administrative', 'leave', 'federal', 'employ', '']",1216.0
-141439,"[""today's"", 'ride', 'around', 'dallas', 'pretty', 'nice', ""i'm"", 'enjoying', 'time…', '']",57.0
-22635,"['started', 'bday', 'celebration', 'right', 'drinkup', 'drinking…', '']",1216.0
-52518,"['', 'tanks', 'gas', 'mountain', 'goats', 'woodchuck', 'hours', 'makes', 'good', 'quick', 'roadie', 'sd…', '']",195.0
-188916,"['lucky', 'animals', 'freedom', 'letthembe', 'theywanttobefree', '🐒🐵🐒🐵🐒🐵', 'tampa', 'florida', '']",313.0
-79306,"['recommend', 'anyone', 'banking', 'job', 'paloalto', 'ca', 'hiring', 'careerarc']",101.0
-196467,"['escape', 'cape', '☀️', 'hyannis', 'massachusetts', '']",1720.0
-27090,"['surprise', 'new', '-song', 'ep', 'rooted', 'clarity', 'available', 'limited', 'quantity', '""', 'hifi…', '']",111.0
-33744,"['see', 'drowsy', 'chaperone', '😎🎶', '(', 'herberger', 'school', 'music', '-', 'asu', 'tempe', 'az)', '']",64.0
-108422,"['favorite', 'gym', '(', 'equinox', 'sports', 'club', 'new', 'york', '-', 'eqxsportsclubny', 'new', 'york', 'ny)', '']",1618.0
-176779,"['recommend', 'anyone', 'job', 'installer', 'technician', '-', 'sanford', '-', 'sanford', 'fl', 'media', 'hiring', 'careerarc']",314.0
-118713,"['brooklyn', 'flushing', 'ave', '']",1518.0
-173385,"['recommend', 'anyone', 'job', 'pharmacy', 'technician', '–', 'target', 'store', '-', 'vista', 'ca', 'healthcare', 'hiring']",63.0
-134096,"[""we're"", 'hiring', 'click', 'apply', 'med', 'surg', 'tele', 'rn', 'registered', 'nurse', '-', 'fortmyers', 'fl', '']",313.0
-66100,"[""i'm"", 'parque', 'el', 'dorado', 'aguascalientes', 'ags', '']",25.0
-77360,"['\nmiddle', 'fingers', 'boor', 'mode', '\n🐓📷', 'lauragallegopl', 'me…', '']",67.0
-10798,"['nd', 'day', 'new', 'products', 'shooting', 'seaotterclassic', 'smaniesaddles', 'htpedals…', '']",101.0
-450,"['good', 'morning', 'baltimore', '(', 'home', 'suites', 'hilton', 'baltimore', 'downtown', 'baltimore', 'md)', '']",1316.0
-179863,"['retail', 'job', 'might', 'great', 'fit', ""macy's"", 'northwest', 'region', 'regional', 'vice', 'president', '-', ""macy's"", '-', '']",111.0
-186918,"['😆❤fresco', 'universidad', 'univer', 'milenium', '']",16.0
-50068,"['meh', '-', 'drinking', 'high', 'road', 'tiredhandsbeer', 'east', 'fields', '—', 'photo']",1217.0
-57040,"['heard', 'new', 'sigmas', 'sam', 'houston', 'state', '👀👀…', '']",58.0
-36484,"['airplane', 'stuck', 'box', 'vegas', 'airport', 'mccarran', 'international', 'airport', '']",94.0
-161599,"['abril', '🚨🚨🚨', 'anotalo', 'los', 'veo', 'en', 'fatts', 'oysters', 'junto', 'el', '""', 'rey', 'supremo', '""', 'luis', 'vargas', 'tix…', '']",49.0
-38577,"['join', 'mandarin', 'oriental', 'hotel', 'las', 'vegas', 'team', 'see', 'latest', 'hospitality', 'job', 'opening', 'lasvegas', 'nv']",104.0
-59423,"['scalpers', 'wings', 'polish', 'boy', 'tonight', 'anyone', 'kitchen', 'open', 'til', 'ming', 'scalperswings…', '']",1613.0
-128282,"['check', 'listing', 'oceancity', 'md', 'realestate', 'realtor', '']",1217.0
-174041,"['want', 'work', 'supplemental', 'health', 'care', ""we're"", 'hiring', 'phoenix', 'az', 'click', 'details', 'healthcare', 'job', 'jobs']",64.0
-148545,"['icomos', 'charla', '(', 'camara', 'nacional', 'de', 'empresas', 'de', 'consultoria)', '']",25.0
-183525,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'carhopskating', 'carhop', '(server)', '-', 'sonic', 'easton', 'md']",1217.0
-7395,"['gomab', 'coach', 'marvin', 'menzies', 'expected', 'take', 'unlv', 'head', ""men's"", 'basketball', 'coaching', 'job']",104.0
-201350,"['😎', 'fraccionamiento', 'mision', 'del', 'carmen', '']",211.0
-116502,"['closed', 'graffiti', 'request', 'baker', 'st', 'case', 'closed', 'case', 'resolved', '']",111.0
-106025,"['corpus', 'christi', 'area', 'live', 'from…', '']",37.0
-37594,"['lyfez', ""mystery's"", 'lol', 'sacramento', 'california', '']",121.0
-65738,"['want', 'work', 'cintas', 'corporation', ""we're"", 'hiring', 'sparks', 'nv', 'click', 'details', 'job', '']",132.0
-131774,"['want', 'work', 'sunrise', 'senior', 'living', ""we're"", 'hiring', 'haverford', 'pa', 'click', 'details', '']",1417.0
-106547,"['lol', 'facebeat', 'matamoros', 'tamaulipas', '']",27.0
-204350,"['hiphopscholar', 'iamtheoriginalrhapsody', 'hiphopinterpretivedancer', 'godisreal', 'godhealsall…', '']",102.0
-182566,"['join', 'department', 'veterans', 'affairs', 'team', 'see', 'latest', 'physician', 'job', 'opening', 'bath', 'ny', 'veterans']",1816.0
-176248,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'relationship', 'manager', '-', 'sandiego', 'ca', 'customerservice']",53.0
-166121,"['wind', 'mph', 'barometer', 'steady', 'temperature', '°f', 'rain', 'today', 'humidity', '']",132.0
-24322,"['una', 'más', 'de', 'la', '""fabrica', 'de', 'arte""', 'cuba', 'fábrica', 'de', 'arte', 'cubano', '']",213.0
-63307,"['good', 'little', 'sweet', 'think', '-', 'drinking', 'higher', 'math', ""howards'"", 'fairview', 'villa', '-', 'photo']",83.0
-102984,"['celebrating', 'emancipationday', 'came', 'visit', 'mlk', ')…', '']",1216.0
-115761,"['recommend', 'anyone', 'job', 'management', 'development', 'program', 'sales', 'customer', 'service', 'management', '-', '']",53.0
-166686,"['\nwe', 'rounds', 'time', 'of\n…', '']",1618.0
-19298,"['temed', '(', 'cachimba', 'cantina', 'bar', 'mérida', 'yucatán)', '']",210.0
-194561,"['interested', 'physician', 'job', 'near', 'jacksonville', 'nc', 'could', 'great', 'fit', 'veterans', 'hiring', 'careerarc']",815.0
-72881,"['day', 'birthday', 'shenanigans', 'fellas', 'happy', 'birthday', 'kyle', '🎂', '🎁', '🎈', '🎉', '🍻', 'true', 'brew…', '']",1919.0
-127747,"['raiders', 'finalize', 'preseason', 'schedule', 'game', 'times', 'tv', 'info', 'raiders', 'nfl', '']",111.0
-76804,"['audit', 'senior', '(public)', '-', 'robert', 'half', 'finance', 'amp', 'accounting', '(carson', 'ca)', 'accounting', 'job', 'jobs', 'hiring', 'careerarc']",72.0
-99363,"['marshall', 'il', 'job', 'cim', 'technician', 'zf', 'trw', 'veterans', 'jobs', 'hiring']",1310.0
-7594,"['vivalavida', 'coldplay', 'forosol', 'aheadfullofdreamstour', 'cdmx', 'foro', 'sol', 'mexico', 'df', '']",16.0
-42278,"['somebodystopme', '😂', 'reflecting', 'rickowensstorelosangeles', '🙌', 'best', 'fashion', 'interiors', 'rick', 'owens', '']",82.0
-194137,"['currently', 'craving', 'full', 'english', 'owenandengine', 'get', 'us', 'baked', 'beans', 'bangers', 'stat', '…', '']",1710.0
-42042,"[""i'm"", 'fitness', 'guadalupe', 'nuevo', 'león', '']",25.0
-95773,"['want', 'work', 'cvs', 'health', ""we're"", 'hiring', 'boulder', 'co', 'click', 'details', 'healthcare', 'job', 'jobs', 'careerarc']",145.0
-16523,"['stellabrating', 'dodger', 'victory', 'giants', 'remember', 'can…', '']",82.0
-151526,"[""i'm"", ""ken's"", 'bar-b-q', 'madison', 'fl', '']",412.0
-42966,"['repost', 'centralfltop', 'repostapp\n・・・\nthe', 'stage', 'set', ""tonight's"", 'arseniohall', 'amp…', '']",313.0
-19714,"['come', 'mango', 'us', ""😗💨it's"", 'one-stop-shop', 'hookahaccessory', 'needs', 'mangoscafe…', '']",1412.0
-95069,"['si', 'existen', 'motivos', 'ni', 'para', 'que', 'pensarlo', 'dos', 'veces', '\n\nfin', 'de', 'semana…', '']",210.0
-138652,"['😍😍😍', 'rt', 'erinhaislah', '😍🔥✨', '']",1710.0
-63127,"['posted', 'photo', 'carmel', 'california', '']",101.0
-18224,"['indoorclimbing', 'climbing', 'climber', 'boulderinggym', 'bouldering', 'boulder', 'escalada', 'rockclimbing…', '']",314.0
-156893,"['le', 'juegues', 'al', 'vergas', 'si', 'lo', 'vas', 'hacer', 'bien', 'morrito']",25.0
-68393,"[""they're"", 'in\nplaying', 'fits', 'lululemon', 'rideaucentre', 'amp', 'getting', 'naked', 'new', 'align…', '']",1917.0
-72446,"['little', 'piggy', 'went', 'hebronwhere', 'fell', 'love', 'him🐷', 'hebron', 'high', 'school', '']",67.0
-168947,"['cada', 'vez', 'menos', '(', 'universidad', 'anáhuac', '-', 'vidaanahuac', 'huixquilucan', 'estado', 'de', 'méxico)', '']",16.0
-56240,"['first', 'many', 'prahm', 'pics', '🌹🌹', 'woodlake', 'country', 'club', '']",1417.0
-16451,"['alex', 'hermosa', 'en', 'vivo', 'festival', 'film', 'tv', 'alexhermoso', 'instagood', 'instadaily', 'inspiration…', '']",1518.0
-136073,"['renatoromero', 'ok', 'bye']",34.0
-194780,"['kinggeorge', 'va', 'skilledtrade', 'job', 'primary', 'heavy', 'equip', 'oper', 'ii', 'wm', 'wmnationalcareerday', '']",1116.0
-56254,"['well', 'drinklocal', 'wine', 'heston', 'farm', '']",1314.0
-185906,"['smyrna', 'ga', 'transportation', 'job', 'parts', 'delivery', ""o'reilly"", 'auto', 'parts', 'jobs', 'hiring', 'careerarc']",712.0
-77033,"['details', 'happy', 'friday', 'people', 'design', 'kendallksimmons', 'photo', 'by…', '']",1011.0
-113187,"['pink', 'striped', 'pants', '🙃', 'size', 'platform', 'loafers', 'multiple', 'sizes', 'store', 'email', 'us…', '']",1115.0
-64750,"['posted', 'photo', 'ragna', 'discoclub', '']",34.0
-193725,"['blessedaretheythatmournfortheyshallbecomforted', 'isa', 'of…', '']",57.0
-23996,"['enjoying', 'weather', 'rio', 'vista', 'california', '']",111.0
-76518,"['toner', 'one', 'amp', 'kaylie_davis', '🙌🏼', 'brassy', 'classy', '😉…', '']",1812.0
-203096,"['eat', 'clean', 'train', 'hard', 'see', 'results\n\ntrust', 'process‼️', '\n\nit', 'works', '\n\nno', 'gimmicks…', '']",1618.0
-24301,"['relationship', 'goals', '\n\ngrizonmyface', '💦🎷👽', 'weston', 'florida', '']",314.0
-96785,"['', 'hvac', 'tune', 'hot', 'today', 'see', 'dana', 'stark', 'set', 'appointment', 'today', 'badgerup', 'swbest', '']",67.0
-46765,"['let', 'yeezys', 'fool', ""i'm"", 'actually', 'sober', 'monitor…', '']",64.0
-15871,"['thanks', 'william', 'sullivan', 'pta', 'choosing', 'fabulous', 'life', 'dr', 'jay', 'motivate', 'inspire…', '']",69.0
-37904,"['fbf', 'train', 'aceofspadessac', 'ninaonairnow', 'christmas', 'show', 'dec', 'awesome…', '']",121.0
-107768,"['bauerhockey', 'work', 'bauer', 'skates', 'x']",1710.0
-48639,"['way', 'giants', 'vs', 'dodgers', 'game', 'beatla', 'gogiants…', '']",82.0
-52369,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'cook', '-', 'sonic', 'bullheadcity', 'az', 'hospitality', 'careerarc']",94.0
-180820,"['speculation', 'beard', 'leaves', 'menzies', 'hired', 'phone', 'almost', 'immediately', 'already', 'interviewed…', '']",104.0
-115897,"[""we're"", 'hiring', 'click', 'apply', 'social', 'worker', '(sudtp)', '-', 'socialsciences', 'tucson', 'az', 'veterans', 'job', 'jobs', 'careerarc']",54.0
-170687,"['wind', 'mph', 'se', 'barometer', 'falling', 'temperature', '°f', 'rain', 'today', 'humidity', '']",1411.0
-67317,"[""i'm"", 'starbucks', 'monterrey', 'nl', '']",25.0
-73679,"['posted', 'photo', 'ocean', 'city', 'maryland', 'beach', '(th', 'st)', '']",1217.0
-52878,"['yeah', 'sean_the_brewer', 'awesome', 'thanks', 'drop-ship', 'fly', 'of…', '']",1710.0
-117862,"['personalised', 'football', 'manchester', 'united', 'dressing', 'room', 'picture', 'amp', 'frame', 'add', 'name', '']",1518.0
-160483,"['cycling', 'miles', 'endomondo', 'endorphins', '']",1216.0
-71149,"['district', 'marketing', 'manager', '-', 'compass', 'group', 'usa', '(bowlinggreen', 'oh)', 'marketing', 'jobhunt', 'hiring']",1612.0
-10654,"[""i'm"", 'white', 'castle', 'south', 'plainfield', 'nj', '']",1417.0
-154867,"['🙌🏾🙌🏾🙌🏾🙌🏾🙌🏾\n\ngot', 'text', 'friend', 'amp', 'flow--because', 'god', 'saying', 'exact…', '']",49.0
-75771,"['desert', 'gettin', 'ready', 'coachella', 'many', 'bands', 'coachella', '']",64.0
-40313,"[""i'm"", 'esca', 'tepepan', 'mexico', 'city', 'mexico', '']",16.0
-173508,"['avalonbay', 'redevelopment', 'superintendent', '(boston', 'ma)', 'construction', 'nowhiring', 'job', 'jobs', '']",1819.0
-110767,"['construction', 'ie', 'eb', 'exit', '(rte', ')', '']",1619.0
-197132,"['recommend', 'anyone', 'job', 'technical', 'support', 'representative', '-', 'call', 'center', '-', 'kellyjobs', 'chapelhill', 'nc']",915.0
-148521,"[""i'm"", 'karaoke', 'wow', 'new', 'york', 'ny', '']",1518.0
-39067,"['mind', 'going', 'back', 'night', '👌🏼', 'geazy', 'fbf', 'target', 'center', '']",199.0
-139513,"['braddd', 'doorsdown', 'tullahoma', 'tennessee', '']",911.0
-67441,"['marisolgase', 'lástima', 'que', 'seas', 'ajena', 'yo', 'tan', 'fiel']",25.0
-39001,"['branzil', 'single', 'shade', 'nowplaying', 'krov', 'sanantonio', 'krov', 'hd', 'fm', '']",47.0
-202529,"[""i'm"", 'i-', 'twin', 'span', 'bridge', 'new', 'orleans', 'amp', 'slidell', 'la', '']",49.0
-4687,"['', 'pet', 'products', 'pets', ""n'"", 'stuff', '']",135.0
-17501,"['un', 'cafésito', 'dormí', '👌', '(', 'los', 'bisquets', 'bisquets', 'obregón', '-', 'bisquetsobregon', 'mérida', 'yucatán)', '']",210.0
-39910,"['medical', '(assist)', '-', 'yonge', 'st', 'bw', 'gerrard', 'st', 'west', 'college', 'st', 'toronto', '(', 'trucks)']",1915.0
-165764,"[""we're"", 'hiring', 'click', 'apply', 'service', 'associate', '-', 'retail', 'covington', 'la', 'job', 'jobs']",49.0
-175086,"['recommend', 'anyone', 'job', 'night', 'warehouse', 'order', 'selector', '-', 'houston', 'tx', '']",48.0
-185140,"['elpaso', 'tx', 'healthcare', 'job', 'licensed', 'behavioral', 'specialist', 'school', 'accountable', 'healthcare', 'staffing', 'jobs']",55.0
-130643,"['lombardispizza', 'first', 'pizzeria', 'open', 'united', 'states', 'pizza', 'food', 'foodporn', 'foodphotography…', '']",1518.0
-120205,"['🤕🤕🤒🤒😴😴', 'hospital', 'angeles', 'lindavista', '']",16.0
-86486,"['taking', ""nephew's"", 'see', 'junglebook', '(', 'regal', 'cinemas', 'cielo', 'vista', 'amp', 'rpx', '-', 'regalmovies', 'jungle', 'book)', '']",47.0
-193794,"['interested', 'healthcare', 'job', 'near', 'phoenix', 'az', 'could', 'great', 'fit', 'hiring']",64.0
-81568,"['demonstration', 'amazing', 'interactive', 'intelligent', 'applications', 'built', 'soic', 'iu', '(', 'indiana', 'memorial', 'union)', '']",1311.0
-175094,"['unas', 'carreritas', 'hipódromo', 'calor', 'trabajo', 'expo', 'osom', 'centro…', '']",16.0
-111990,"['want', 'work', 'knoxville', 'tn', 'view', 'latest', 'opening', 'hospitality', 'sonic', 'job', 'jobs', 'hiring', 'careerarc']",912.0
-184438,"['repost', 'karlaotto\n・・・\nwelcome', 'karla', 'otto', 'new', 'york', 'aw', ""women's"", 'press', 'day', '📷', 'andrewwerner…', '']",1518.0
-119346,"['on-going', 'us', 'construction', 'cocoa', 'florida', 'michigan', 'avenue', 'love', 'brick', 'look', 'the…', '']",314.0
-145431,"[""i'm"", 'kona', 'kai', 'resort', 'spa', 'amp', 'marina', 'san', 'diego', 'ca', '']",53.0
-187916,"['see', 'latest', 'ontario', 'ca', 'job', 'click', 'apply', 'returns', '-', 'labor', 'hiring', 'careerarc']",73.0
-115301,"['spotted', '""fashionability""', 'look-book', 'inclusionconnections', 'inclusion', 'connections', '']",128.0
-89325,"['want', 'work', 'ca', 'technologies', ""we're"", 'hiring', 'houston', 'tx', 'click', 'details', 'businessmgmt', 'job', 'jobs']",48.0
-109877,"['interested', 'businessmgmt', 'job', 'near', 'dallas', 'tx', 'could', 'great', 'fit', 'hiring', 'careerarc']",58.0
-42190,"['greenlantern', 'cutie', '❤😊', 'six', 'flags', 'magic', 'mountain', '']",82.0
-131521,"['tgif', 'bless', 'mms', 'donutwich', 'today', '👉🏾truckeroo…', '']",1216.0
-9584,"['ty', 'everyone', 'came', 'tonight', 'dancefloor', 'rocking', 'blackandwhite', '👏', 'faces', 'mears', 'park', '']",199.0
-72244,"['attorney', 'jobs-jdhuntr-', 'counsel', '-', 'in-house', 'counsel', 'jobs', '|', 'jdhuntr', '(varioususcities', 'us)', 'legal', 'job', 'jobs']",82.0
-89714,"['days', 'installing', 'siding', 'crew', 'super', 'customtoday', 'exception', 'uniquesiding…', '']",1611.0
-127289,"['push', 'button', '⚫️💣', 'coffee', 'ready', 'go¡', '✌🏼', 'blumenstudio', '']",1917.0
-53275,"['accounting', 'job', 'compton', 'ca', 'corporate', 'controller', 'kelly', 'services', 'kellyjobs', 'kellyservices', 'jobs', 'hiring']",73.0
-155653,"['remember', 'trapping', 'momma', 'jeep', '🙏🏾', 'southbeach', 'miami', '']",214.0
-123327,"['nursing', 'job', 'might', 'great', 'fit', 'registered', 'nurse', '(rn)', 'medicalsurgical', '(ms)', '-', 'nashville', 'tn']",1011.0
-43999,"['enjoying', 'oysters', 'amp', 'rosé', 'beautiful', 'drive', 'coast', 'guerneville', 'california', '(', 'seaside', 'metal)', '']",121.0
-60615,"['medexpress', 'registered', 'nurse', '(springfield', 'ma)', 'nursing', 'urgentcare', 'veterans', 'job', 'jobs', 'hiring']",1719.0
-65533,"['getting', 'cleaned', 'bed', 'life', 'good', 'catslife', 'petsarefamilytoo', 'queeninky', 'heath', 'house', '']",1719.0
-172786,"['nice', 'day', 'baseball', 'game', 'becauseitsthecup', 'dontmissamoment…', '']",1415.0
-135104,"['ever', 'heard', 'trillia', 'massacre', 'starwars', 'darksidehalf', 'rathtars', 'epcot', '-', 'walt', 'disney', 'world', '']",313.0
-12239,"['game', 'time', 'bowlmor', 'chelsea', 'piers', '']",1518.0
-184230,"['snake', 'season', '""snake', 'whisper""', 'back', 'haha', 'weird', 'thing', 'smell…', '']",48.0
-180414,"['smoking', 'purp', '🔮', ""arby's"", '']",413.0
-174321,"['yesterdays', 'setlist', 'shorter', 'usual', 'still', 'fun', 'said', 'in…', '']",57.0
-23923,"['well', 'promo', 'vid', 'blackout', 'live', 'go', 'check', 'link', 'bio', 'epic', ""can't…"", '']",1915.0
-29796,"['shop', '\n\nonly', 'online', 'transition', 'spring', 'summer', 'with…', '']",59.0
-26917,"['hangingornaments', 'birdy', 'outdoorscenes', 'gallivant', 'seaportvillage', 'sandiego', 'seaport', 'village', '']",53.0
-147787,"['posted', 'photo', 'carson', 'creek', 'ranch', '']",47.0
-159463,"['much', 'love', 'thatchocolatedrop', 'quicken', 'loans', 'arena', '']",1613.0
-195506,"['want', 'work', 'charlotte', 'nc', 'view', 'latest', 'opening', 'manufacturing', 'job', 'jobs', 'hiring', '']",914.0
-138617,"['unruly', 'gang', 'building', 'w', 'djpowaserge', 'tonight', 'monroe', 'unruly🔥', 'monroe', '']",1819.0
-96325,"[""i'm"", 'denver', 'botanic', 'gardens', 'denver', 'co', '']",135.0
-188047,"['thursday', 'variety', 'happy', 'vaping', 'tasteyourjuice', 'smokefreeradio', 'vapemov', 'aav', 'mamu…', '']",911.0
-57210,"['world', 'series', 'attitude', '⚾️💋', 'pnc', 'park', '']",1415.0
-97960,"['physician', 'alert', 'nurse', '|', 'department', 'veterans', 'affairs', '|', 'fayetteville', 'nc', 'veterans', '']",815.0
-86269,"['excited', 'perform', 'pantherpalooza', 'atl', ""can't"", 'wait', 'see', 'future', 'amp', 'tkncash', 'kill', 'it…', '']",712.0
-130797,"['posted', 'photo', 'hope', 'arkansas', '']",68.0
-188103,"['walk', 'future', 'seniors', 'welcoming', 'kindergarteners', 'big', 'school', '😭', 'the…', '']",57.0
-31178,"['drinking', 'miller', 'lite', 'millercoors', 'misconductphi', '—', '']",1417.0
-183180,"['retail', 'job', 'eastlansing', 'mi', 'retail', 'customer', 'service', 'associate', 'fedex', 'office', 'jobs', 'hiring', 'careerarc']",1812.0
-178598,"['recommend', 'anyone', 'retail', 'job', 'lovefashionletstalk', 'austin', 'mn', 'hiring', '']",199.0
-65038,"['tried', 'kill', 'us', 'way', '(', 'daughters', 'brewery', '-', 'dbrewing', 'saint', 'petersburg', 'fl)', '']",313.0
-171527,"['fall', 'love', 'pink', 'pants', 'lace', 'top', ""can't"", 'go', 'wrong', 'simple', 'necklace…', '']",813.0
-113415,"['interested', 'facilitiesmgmt', 'job', 'near', 'sanfrancisco', 'ca', 'could', 'great', 'fit', 'hiring', 'careerarc']",111.0
-20428,"['th', 'annual', 'ct', 'capoeira', 'event', 'may', 'st', 'capoeira', 'capoeirista', 'connecticut', 'center', 'samba…', '']",1619.0
-139414,"['entregando', 'documentación', 'para', 'el', 'respectivo', 'registro', '(', 'instituto', 'estatal', 'electoral', 'de', 'hidalgo', 'ieeh)', '']",26.0
-45826,"['live', 'classic', 'rock', 'fresh', 'seafood', 'getwhet', 'family', 'groovecruise', 'gcfam\n\ncc…', '']",214.0
-100790,"['nursing', 'job', 'springfield', 'mo', 'registered', 'nurse', 'mercy', 'jobs', 'hiring', 'careerarc']",108.0
-123565,"['check', 'listing', 'hollywood', 'fl', 'realestate', 'realtor', '']",314.0
-128124,"['interested', 'accounting', 'job', 'near', 'houston', 'tx', 'could', 'great', 'fit', 'hiring', 'careerarc']",48.0
-115914,"['triston_yaklin_', 'caught', 'first', 'catfish', '😂', 'fred', 'berry…', '']",109.0
-191971,"['see', 'latest', 'detroit', 'mi', 'job', 'click', 'apply', 'corporate', 'sales', 'amp', 'marketing', 'assistant', '-', 'entrylevel', 'hiring']",1812.0
-81462,"['southland', 'park', 'spring', 'futurity', 'stakes', 'round', 'sunday', 'program', 'schedule', '']",611.0
-788,"['al', 'jajajajaj', '(', 'instituto', 'tecnológico', 'de', 'mérida', 'campus', 'poniente', '-', 'itecmerida', 'merida', 'yuc)', '']",210.0
-128172,"['shout', 'opencoffeelarkmediatv', 'jamesroberson', 'stephen_lee', 'fxbgx', 'vg_id', 'fredxchange', 'storycollab', 'maxalupton']",1115.0
-27095,"['haber', 'que', 'tal', '(', 'fe', 'de', 'ciegos', 'coyoacán', 'distrito', 'federal)', '']",16.0
-100064,"['see', 'latest', 'siouxcity', 'ia', 'job', 'click', 'apply', 'nclex', 'rn', 'instructor', '-', 'sioux', 'city', 'ia', '-', 'nursing', 'hiring']",188.0
-66844,"['listos', 'ya', 'coldplaymexico', '(', 'foro', 'sol', 'coldplay', 'lianne', 'la', 'havas', 'iztacalco', 'df)', '']",16.0
-67392,"['gingin', 'mule', 'lemon', 'negroni', ""muldoon's"", 'patio\n\ntangueraynegroni', 'tangueraymule…', '']",48.0
-152717,"['robert', 'half', 'finance', 'amp', 'accounting', 'senior', 'accountant', '(rosemont', 'il)', 'accounting', 'job', 'jobs', 'hiring', 'careerarc']",1710.0
-102317,"['strategy', 'manager', '-', 'fresenius', 'medical', 'care', '(waltham', 'ma)', 'marketing', 'dialysis', 'job', 'jobs', 'hiring', 'careerarc']",1819.0
-77564,"['mother', 'gainesville', 'florida', '']",413.0
-180662,"['thursdays', 'wear', 'celine', 'pink', 'werqqqqqqqqq', 'macchiato', 'espresso', 'bar', '']",1518.0
-167894,"['recommend', 'anyone', 'job', 'general', 'manager', '-', 'sonic', 'tatum', 'tx', 'hospitality', 'hiring', 'careerarc']",58.0
-70920,"['see', 'teamtrigger', 'turningstonecasino', 'turning', 'stone', '']",1817.0
-46794,"['igrantanthonyy', 'slippysloner', ""that's"", 'say', 'yu-high-ruh']",315.0
-86474,"['recommend', 'anyone', 'job', 'store', 'manager', '-', 'retail', 'veterans', 'hiring', 'careerarc']",1415.0
-62389,"['theused', 'theused', 'thanniversarytour', 'inloveanddeath', 'wearetheused', '-', 'marquee', 'theatre', '']",64.0
-54482,"['see', 'latest', 'sanfrancisco', 'california', 'job', 'click', 'apply', 'senior', 'devops', 'engineer', '-', 'sf', '-', 'engineering']",111.0
-193237,"['recommend', 'anyone', 'job', 'rn', 'case', 'manager', '-', 'stlouis', 'mo', 'nursing', 'hiring']",108.0
-81122,"['jammed', 'philadelphia', 'i-', 'nb', 'columbus', 'blvd', 'allegheny', 'ave', 'delay', 'mins', 'traffic', '']",1417.0
-65159,"['tootsies', 'hurt', 'chair', ""hadwhat's"", 'gal', 'vlv', 'viva', 'las', 'vegas…', '']",104.0
-186117,"[""we're"", 'hiring', 'click', 'apply', 'outside', 'sales', 'representative', '-', 'sales', 'bb', 'rochester', 'ny', '']",1815.0
-54569,"[""let's"", '(', 'terminal', 'central', 'de', 'autobuses', 'del', 'norte', '-', 'estrellarojapue', 'gustavo', 'madero', 'méxico', 'df)', '']",16.0
-12002,[''],213.0
-44518,"['cada', 'año', 'de', 'vida', 'es', 'una', 'puerta', 'abierta\n\nun', 'ciclo', 'cerrado', 'una', 'bendición\n\nesta', 'ciudad', 'merece…', '']",25.0
-196533,"['throwbackthursday', 'awesome', 'time', 'last', 'christmas', 'cbasrolo', 'delivering', 'presents', 'fam…', '']",314.0
-36394,"['odd', 'market', 'autry', 'museum', 'tonight', 'food', 'trucks', 'live', 'band', 'kid', 'zone…', '']",82.0
-52017,"[""i'm"", ""hambone's"", 'pittsburgh', 'pa', '']",1415.0
-94731,"['nosoupforgeorge', 'nochill']",111.0
-173924,"['amp', 'hubby', 'tbt', 'hubby', 'hug', 'hubbylove', 'husband', 'love', 'cute', 'married', 'marriedcouple…', '']",314.0
-196412,"['best', 'part', ""what's"", 'wednesday', 'findyourvoiceincommunication', 'lip', 'sync', 'night', 'when…', '']",1113.0
-152380,"['interested', 'sales', 'job', 'near', 'stockton', 'ca', 'could', 'great', 'fit', 'hiring']",111.0
-77071,"['interested', 'engineering', 'job', 'near', 'austin', 'texas', 'could', 'great', 'fit', 'intel', 'hiring']",47.0
-149655,"['hoy', 'tocó', 'pierna', 'mañana', 'milanesa', '(', 'smart', 'fit', 'zaragoza', 'santiago', 'de', 'querétaro', 'queretaro)', '']",25.0
-54318,"['😽', 'old', 'dominion', 'university', '']",1016.0
-149255,"['recap', 'ecsdc', 'k', 'ontheblog', '(link', 'profile)', ""can't"", 'wait', 'run', 'ecswi', 'september', '…', '']",1915.0
-151898,"['lmbo', 'mullins', 'home', '']",1013.0
-37466,"['must', 'contreras', 'cochina', 'market', 'square', 'downtown', 'san', 'antonio', '']",37.0
-89860,"['cimc', 'enric', 'sjz', 'gas', 'equipment', 'marketing', 'job', 'sr', 'business', 'analyst', '(houston', 'tx)', 'jobs', 'hiring']",48.0
-60225,"['last', 'flee', 'degree🎓🎉', 'happyhour', ""macdinton's"", 'irish', 'pub', '']",313.0
-125127,"[""i'm"", 'starbucks', 'tlalpan', 'df', '']",16.0
-165373,"[""i'm"", 'slyceny', 'ardsley', 'ny', '']",1619.0
-172032,"['careerarc', 'healthcare', 'job', 'alert', 'physical', 'therapist', '-', 'per', 'diem', '|', 'honorhealth', '|', 'scottsdale', 'az', 'jobs', 'hiring']",64.0
-147009,"['stop', 'violence', '•', 'shatter', 'silence', 'takebackthenight', 'youngstown', 'state', 'university', '']",1614.0
-20175,"['drinking', 'peachy', 'pom', 'pom', 'shortsbrewing', 'thewinchestergr', '—', '']",1811.0
-37926,"['recommend', 'anyone', 'job', 'driver', 'formula', '(shuttle)', 'columbia', 'sc', '-', 'driver', 'columbia', 'south', 'carolina']",714.0
-163435,"['aerotek', 'recruiting', 'job', 'site', 'recruiter', '(detroit', 'mi)', 'jobs', 'hiring']",1812.0
-114542,"['want', 'work', 'battlecreek', 'view', 'latest', 'opening', 'supplychain', 'veterans', 'job', 'jobs', 'hiring', 'careerarc']",1811.0
-31094,"['balloon', 'dog', 'jeff', 'koons', 'broad', '']",82.0
-27990,"['""let', 'smile', 'change', 'world', 'let', 'world', 'change…', '']",94.0
-189178,"['nomas', 'venimos', 'despedirnos', '(', 'hotel', 'hacienda', 'mazatlan', 'sinaloa)', '']",25.0
-18351,"['disfrutando', 'nuestra', 'estancia', 'en', 'el', 'south', 'congress', 'hotel', 'en', 'austin', 'muy', 'recomendable', 'austin…', '']",47.0
-70497,"['accident', 'lasvegas', 'ann', 'rd', 'durango', 'dr', 'vegastraffic', '']",104.0
-182084,"['sales', 'job', 'might', 'great', 'fit', 'sales', 'associate', 'jcrew', 'retail', 'dartmouth', '-', 'hanover', 'nh', 'hiring']",1919.0
-159178,"['dream', 'big', 'never', 'let', 'anyone', 'tell', 'scary', '\n\nwaltdisneyworld', 'hollywoodstudios…', '']",313.0
-64420,"['cvs', 'health', 'healthcare', 'job', 'pharmacy', 'technician', '(franklinton', 'la)', 'jobs', 'hiring']",59.0
-36894,"['drinking', 'ipa', 'gpbrewing', 'village', 'pub', 'amp', 'beer', 'garden', '—', '']",1011.0
-82410,"['recommend', 'anyone', 'job', 'busser', 'runner', '-', 'restaurantjobs', 'westdesmoines', 'ia', 'hospitality', 'hiring']",178.0
-131275,"['avalonbay', 'sales', 'job', 'bilingual', 'leasing', 'consultant', '(gaithersburg', 'md)', 'nowhiring', 'jobs', '']",1316.0
-70794,"['great', 'day', 'fun', 'reunite', 'team', 'repost', 'jessicaalba', '-\nfbf', 'bts', 'with…', '']",82.0
-180290,"['want', 'work', 'layton', 'ut', 'view', 'latest', 'opening', 'nursing', 'medfield', 'job', 'jobs', 'hiring', '']",164.0
-124296,"['spearsleaveyourmark', 'beams', 'see', 'today', '-', 'pm', 'okstate', 'spears…', '']",107.0
-198955,"['cvs', 'health', 'pharmacy', 'technician', '(mountairy', 'md)', 'healthcare', 'job', 'jobs', 'hiring']",1316.0
-190024,"['centura', 'health', 'operating', 'room', 'registered', 'nurse', 'sign', '-(ortho', 'team)', 'job', '(denver', 'co)', 'nursing', 'job', 'jobs']",135.0
-67351,"['solvela', 'roomsessions', 'afrofuturism', 'design', 'hiphop', 'music', 'play…', '']",72.0
-130868,"['hopefully', 'wins', 'ranking', 'points', 'today', 'go', 'omgrobots', '(at', 'stablerarena', 'bethlehem', 'pa)', '']",1517.0
-102064,"['see', 'latest', 'annapolis', 'maryland', 'job', 'click', 'apply', 'full', 'time', 'home', 'health', 'physical', 'therapist', 'assistant', '-', '']",1316.0
-114993,"['recommend', 'anyone', 'job', 'locum', 'medical', 'dosimetrist', '-', 'oklahomacity', 'ok', '']",97.0
-188283,"['congrats', 'mr', 'neal', 'named', 'student', 'day', 'gentleman', 'comes', 'multiple', 'times…', '']",611.0
-84611,"['funny', 'faces', 'make', 'life', 'enjoyable', '\nhappyfriday', 'pinkhairdontcare', 'sorrynotsorry…', '']",167.0
-26147,[''],1216.0
-170177,"['weeki', 'fox', 'weeki', 'wachee', 'river', '']",313.0
-50545,"['ummmm', 'goal', 'hawks', 'isthattoomuchtoask', '(', 'homoky', 'tiki', 'bar', 'chicago', 'il)', '']",1710.0
-125227,"['que', 'loca', 'puse', 'al', 'rayarme', 'yo', 'sola', '🙄😭']",34.0
-51048,"['grudge', 'match', 'fridayoff', 'littletokyo', 'dtla_everyday', 'hewon', 'xlanes', '']",72.0
-165776,"['kind', 'happy', 'hour', 'truelife', 'momof', '🍆🍅🍠🌶🌽\n\n\n\nhappyhour', 'wholefoods', 'eatclean…', '']",1613.0
-144690,"['ahogando', 'mi', 'depresión', 'en', 'sopes', 'pozole', '😭😢', '(', 'el', 'pozole', 'josé', 'guadalajara', 'jalisco)', '']",25.0
-29212,"['simply', 'afternoon', 'brooklyn', 'gym', 'deserved', 'carbonara', 'sunset', 'freetime', 'gym', 'run…', '']",1518.0
-140722,"['celeste', 'koko', 'akoro', 'putting', 'work', 'bestchoiceunited', '\'""…', '']",129.0
-27148,"['spoiled', 'dogs', 'toys', 'dogtoys', 'spoiled', 'spoileddogs', 'hartz', 'pedigree', 'walmart', 'petco', 'target…', '']",83.0
-133335,"[""i'm"", 'historic', 'downtown', 'flagstaff', 'flagstaff', 'az', '']",94.0
-73348,"['nursing', 'alert', 'travel', 'nurse', 'emergency', 'room', 'rn', 'night', 'shift', 'job', '-', '|', 'fastaff', 'travel', 'nursing', '|', 'folsom', 'ca', '']",122.0
-33201,"['grace', 'enough', '\n\nband', 'bandlife', 'music', 'musician', 'musicianlife', 'photooftheday…', '']",199.0
-91546,"['come', 'play', 'hoes', 'tallahassee', 'florida', '']",412.0
-78672,"[""i'm"", 'animation', 'academy', '-', 'disneyland', 'anaheim', 'ca', '']",73.0
-22542,"['sunrise', 'senior', 'living', 'cook', '(charlottesville', 'va)', 'hospitality', 'job', 'jobs', 'hiring', '']",1115.0
-130400,"['guess', 'day', 'today', 'first', 'day', 'usbcc', 'good', 'luck', 'competing', 'baristas', 'pacificfoods…', '']",1810.0
-19640,"['happy', 'birthday', 'momma', 'beautiful', 'soul', 'know', '❤️', 'born', 'luckier…', '']",313.0
-149155,"['ty', 'smock', 'still', 'going', 'tmag', 'taylormadegolf', 'coronadopro', 'coronadoisland', 'coronadogolfcourse…', '']",53.0
-141453,"['experiment', 'ipadpro', 'timelapse', 'palm', 'desert', 'california', '']",73.0
-50287,"[""i'm"", 'fraccionamiento', 'la', 'joya', 'ocotlan', 'tlaxcala', '']",17.0
-148064,"['huron', 'county', 'poetry', 'slam', 'judge', 'holly', 'painter', 'holly', 'painter', 'goderich', 'poetryslam', 'poetry…', '']",1913.0
-137452,"[""i'm"", 'olympus', 'stairs', 'san', 'francisco', 'ca', '']",111.0
-35512,"['😋💗', 'clay', 'battelle', '']",1314.0
-199081,"['want', 'work', 'citizens', 'bank', ""we're"", 'hiring', 'medford', 'click', 'details', 'banking', 'cfgjobs', 'job', 'jobs']",1819.0
-13676,"['shall', 'call', 'megatron', 'cause', ""he's"", 'motha', 'fuxken', 'transformer', 'paseos', 'montclair…', '']",83.0
-1418,"['finally', 'dapperday', ""can't"", 'wait', 'see', 'everyone', 'looking', 'best', 'diydisneydays…', '']",314.0
-85811,"['interested', 'retail', 'job', 'near', 'greensboro', 'nc', 'could', 'great', 'fit', 'hiring', 'careerarc']",915.0
-127335,"['dayshakechallenge', 'day', '\nthe', 'best', 'motivation', 'self', 'motivation', 'herbalife', '\nfood…', '']",1518.0
-52346,"['sound', 'check', 'eeeeeeeeeeeeeek', 'thedarkness', 'house', 'blues', 'las', 'vegas', '']",104.0
-120794,"['wind', 'mph', 'w', 'barometer', 'rising', 'temperature', '°f', 'rain', 'today', 'humidity', '']",59.0
-90535,"[""we're"", 'hiring', 'click', 'apply', 'registered', 'nurse', '-', 'nursing', 'ada', 'ok', 'job', 'jobs', '']",88.0
-8465,"['mc_ad_la-', '']",111.0
-188488,"['much', 'respect', 'katskiles', 'continuing', 'advocates', 'bringbackourgirls', 'glad', 'made…', '']",1216.0
-8651,"['lil', 'brotha', 'djsupajames', 'zeldas_nightclub', 'zeldas', 'night', 'club', '']",73.0
-135448,"['lt_oriongt', 'love', 'escelators', 'never', 'break', 'temporarially', 'turn', 'stairs']",111.0
-97062,"['lime_conference', 'today', 'ready', 'senyorlime', 'invite', 'your…', '']",99.0
-46126,"['another', 'colorway', 'nike', 'air', 'uptempo', 'hitting', 'shelves', '']",48.0
-142113,"['mostroland', 'felicidades', 'el', 'único', '']",16.0
-2206,"['coldplay', 'alla', 'vamos', '(', 'aeropuerto', 'internacional', 'de', 'monterrey', '(mty)', '-', 'aeropuertodemty', 'apodaca', 'nl', 'w', 'jpg)', '']",26.0
-185688,"['join', 'houston', 'methodist', 'sugar', 'land', 'hos', 'team', 'see', 'latest', 'job', 'opening', '']",48.0
-67404,"['posted', 'photo', 'chicago', 'state', 'university', '']",1710.0
-128948,"['interested', 'physician', 'job', 'near', 'bath', 'ny', 'could', 'great', 'fit', 'veterans', 'hiring', 'careerarc']",1816.0
-14070,"['omg', 'happy', 'nd', 'birthday', 'mitch', 'thank', 'buying', 'shots', 'all…', '']",1613.0
-3615,"['medical', 'assistant', '-', 'mercy', '(joplin', 'mo)', 'healthcare', 'job', 'jobs', 'hiring', '']",108.0
-41924,"['amazing', 'times', 'tonight', 'sifen', 'elite', 'meet', 'ran', 'personal', 'best', 'k', 'laura', 'ºmin…', '']",1619.0
-189329,"['feelingthebern', 'washington', 'square', 'park', '']",1518.0
-97618,"['drinking', 'vietnamese', 'speedway', 'stout', '()', 'alesmithbrewing', 'armsbyabbey', '—', 'photo']",1719.0
-180559,"[""i'm"", 'genovive', '']",16.0
-56969,"['sales', 'professional', 'columbus', 'oh', 'check', 'job', 'veterans', 'hiring']",1412.0
-99286,"['hb', 'engross', 'partnerships', 'statute', 'frauds', 'governing', 'law', '']",135.0
-100584,"['hhgregg', 'retail', 'manager', 'training', '(appleton', 'wi)', 'retail', 'job', 'jobs', 'hiring', 'careerarc']",1910.0
-170970,"['next', 'stop', '✈️', 'london', '🇬🇧', 'vince', 'platforms', 'essentials', 'travel', 'ootd', 'style', 'shoes', 'instadaily…', '']",1518.0
-119125,"['join', 'aerotek', 'team', 'see', 'latest', 'customerservice', 'job', 'opening', 'tempe', 'az', 'hiring']",64.0
-120323,"['ran', 'spider-man', 'less', 'smelly', 'counterpart', 'times', 'square', 'midtown', 'comics', 'times…', '']",1518.0
-37089,"['letting', 'home', 'run', 'balls', 'hit', 'flinching', 'boston', 'gogiants…', '']",1819.0
-167811,"['hanging', 'matt', 'grevers', 'lake', 'forest', 'high', 'school', 'weight…', '']",1710.0
-204553,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'systems', 'engineer', '(government', 'sales)', '-', 'infosec', 'reston', 'va']",1315.0
-23249,"['perfect', 'way', 'end', 'day', 'filled', 'baseball', 'happy', 'jackie', 'robinson', 'day', 'texas', 'rangers…', '']",57.0
-33673,"['got', 'work', 'tonight', 'join', 'us', 'next', 'time', 'see', 'like', 'get', 'better…', '']",1413.0
-116776,"['see', 'video', 'tour', 'listing', 'thornewood', 'dr', 'atlanta', 'ga', 'realestate', '']",712.0
-132306,"['hjr', 'passed', 'williamsburg', 'session', 'expressing', 'appreciation', 'hospitality', 'extended', '']",1115.0
-141715,"['flush', 'anzeojackson', 'witty', 'imaginary', 'victimization', 'nothing', 'legitimacy', 'angry', 'finger', 'pointing', 'bs']",145.0
-138140,"['fresno', 'ca', 'healthcare', 'per', 'diem', 'clinical', 'dietitian', 'fresno', 'ca', 'compass', 'group', 'usa', 'jobhunt', 'hiring']",102.0
-77791,"['keine', 'kalifornien-reise', 'ohne', 'in-n-out', 'burger', 'burger', 'yummy', 'sanfrancisco', 'fishermans', 'wharf…', '']",111.0
-17417,"['lights', 'dark', 'hallazgosemanal', 'lynn', 'classical', 'high', 'school', '']",1819.0
-58234,"['successful', 'first', 'time', 'visiting', 'los', 'angeles', 'zoo', 'joelaspence', 'bergstagram', 'los…', '']",82.0
-180686,"['multi', 'unit', 'leadersupervisor', '-', 'sonic', 'drive-in', '(columbia', 'mo)', 'hospitality', 'sonic', 'job', 'jobs', 'hiring', 'careerarc']",139.0
-42807,"[""i'm"", ""mcdonald's"", 'broken', 'arrow', 'ok', '']",98.0
-194882,"['physician', 'job', 'alert', 'physician', 'assistant', '-', 'primary', 'care', '|', 'department', 'veterans', 'affairs', '|', 'tomah', 'wi', 'veterans']",199.0
-192442,"[""i'm"", ""angelo's"", 'ann', 'arbor', 'mi', '']",1812.0
-40029,"['posted', 'photo', 'provo', 'utah', '']",144.0
-149981,"['madmanmongo', ""let's"", 'go', 'dodgers', 'dodgers', 'doyers', 'losangeles', 'la…', '']",82.0
-68303,"['realmoney', 'new', 'jersey', 'tpke', '']",1417.0
-131726,"['jorge', 'celedon', 'de', 'fiesta', 'en', 'méxico', 'lindo', 'querido', 'jorgeceledonoficial', 'astrorodrigo…', '']",16.0
-161217,"['hang', 'bee', 'fun', 'new', 'people', 'nearby', 'sign', 'badoo', '']",1517.0
-153024,"['see', 'nothing', 'wrong', 'dr', ""song's"", '""whore""', 'comment', 'sensanders', 'foxnews', 'clinton', 'wall', 'street', 'whorelovethetruth']",915.0
-23535,"['futuro', 'já', 'começou', 'presentinho', 'que', 'lembrou', 'uma', 'palavra', 'profética', 'da', 'laura', 'futuro…', '']",48.0
-62030,"['great', 'night', 'baseball', 'goeagles', 'spalding', 'u', 'baseball', '']",1111.0
-108169,"['accident', 'right', 'lane', 'blocked', 'woodbury', 'century', 'ave', 'nb', 'north', 'traffic', '']",199.0
-186834,"['join', 'forward', 'air', 'transportation', 'services', 'team', 'see', 'latest', 'transportation', 'job', 'opening', 'hiring']",1311.0
-64009,"['day', 'best', 'planting', 'herbgarden', 'pitbulllife', 'grandparenting', 'chickasaw', 'state', 'park', '']",910.0
-99767,"['federal-mogul', 'manufacturing', 'production', '(greenville', 'mi)', 'manufacturing', 'job', 'jobs', 'hiring', 'careerarc']",1911.0
-105672,"['interested', 'nursing', 'job', 'near', 'denver', 'co', 'could', 'great', 'fit', 'hiring', 'careerarc']",135.0
-8586,"['🍸🍸🍸', '(', 'melrose', 'umbrella', 'co', 'los', 'angeles', 'ca)', '']",82.0
-186293,"[""i'm"", 'bridgewater', 'commons', 'mall', 'bridgewater', 'nj', '']",1517.0
-48607,"['sometimes', 'friday', 'night', 'need', 'live', 'music', 'chspourhouse', 'unwind', 'pour', 'house…', '']",515.0
-38673,"['tonight', 'get', 'busy', 'live', 'lil', 'lonnie', 'come', 'kick', 'eight', 'mke', '']",1810.0
-60828,"[""there's"", 'nothing', 'love', 'seeing', 'kids', 'family', 'truly…', '']",1111.0
-92520,"['careerarc', 'sales', 'job', 'alert', 'sales', 'associate', '|', 'express', '|', 'salem', 'nh', 'jobs', 'hiring']",1819.0
-3766,"['join', 'quincy', 'medical', 'group', 'team', 'see', 'latest', 'healthcare', 'job', 'opening', 'stem', 'womeninstem', 'quincy', 'il']",149.0
-184385,"['hospitality', 'job', 'edmond', 'ok', 'assistant', 'manager', 'sonic', 'drive-in', 'sonic', 'jobs', 'hiring', 'careerarc']",97.0
-154167,"['today’s', 'nytxw', 'puzzle', 'jason', 'flinn', '—', 'cse', 'colleague']",1712.0
-72258,"['arehappy', 'attended', 'toni', ""blake's"", 'session', 'today', '♡…', '']",48.0
-158819,"[""we're"", 'hiring', 'click', 'apply', 'physician', '-', 'physician', 'johnstown', 'pa', 'veterans', 'job', 'jobs', 'careerarc']",1415.0
-181268,"['get', 'trying', 'get', 'ticket', 'step', 'show', 'tomorrow', 'tickets', 'left', 'for…', '']",59.0
-203166,"['stray', 'cats', ""i've"", 'petted', 'throughout', 'lifetime', 'endorsing', 'campaign', 'even…', '']",1312.0
-188294,"['vanilla', 'marshmallow', 'chocolate', ""reese's"", 'cup', 'swirl', 'sampanphilly', 'yum', 'sampan', 'restaurant…', '']",1417.0
-37346,"['thanks', 'spontaneously', 'skipping', 'movie', 'go', 'see', 'baseball', 'game', 'congrats', 'on…', '']",1613.0
-177434,"['careerarc', 'hospitality', 'job', 'alert', 'barista', '(us)', '|', 'starbucks', '|', 'veterans', 'jobs', 'hiring']",111.0
-80159,"['recommend', 'anyone', 'customerservice', 'job', 'washington', 'dc', 'hiring']",1216.0
-7761,"['miami', 'apr', '°f', 'much', 'needed', 'rain', 'continue', 'day', 'temps', '°f', 'sun', 'good', 'morning']",214.0
-27972,"['dinner', 'wholefoods', 'besties', '🤗', 'whole', 'foods', '']",73.0
-164104,"['dinner', 'moms', '😍', 'eagles', 'nest', '']",1416.0
-93530,"['join', 'aerotek', 'team', 'see', 'latest', 'automotive', 'job', 'opening', 'berkeley', 'mo', 'hiring']",129.0
-9785,"[""we're"", 'hiring', 'click', 'apply', 'assistant', 'manager', '-', 'oklahoma', 'city', 'ok', '-', 'retail', 'oklahomacity', 'ok', 'job', 'jobs']",97.0
-14029,"['first', 'time', ""i've"", 'parking', 'lot', 'drinking', 'budweiser', 'blaring', 'donnie', 'trumpet', 'amp', 'social', 'experiment', 'phone']",411.0
-158301,"['want', 'work', 'vcu', 'health', 'system', ""we're"", 'hiring', 'richmond', 'va', 'click', 'details', 'nursing', 'job', 'jobs']",1115.0
-179891,"['happy', 'birthday', 'webber', 'love', 'moon', 'backamp', 'blessed', 'life', 'hope', 'treats', 'well💙', 'lauren_webber']",99.0
-13621,"['cleared', 'incident', 'verrazanonarrowsbridge', 'eb', 'bellt', 'parkway', '(brooklyn)']",1518.0
-52285,"['blake', 'mills', 'opening', 'mumford', 'amp', 'sons', 'livemusic', 'nashville', 'fridaynightfun', 'bridgestone', 'arena', '']",1011.0
-98472,"['flannel', 'new', 'homeless', '📦', 'rags', 'riches', '']",179.0
-169153,"['ingram', 'content', 'group', 'order', 'processor', '(part-time)', '(ontario', 'ca)', 'manufacturing', 'publishing', '']",83.0
-2234,"[""i'm"", 'new', 'york', 'city', 'bagel', 'amp', 'coffee', 'house', 'astoria', 'ny', '']",1518.0
-103931,"['panera', 'bread', 'baker', '-', 'night', '(fairfax', 'va)', 'hospitality', 'parttime', 'veterans', 'job', 'jobs', 'hiring', 'careerarc']",1216.0
-124228,"['interested', 'retail', 'job', 'near', 'oklahomacity', 'ok', 'could', 'great', 'fit', 'hiring', 'careerarc']",97.0
-67018,"[""i'm"", 'showcase', 'bridgeport', 'bridgeport', 'ct', '']",1619.0
-40692,"['making', 'fajitas', 'mexicanfood', 'cooking', 'cilantro', 'bellpeppers', 'freshjalapenos', 'cholula', 'arizona', '…', '']",64.0
-128465,"['buenos', 'días', 'cancún', 'picoftheday', 'photo', 'instamood', 'travel', 'instagram', 'myjob', 'fly…', '']",211.0
-64785,"['recommend', 'anyone', 'job', 'services', 'architect', '-', 'tdm', '-', 'grid', 'tools', '-', 'santaclara', 'ca', 'businessmgmt']",101.0
-4011,"['pretty', 'fleek', 'collectiont-shirt', 'tote', 'bag', '\nihustledifferent', 'ihustleclothingcompany…', '']",99.0
-56473,"['amo', 'los', 'viernes', 'de', 'parque', 'su', 'lado', 'lomejordemivida', 'taytem…', '']",16.0
-137602,"['usgs', 'reports', 'earthquake', 'km', 'w', 'cobb', 'california', 'utc', 'quake']",121.0
-4049,"['well', 'since', ""i'm"", 'leftover', 'icing', 'cake', 'batter', 'two', 'cakes', 'finished…', '']",1614.0
-124895,"['want', 'work', 'italy', 'tx', 'view', 'latest', 'opening', 'retail', 'job', 'jobs', 'hiring', 'careerarc']",57.0
-186603,"['see', 'latest', 'phoenix', 'az', 'job', 'click', 'apply', 'registry', 'respiratory', 'therapist', '-', 'respiratory', 'therapy', '-', '']",64.0
-115908,"['heading', 'soon', 'see', 'amazing', 'lady', 'ink', 'therapy', 'saratoga', 'tattoo', 'expo', '']",1819.0
-72929,"['recommend', 'anyone', 'nursing', 'job', 'urgentcare', 'springfield', 'veterans', 'hiring']",1719.0
-5359,"['temp', 'f', 'w', 'c', 'f', 'wind---', 'kts', 'baro', 'mb', 'rising', 'slowly', 'rain', 'today', 'r', 'h', 'wvwx']",1414.0
-105920,"['instavideo', 'videooftheday', 'canallachine', 'lachinecanal', 'lachine', 'videomtl', 'videomontreal…', '']",1919.0
-203369,"['vehiclebe', 'ridge', 'club', 'loop', 'orlpol', 'opd']",313.0
-59901,"['ya', 'llegué', 'lfcoficial', '😍😍😍😍😍', '(at', 'palnorteoficial', 'monterrey', 'nle', 'nuevo', 'león', 'w', 'hgluisguillermo)', '']",25.0
-190395,"[""i'm"", 'newark', 'liberty', 'international', 'airport', '(ewr)', 'newark', 'nj', '']",1517.0
-100074,"['careerarc', 'hospitality', 'job', 'alert', 'assistant', 'manager', '|', 'sonic', 'drive-in', '|', 'baltimore', 'md', 'sonic', 'jobs', 'hiring']",1316.0
-185638,"['recommend', 'anyone', 'job', 'macujobs', 'westjordan', 'ut', 'veterans', 'hiring', '']",154.0
-87462,"['zanesville', 'oh', 'hospitality', 'panera', 'bread', 'hiring', 'managers', 'new', 'location', 'opening', 'covelli', 'enterprises', '']",1413.0
-67348,"['grinding', '\nteamdriveiron', 'bodybuilding', 'armday', 'fitness', 'lvac', 'lvac', 'north', '-', 'las', 'vegas…', '']",104.0
-182388,"['see', 'latest', 'pasadena', 'tx', 'job', 'click', 'apply', 'installed', 'sales', 'coordinator', '-', 'sales', 'hiring']",48.0
-181965,"['love', ""'s"", 'throwbackthursday', 'houston', 'ferrari', 'houston', 'texas', '']",48.0
-126051,"['medical', 'record', 'technician', '(tumor', 'registrar)', '-', 'department', 'veterans', 'affairs', '(denver', 'co)', 'healthcare', 'veterans']",135.0
-112589,"['', 'kudzu', 'dr', 'spring', 'tx', 'beds', 'baths', '']",48.0
-62861,"['awesome', 'views', 'hiking', 'gloss', 'mountain', 'state', 'park', 'travelok', 'gloss', 'mountain', 'state', 'park', '']",107.0
-49653,"['filter', 'even', 'needed', 'gods', 'beautiful', 'creation', 'soooo', 'amazing', 'great', 'know', 'that…', '']",1111.0
-26480,"['jungle', 'book', 'tonight', 'kind', 'excited', 'watch', 'movie', 'one', 'favorites', 'childhood…', '']",214.0
-168587,"['headed', 'bhambarons', 'first', 'thirstythursday', 'game', 'tonight', 'make', 'sure', 'check', 'new…', '']",611.0
-84849,"['hanging', 'daterracoffee', 'scaa', 'expo', ""vendor's"", 'show', 'specialtycoffee', 'travelingmug…', '']",712.0
-193066,"['bear', 'lake', 'bound', 'day', 'affair', 'rockies', 'rockymountainnationalpark', 'wanderlust…', '']",145.0
-55262,"['fed', 'courthouse', 'lasvegas', 'people', 'went', 'inside', 'arraignment', 'bundy', 'brothers', 'oregonstandoff…', '']",104.0
-158618,"['jeffrey', 'fashion', 'cares', '']",712.0
-143832,"['luv', 'titan', 'gear', 'stand', 'strong', 'titan', 'family', '💪👑💪👑💪👑\n\nget', 'board', 'the…', '']",313.0
-41152,"['iron', 'maiden', 'stalkers', 'team', 'photo', 'winning', 'ironmaiden', 'eddie', 'edforceone', 'lax…', '']",72.0
-126293,"['running', 'hurts', 'little', 'less', 'neck', 'woods', 'earlytobedearlytoshred…', '']",1216.0
-8161,"['temp', 'f', 'w', 'c', 'f', 'wind---', 'kts', 'baro', 'mb', 'rising', 'slowly', 'rain', 'today', 'r', 'h', 'wvwx']",1414.0
-69306,"['spring', 'tulips', 'flowers', '💐', 'macro', 'macrophotography', 'winphan', 'windowsphone', 'microsoft…', '']",129.0
-92723,"['join', 'linde', 'us', 'team', 'see', 'latest', 'engineering', 'job', 'opening', 'atlanta', 'ga', 'hiring']",712.0
-74582,"['¡feliz', 'cumpleaños', 'la', 'cumpleañera', 'bueno', 'mas', 'menos', 'porque', 'quizo', 'sonreír', 'para', 'la…', '']",16.0
-173000,"['interested', 'sales', 'job', 'near', 'roundrock', 'tx', 'could', 'great', 'fit', 'hiring', '']",47.0
-114586,"['retail', 'store', 'warehouse', 'associate', '-', ""bob's"", 'discount', 'furniture', '(cockeysville', 'md)', 'labor', 'veterans', 'job', 'jobs']",1316.0
-15749,"['•day', 'stark', 'muh', 'little•', 'best', 'trip', 'stark', 'yet', 'lolz', ')', ""rick's"", 'cafe', '']",610.0
-187990,"['anniversary', 'lunch', '(', 'himalayan', 'curry', 'amp', 'grill', 'lancaster', 'pa)', '']",1416.0
-180815,"['uppermarlboro', 'md', 'customerservice', 'job', 'store', 'seasonal', 'employee-building', 'materials', ""lowe's"", 'stores', 'jobs', 'hiring']",1216.0
-204813,"['e-cigarette', 'explodes', 'mall', 'kiosk', 'leaving', 'teen', 'blind', 'one', 'eye', 'foxmorning', '']",1311.0
-85343,"['proud', 'piece', 'unpopped', 'popcorn', 'next', 'years', ""'-)…"", '']",1416.0
-80550,"[""lowe's"", 'stores', 'customerservice', 'job', 'store', 'seasonal', 'employee', '(stjoseph', 'mo)', 'jobs', 'hiring']",138.0
-91453,"['wave', 'god™', 'coachella', 'valley', 'preserve', '-', 'thousand', 'palms', 'oasis', '']",74.0
-40084,"['found', 'kung', 'fu', 'panda', 'bench', 'middle', 'central', 'park', 'jungles', '🐼', 'central', 'park', '']",1618.0
-108952,[''],111.0
-139151,"['amp', '👏🏼🎉michellemillerdesign', 'kitchendesign', 'kitchenremodel', 'interiordesign', 'pantry…', '']",1810.0
-27544,"['ajustar', 'mi', 'dieta', 'por', 'que', 'de', 'plano', 'aguante', 'el', 'ejercicio', 'de', 'hoy', '(', 'toks', 'santa', 'fe', 'df)', '']",16.0
-100973,"['words', ""can't"", 'describe', 'graditude', 'towards', 'homedepotfamily', '-', ""i'm"", 'one', 'ask', 'for…', '']",1517.0
-26824,"['°f', 'please', 'keep', 'thoughts', 'mercy…', '']",1815.0
-90158,"['healthcare', 'job', 'louisville', 'ky', 'travel', 'physical', 'therapist', 'supplemental', 'health', 'care', 'jobs', 'hiring', 'careerarc']",1111.0
-61288,"['sunset', 'amigos', 'minivacation', 'cancun', 'playa', 'delfines', 'el', 'mirador', '']",211.0
-101128,"[""we're"", 'hiring', 'click', 'apply', 'call', 'center', '-', 'customer', 'service', '-', 'customerservice', 'medford', 'job', 'jobs']",1819.0
-49272,"['spicy', 'guac', 'amp', 'spicy', 'blood', 'orange', 'margs', 'spicy', 'geronimo', 'tequila', 'bar', 'southwest', 'grill', 'fairfield', '']",1619.0
-37381,"['sanfrancisco', 'ca', 'nursing', 'staff', 'nurse', 'ii', '-', '(dav)acute', 'rehab', '(noc)', '-', 'california', 'pacific', 'medical', 'center', '']",111.0
-36732,"['mochi', 'date', 'babe', '❤️❤️❤️😘', 'little', 'tokyo', 'japanese', 'village', '']",72.0
-188814,"['rosariodawson', 'feelingthebern', 'washington', 'square', 'park', '']",1518.0
-51007,"['excited', 'announce', 'piece', '""please', 'kind', ""i'm"", 'mess""', 'performed', 'same…', '']",1518.0
-201395,"[""i'm"", 'track', 'chicago', 'il', '']",1710.0
-144993,"['celebrating', 'friend', 'lilly', 'b-day', 'benihana\ncleveland', 'latinocleveland', 'celebration…', '']",1613.0
-41489,"['miss', 'creamat', 'miss', 'na', 'din', 'namin', 'ang', 'paumajwow', 'thank', 'angela\nrepostplus…', '']",53.0
-56318,"['relay', 'life', 'currycubscare', 'livelovelaughlikelarry', 'west', 'kendall', 'baptist', 'hospital', '']",214.0
-29984,"['goool', 'de', 'tony', 'lopez', 'un', 'tronco', 'mete', 'goool', '-al', '']",16.0
-164468,"['want', 'work', 'annarbor', 'mi', 'view', 'latest', 'opening', 'healthcare', 'veterans', 'job', 'jobs', 'hiring', 'careerarc']",1712.0
-114997,"['want', 'work', 'sanantonio', 'tx', 'view', 'latest', 'opening', 'labor', 'job', 'jobs', 'hiring', '']",37.0
-45251,"['cafawards', 'fashionnights', 'fashionismylife', 'canada', 'fairmont', 'royal', 'york', 'hotel', '']",1915.0
-66901,[''],121.0
-173875,"[""i'm"", 'normandale', 'community', 'college', '-', 'normandale_cc', 'bloomington', 'mn', '']",198.0
-188911,"['mumford', 'sons', 'donate', 'profits', 'charlotte', 'show', 'local', 'lgbt', 'charity', 'hb', '']",914.0
-83644,"['recommend', 'anyone', 'hospitality', 'job', 'parttime', 'westsaintpaul', 'mn', 'veterans', 'hiring', 'careerarc']",199.0
-29298,"[""oklahoma's"", 'ag', 'wasting', 'taxpayer', 'money', 'unprecedented', 'budget', 'crisis', 'vote', '']",97.0
-56518,"['', 'years', 'young', 'δδδ', 'soldiers', 'amp', 'sailors', 'memorial', 'hall', 'amp', 'museum', 'trust', '']",1415.0
-117242,"['posted', 'photo', 'wizarding', 'world', 'harry', 'potter', 'universal', 'studios', 'hollywood', '']",82.0
-35205,"['horchata', 'subtle', 'works', 'well', 'p', '(señorita', 'horchata', 'imperial', 'porter', '())', '']",145.0
-55187,"['customerservice', 'job', 'alert', 'store', 'seasonal', 'employee', 'inside', 'outside', 'garden', '|', ""lowe's"", 'stores', '|', 'sandimas', 'ca', 'jobs']",83.0
-163145,"['muskogee', 'ok', 'hospitality', 'job', 'cook', 'sonic', 'drive-in', 'sonic', 'jobs', 'hiring', 'careerarc']",98.0
-181335,"['posted', 'photo', 'producciones', 'los', 'plebes', '']",26.0
-141017,"['snoop', 'dogg', 'coming', 'imperial', 'valley', 'brawley', 'places', 'lindavaguiar', 'veronicavianey_…', '']",83.0
-22593,"['darle', '(', 'el', 'gaucho', 'tradicional', 'león', 'gto)', '']",25.0
-202533,"['vegan', 'terror', '🙊🐄🍆🗽', 'brooklyn', 'greenpoint', 'ny', '']",1518.0
-54613,"['hr', 'studio\nnothing', 'free\nmixpadstudio', 'flstudio', '\nmixmastering', 'greatsoundquality…', '']",57.0
-197933,"[""i'm"", 'aeropuerto', 'internacional', 'de', 'la', 'ciudad', 'de', 'méxico', '(mex)', '-', 'aicm', 'venustiano', 'carranza', 'df', '']",16.0
-183124,"['store', 'manager', '-', 'whbm', '(phoenix', 'az)', 'retail', 'job', 'jobs', 'hiring']",64.0
-196790,"['recommend', 'anyone', 'hospitality', 'job', 'hudson', 'ny', 'veterans', 'hiring', 'careerarc']",1719.0
-78168,"['kid', 'put', 'edible', 'spray', 'paint', 'pizza', ""i'm"", 'fucking', 'done']",1916.0
-1805,"[""i'm"", 'parque', 'nacional', 'desierto', 'de', 'los', 'leones', '-', 'desiertoleones', 'cuajimalpa', 'df', '']",16.0
-117352,"[""i'm"", 'walgreens', 'houston', 'tx', '']",48.0
-55035,"['drinking', 'pink', 'boots', 'apricot', 'gose', 'highlandbrews', 'highlandbrews', '—', '']",913.0
-41379,"['lml☀️', 'wentzville', 'missouri', '']",129.0
-154559,"['listo', 'en', 'el', 'peso', 'roberto', '""el', 'perro""', 'leon', 'para', 'su', 'pelea', 'el', 'dia', 'de', 'abril', 'en', 'peleasextremmas…', '']",34.0
-189918,"['manufacturing', 'job', 'might', 'great', 'fit', 'medical', 'precision', 'assembly', '-', 'kellyjobs', 'sanjose', 'ca', 'hiring']",101.0
-93962,"['drinkable', '-', 'drinking', 'funky', 'gold', 'simcoe', 'prairieales', 'growler_usa', '—', '']",47.0
-68587,"['""with', 'great', 'power', 'comes', 'great', 'responsibility""', '-', 'amazing', 'spider-man', 'cosplay\n🌟\nspiderman…', '']",314.0
-138585,"['full', 'house', '💃💪', 'ragnaclub', 'clublife', 'edm', 'electro', 'house', 'deephouse', 'progressivehouse', 'ragna…', '']",34.0
-72766,"['orlandofree', 'tvs', 'working', 'perfectly', 'free', '""', 'amp', '""', 'sony', '(celebration)', '']",314.0
-52021,"['myjourney', 'truenofilter', 'everydaylife', 'thebeautifuljourney', 'showthecracks', 'rawrules', 'recovery…', '']",1819.0
-33941,"['dream', 'car', '😍😁', 'bobsbigboy', 'dreamcar', 'chevelle', 'classiccars', ""bob's"", 'big', 'boy', '']",82.0
-48709,"['might', 'bad', 'place', 'seconds', 'apartment', ""(darlin's"", 'ipa)', '']",1819.0
-57313,"['house', 'platter', 'grilled', 'chicken', 'rice', 'workout', 'meal\n\ngrilledchicken', 'chicken…', '']",1618.0
-55444,"['rock', ""'n'"", 'roller', 'coaster', 'aerosmith', 'fun', '🔥🎢🎸', ""disney's"", 'hollywood', 'studios', '']",313.0
-48555,"[""we're"", 'hiring', 'click', 'apply', 'expert', 'services', 'specialist', '-', 'businessmgmt', 'exploreoracle', 'chicago', 'il', 'job', 'jobs']",1710.0
-74950,"['hospitality', 'job', 'alert', 'barista', '(us)', '|', 'starbucks', '|', 'first', 'avenue', 'newyork', 'ny', 'veterans', 'jobs', 'hiring']",1518.0
-140139,"['money', 'wall', 'march', '✨', 'touchdown', 'laurel', 'canyonmulholland', '']",82.0
-67491,"['twins', 'vinnymark', 'chibaby', 'mikeyjamesiii', 'bridgeport', 'whitesox', 'mlb…', '']",1710.0
-37586,"['', 'precision', '-', 'men', 'drumming']",111.0
-121218,"['retail', 'job', 'warwick', 'ri', 'manager', 'trainee-retail', 'sales', 'speedway', 'jobs', 'hiring', 'careerarc']",1719.0
-135006,"['oops', '(', 'café', 'paraíso', 'méxico', 'df)', '']",16.0
-33365,"['fd', 'dance', 'round', 'new', 'life', 'church', '']",92.0
-162309,"['recommend', 'anyone', 'job', 'med', 'surgtele', '-', 'westhills', 'ca', 'nursing', 'hiring', 'careerarc']",82.0
-178776,"['manufacturing', 'job', 'might', 'great', 'fit', 'palletizer', '-', 'roseville', 'mn', 'hiring', 'careerarc']",199.0
-106939,"['manufacturing', 'job', 'anaheim', 'ca', 'cnc', 'lathe', 'machinist', 'aerotek', 'jobs', 'hiring']",73.0
-39775,"['almost', 'time', 'leandrohigomma', 'rfafighting', 'coach_tourao', 'rfa', 'danawhite', 'lookingforafight…', '']",198.0
-130343,"[""i'm"", 'ready\n\n\n\n\n\nhottesthostinnyc', 'streetloyalty…', '']",1618.0
-13160,"['sonic', 'drive-in', 'hospitality', 'job', 'cook', '(barboursville', 'wv)', 'jobs', 'hiring']",1213.0
-151097,"['👀', 'cancanchella', 'nailart', 'thirdeye', 'periwinkle', 'organicpolish', 'cancanparleur', 'cancanmani', 'can…', '']",82.0
-91050,"['kiddos', 'fun', 'animals', '(with', 'winston', 'brielle', 'aliyanna', 'brevard', 'zoo)', '—', '']",314.0
-115098,"['reliving', 'u', 'edge', 'days', '🍍', '\n\n', '(amp', 'thank', 'always', 'making', 'forget', 'old', 'really', 'am🍹👵🏼)', '…', '']",1614.0
-89071,"['store', 'director', 'madewell', 'bridgewater', 'commons', '-', 'madewell', '(bridgewater', 'nj)', 'retail', 'job', 'jobs', 'hiring', 'careerarc']",1517.0
-181062,"['finanzas', 'time', '(', 'banorte', 'san', 'pedro', 'garza', 'garcía', 'nl)', '']",25.0
-189464,"['arkstek', 'clarity', 'reports', 'developer', '(aurora', 'co)', 'opensource', 'veterans', 'job', 'jobs', 'hiring']",135.0
-191880,"['sure', 'reason', 'smile', 'face', 'recently', '😊', 'ridges', '']",1013.0
-65936,"['riding', 'rain', 'worth', 'views', 'mtb', 'moab', 'hymasa', 'trail', '']",124.0
-116590,"['partymaking', 'w', 'friends', 'arturomacias', 'amp', 'jessyk_', 'claro', 'con', 'el', 'doctor', 'peligro', 'rosherk…', '']",16.0
-31023,"['first', 'game', 'season', 'dodgers', 'jackierobinsonday', 'beatsf', 'dodger…', '']",82.0
-129456,"['lab', 'technician', '-', 'aerotek', '(newalbany', 'in)', 'transportation', 'job', 'jobs', 'hiring']",1111.0
-62655,"['opened', 'graffiti', 'request', 'via', 'iphone', 'chenery', 'st', 'graffiti', 'removal', '']",111.0
-24746,"['v', 'charlotte', 'broadcasting', 'live', 'p-a', 'fridays', 'presents', 'coconut', 'affair…', '']",914.0
-100813,"['plastipak', 'packaging', 'legal', 'job', 'legal', 'assistant', '(plymouth', 'mi)', 'veterans', 'jobs', 'hiring']",1812.0
-95122,"['damn', 'good', 'sliceparlor', 'slice', 'parlor', '']",95.0
-94409,"['ever', 'wish', 'reason', 'dress', '💁🏼', 'friday', 'huntington', 'beach', 'california', '']",73.0
-40369,"['friend', 'made', 'tonight', 'fcar', 'ryerson', 'university', '']",1915.0
-185477,"['win', 'tickets', 'marshaambrosius', 'amp', 'the_floacist', 'tlaphilly', 'april', 'th', 'w', 'mfweradio…', '']",1417.0
-77685,"[""what's"", 'happening', 'week', 'april', '-', '']",57.0
-184723,"['centralflorida', 'nature', 'landscape', 'sunset', 'magichour', 'cypress', 'therealflorida', 'lake', 'louisa', '']",313.0
-51844,"['mountains', 'creaturebeer', 'tropicalia', 'super', 'golden', 'girls', 'weekend', 'great', 'smokey', 'mountains', '']",912.0
-63882,"['una', 'chela', 'buen', 'rock', 'para', 'el', 'calorooooón', '(', 'cueva', 'de', 'lobos', 'mexico', 'city', 'mexico)', '']",16.0
-192232,"['interested', 'sales', 'job', 'near', 'capitolheightsusdcwashington', 'md', 'could', 'great', 'fit', 'hiring']",1216.0
-64455,"['♫', 'played', 'beyonce', 'aroogas', 'getrockbot']",1416.0
-59895,"['today', 'remember', 'peter', 'steele', 'type', 'negative', 'one', 'biggest', 'influences', '…', '']",104.0
-197083,"['owner', 'operator', '-', 'landstar', '(polson', 'mt)', 'transportation', 'job', 'jobs', 'hiring', 'careerarc']",204.0
-179199,"[""we're"", 'hiring', 'click', 'apply', 'cad', 'drafter', '-', 'manufacturing', 'golden', 'co', 'job', 'jobs']",135.0
-83917,"['bayada', 'home', 'health', 'care', 'job', 'certified', 'home', 'health', 'aide', '(lincolnpark', 'nj)', 'jobs', 'hiring']",1617.0
-161284,"['montsebautista', 'siriamiraanda', 'vamosh', 'vamosh', '😘', 'jaja', 'aunque', 'prox', 'sem', 'nos', 'abandonas', '🏢', ')']",25.0
-43089,"['rosenberg', 'officials', 'warn', 'weekend', 'traffic', 'woes', '']",48.0
-50610,"['interested', 'nursing', 'job', 'near', 'scottsdale', 'az', 'could', 'great', 'fit', 'hiring', 'careerarc']",64.0
-132593,"['esa', 'es', 'la', 'cara', 'que', 'pone', 'mi', 'perra', 'cuando', 'le', 'estoy', 'echando', 'la', 'bronca', 'por', 'algo', 'que', 'hizo…', '']",16.0
-166788,"['fresenius', 'medical', 'care', 'full', 'time', 'patient', 'care', 'technician', '-', 'milwaukee', 'wi', '(milwaukee', 'wi)', 'healthcare', 'dialysis']",1810.0
-185262,"['cook', '-', 'ihop', 'acg', 'texas', '(flowermound', 'tx)', 'hospitality', 'ihop', 'job', 'jobs', 'hiring', 'careerarc']",67.0
-45369,"[""i'm"", 'bmvbookstores', 'toronto', '']",1915.0
-89447,"[""i'm"", 'rite', 'aid', 'mission', 'hills', 'ca', '']",82.0
-83855,"['recommend', 'anyone', 'job', 'walnutcreek', 'ca', 'hiring', 'careerarc']",111.0
-74853,"['recommend', 'anyone', 'retail', 'job', 'jerseycity', 'nj', 'hiring', 'careerarc']",1518.0
-157301,"['graffiti', 'tracking', 'lincoln', 'ave', 'buena', 'park', 'ca', '']",73.0
-130695,[''],111.0
-55538,"['good', 'life', 'mini', 'mansion', 'throw', 'shade', 'hippo', '🐮', 'jenwillcutyou']",214.0
-2648,"['temp', 'f', 'w', 'c', 'f', 'wind---', 'kts', 'baro', 'mb', 'rising', 'rain', 'today', 'r', 'h', 'wvwx']",1414.0
-161892,"['recommend', 'anyone', 'medicaldevices', 'job', 'lincolnshire', 'il', 'hiring']",1710.0
-31129,"['cheers', '☺️', 'coffee', 'exchange', '']",1812.0
-40647,"['girls', 'night', '👑', 'miyako', 'sushi', 'group', '']",813.0
-170089,"['state', 'vermont', 'labor', 'job', 'database', 'administrator', '(montpelier', 'vt)', 'jobs', 'hiring', 'careerarc']",1919.0
-106576,"['😭', 'really', 'read', 'acct', 'twice', 'head', 'kept', 'going', 'lol']",67.0
-16774,"['wind', 'kmh', 'ene', 'barometer', 'hpa', 'falling', 'slowly', 'temperature', '°c', 'rain', 'today', 'mm', 'humidity', '']",1814.0
-9603,"['вернуться', 'в', 'la', 'из', 'san', 'diego', 'это', 'как', 'приехать', 'в', 'new', 'york…']",72.0
-157291,"['careerarc', 'retail', 'job', 'alert', 'store', 'counter', 'sales', '|', ""o'reilly"", 'auto', 'parts', '|', 'fresno', 'ca', 'jobs', 'hiring']",102.0
-4734,"['sunsets', 'coachella', 'tomorrow', 'coachxbop', 'letsliveever', 'coachella', 'coachella', '']",64.0
-29905,"['monsterjam', 'broadmoor', 'world', 'arena', '']",125.0
-92904,"['happy', 'baby', 'big', 'protein', 'shake', 'lol', 'teammia', 'harbor', 'point…', '']",1618.0
-188490,"['interested', 'job', 'near', 'kingsley', 'mi', 'could', 'great', 'fit', 'hiring', 'careerarc']",1911.0
-89558,"['checked', 'bucket', 'list', 'today🦄', 'africa', 'wildlife', 'park', '']",84.0
-181673,"[""i'm"", '¢', 'store', 'bullhead', 'city', 'az', '']",84.0
-99406,"['filming', 'johnnykorthuis', ""get's"", 'really', 'complicated', 'sometimes', '😂', 'toomuchgear', 'laguna', 'beach…', '']",63.0
-185218,"['paparazzi', '\n\nluftgekühlt', 'porsche', 'la', 'vintageporsche', 'rsr', 'greyghost', 'steelers', 'modernica', '']",73.0
-25399,"['pro-realdonaldtrump', 'anti-realdonaldtrump', 'gop', 'savannah', 'historic', 'downtown', '-', 'savannahga', '']",514.0
-189354,"['recommend', 'anyone', 'education', 'job', 'gilbert', 'az', 'hiring']",64.0
-81387,"['drinking', 'pierpont', 'ipa', 'kriesi', 'anacapa', 'brewing', 'company', '—', '']",82.0
-48671,"[""i'm"", 'port', 'ontario', 'pulaski', 'ny', '']",1917.0
-39667,"['serious', 'wine', 'decisions\n\nstact', 'wallofwine', 'fogodechao', 'braziliansteakhouse', 'wineporn…', '']",1710.0
-160115,"[""we're"", 'hiring', 'click', 'apply', 'warehouse', 'worker', '-', 'labor', 'usa', 'job', 'jobs', 'careerarc']",313.0
-148868,"['want', 'work', 'sonic', 'drive-in', ""we're"", 'hiring', 'leesburg', 'fl', 'click', 'details', 'hospitality', 'job', 'jobs']",313.0
-29446,"['finished', 'product', '😊', 'painting', 'twist', '-', 'colorado', 'springs', '(east)', 'co', '']",125.0
-180093,"['want', 'work', 'sanfrancisco', 'california', 'view', 'latest', 'opening', 'job', 'jobs', 'hiring', 'careerarc']",111.0
-35220,"['posted', 'photo', 'house', 'inn', 'amp', 'tavern', '']",1717.0
-1960,"[""i'm"", 'north', 'raleigh', 'raleigh', 'nc', '']",915.0
-152902,"['💃✈👀☁', 'tired', 'travel', 'thursday', 'sleepy', 'wings', 'fly', 'mccarran', 'international', 'airport', '']",94.0
-57014,[''],111.0
-65526,"['want', 'work', 'olympicvalley', 'ca', 'view', 'latest', 'opening', 'hospitality', 'job', 'jobs', 'hiring']",132.0
-22440,"['want', 'work', 'msc', 'industrial', ""we're"", 'hiring', 'indianapolis', 'click', 'details', 'sales', 'veterans', 'job', 'jobs']",1311.0
-63037,"['', '']",1710.0
-144523,"['thank', 'god', 'salmon', 'bud', 'light', 'nofilternecessary', ""rack'em"", 'pub…', '']",914.0
-92581,[''],1618.0
-52897,"['miner', 'strong', '⛏', 'utep', 'sun', 'bowl', 'stadium', '']",55.0
-41929,"['""bruce', 'wayne', 'meets', 'clark', 'kent', 'love', 'bringing', 'people', 'together""', '~…', '']",315.0
-71224,"['see', 'latest', 'gillette', 'wy', 'job', 'click', 'apply', 'licensed', 'practical', '-', 'nursingjobs', '']",195.0
-40595,"['bourbon', 'street', '""calle', 'de', 'borbón""', 'interestingly', 'two', 'centuries', 'parallel…', '']",49.0
-21552,"['bennyhs', 'gracias', 'por', 'tu', 'apoyo', 'por', 'hacerme', 'tanto', 'reír', 'que', 'haría', 'sin', 'ustedes', 'felicidades', 'todo', 'salió', 'de', '']",16.0
-33135,"['', 'top', 'low', 'pass', 'flybys', 'time']",111.0
-42585,"['lisamh', 'yep', 'totally', 'ran', 'gas', ""i'm"", 'impressed', 'w', 'either', 'muse', 'altshuller', 'playoff', 'push']",915.0
-38739,"['new', 'revises', 'time', 'period', 'unit', 'owners', 'assume', 'control', ""homeowners'"", 'associations', '']",1417.0
-32081,"[""i'm"", 'wingstop', 'delegacion', 'coyoacan', 'distrito', 'federal', '']",16.0
-152734,"['off-ramp', 'blocked', 'sandiego', 'nbsb', 'j', 'st', 'sdtraffic', '']",53.0
-21569,"['hanging', 'fizz', 'matt', 'goss', 'show', 'guy', 'still', 'remembers', ""laura's"", 'custom', 'made', 'drink…', '']",104.0
-58224,"['sigma', 'chi', 'sigma', 'kappa♡', 'sigma', 'kappa', 'formal', '']",104.0
-111803,"[""i'm"", 'harrahsresort', 'hotel', 'amp', 'casino', 'atlantic', 'city', 'nj', '']",1317.0
-1451,"['join', 'bayada', 'home', 'health', 'care', 'team', 'see', 'latest', 'job', 'opening', 'winstonsalem', 'nc', 'hiring']",1014.0
-31832,"['missing', 'something', 'bad', 'tonightkind', 'hit', 'like', 'ton', 'bricks', 'bff', 'pitbull', 'rip', '…', '']",73.0
-169030,"['disabled', 'vehicle', 'i-', 'sb', 'greenlawn', 'ave', 'traffic', '']",1412.0
-46620,"['wherein', 'creepeth', 'fruitful', 'deep', 'without', 'winged', 'beginning', 'open', ""can't"", 'green', 'sixth', ""she'd""]",111.0
-140142,"['ogeffyoo', 'platformzmusic', 'release', 'event', 'supporting', 'theeffword\npre', 'order', 'on…', '']",1518.0
-9073,"['movie', 'review', 'disney’s', '‘the', 'jungle', 'book’', '']",57.0
-129600,"[""we're"", 'hiring', 'click', 'apply', 'registered', 'nurse', '|', 'rn', '|', '(contract)', '-', 'nursing', 'atlanta', 'ga', 'job', 'jobs', 'careerarc']",712.0
-7070,"['recommend', 'anyone', 'job', 'assistant', 'store', 'manager', '-', 'morganville', 'nj', 'retail', 'hiring']",1417.0
-149274,"[""i'm"", 'kids', 'playground', 'fork', 'union', 'va', 'w', 'ecoach', 'finanzinho', 'blindguy', '']",1115.0
-116801,"['forestpark', 'ga', 'manufacturing', 'job', 'coordinator', 'terminal', 'cemex', 'jobs', 'hiring', 'careerarc']",612.0
-24336,"['sour', '-that', 'blues', 'lost', 'game-', 'beer', 'thirsty', 'good', 'enough', 'sour', '(orange', 'gose)', '']",129.0
-16484,"['triedtoputyallon', 'currentsituation', 'live', 'coolness', 'thereadyroom', 'silentnoisestl…', '']",129.0
-60232,"[""we're"", 'back', 'sweetwater', ""brewery's"", 'brew', 'cask', '']",712.0
-25125,"['finally', 'went', 'years', 'nascar', 'hall', 'fame', '']",914.0
-158756,"['omg', '😂', '😂', '😂', '😂', '']",1016.0
-152177,"['imnico_oconnor', 'class', 'dancemillennium💃🏽\n\nkevhkev', 'hannahstroh', 'millennium', 'dance', 'complex', '']",82.0
-23710,"['woodbridgenj', 'woodbridgenjmall', 'nj', 'butiyoganj', 'butiyoga', 'nj', 'nj', 'njturnpike', 'njmoms…', '']",1417.0
-161020,"['general', 'laborer', '-', 'packaging', 'corporation', 'america', '(allentown', 'pa)', 'construction', 'job', 'jobs', 'hiring', 'careerarc']",1517.0
-120635,"['recommend', 'anyone', 'job', 'microbiologist', '-', 'bedford', 'transportation', 'hiring']",1819.0
-12936,"['wanna', 'stunt', '💕👯', 'kim_bella', 'mercer', '']",1710.0
-185350,"['male', 'make', 'rule', 'creeping', 'winged', 'female', 'deep', 'heaven', 'herb', 'gathering', 'heaven', 'dry']",111.0
-34165,"['treehousebrewco', 'sap', 'canned', 'ipa', 'beer', 'craftbeer', 'craftbeerincans', 'craftcans', 'beerporn…', '']",1819.0
-36688,"['party', 'amp', 'bullshit', 'w', 'favorite', 'pink-haired', 'lady', 'athens', '💞💞💞', 'ohio', 'university', '']",1313.0
-163920,"['recommend', 'anyone', 'customerservice', 'job', 'omaha', 'elkhorn', 'ne', 'hiring']",168.0
-125196,"['recommend', 'anyone', 'sales', 'job', 'apex', 'nc', 'hiring', 'careerarc']",915.0
-20011,"['happy', 'hour', ""chili's"", 'grill', 'amp', 'bar', '']",67.0
-170530,"['new', 'york', 'new', 'york', ""i'm"", 'back', 'nyc', 'brooklynbridge', 'millenium', 'hilton', '']",1518.0
-10466,"['sonic', 'drive-in', 'hospitality', 'job', 'multi', 'unit', 'leadersupervisor', '(humboldt', 'tn)', 'jobs', 'hiring']",910.0
-53648,"[""i'm"", 'palacio', 'de', 'bellas', 'artes', 'cuauhtémoc', 'méxico', 'df', '']",16.0
-148646,"['hospitality', 'job', 'might', 'great', 'fit', 'busser', 'runner', '-', 'restaurantjobs', 'emeryville', 'ca', 'hiring']",111.0
-34622,"['sirens', 'jla', 'lászló', 'z', 'bitó', 'building', 'bard', 'college', '']",1718.0
-122537,"['lampd', 'rn', 'labor', 'amp', 'delivery', 'registered', 'nurse', '-', 'supplemental', 'health', 'care', '(austin', 'tx)', 'healthcare', 'job', 'jobs', 'hiring']",47.0
-157324,"[""i'm"", 'crooked', 'pint', 'ale', 'house', 'apple', 'valley', 'mn', '']",199.0
-18766,"['😋', 'oh', 'crab', '']",73.0
-90724,"['back', '(', 'philadelphia', 'marriott', 'downtown', 'philadelphia', 'pa)', '']",1417.0
-141895,"[""i'm"", 'autozone', 'mission', 'hills', 'ca', '']",82.0
-91139,"['get', 'new', 'shirts', 'ladiesmy', 'guy', 'geo', 'iye_kandee', 'fast', 'great', 'quality', 'get…', '']",73.0
-158943,"['yard', 'associate', '(benefits)', '(', 'g', ')', '-', 'lumber', '(elma', 'ny)', 'labor', 'job', 'jobs', 'hiring']",1815.0
-89276,"['accident', 'webster', 'hwy', 'nbsb', 'hwy', 'traffic', '']",1915.0
-43225,"['show', '|', 'model', 'meganspeck', '|', 'shooter', '🎥', 'freshpbeats', '|', '\n\nfilms', 'visual', 'director', 'video…', '']",82.0
-28407,"['hope', 'whatcheer', 'providence', 'rhode', 'island', '']",1719.0
-70137,"['join', 'us', 'today', 'fiu', 'panther', 'scrimmage', 'match', 'extremely', 'excited', 'presented', 'the…', '']",214.0
-57883,"['one', 'best', ""i've"", 'known', 'awesome', 'souls', 'never', 'forget', ""i'm"", 'happy…', '']",63.0
-49443,"['long', 'thanks', 'cheese', 'blast', 'canadian', 'cheese', 'awards', 'gala', 'last…', '']",1919.0
-33463,"['interested', 'manufacturing', 'job', 'near', 'owatonna', 'mn', 'could', 'great', 'fit', 'hiring', '']",199.0
-128792,"['much', 'us', 'manufacturing', 'realdonaldtrump', 'initiated', 'big', 'diff', 'producing', 'jobs', 'amp', 'building', 'hotels', 'relying', 'gamblers', 'profit']",1817.0
-2888,"[""i'm"", 'aeropuerto', 'internacional', 'de', 'monterrey', '(mty)', '-', 'aeropuertodemty', 'apodaca', 'nl', '']",26.0
-121341,"[""i'm"", 'tiendaunam', 'mexico', 'df', '']",16.0
-123411,"['recommend', 'anyone', 'job', 'client', 'services', 'analyst', '-', 'kingofprussia', 'pa', 'customerservice', 'hiring']",1417.0
-111865,"['sales', 'atlanta', 'ga', 'integrated', 'business', 'solutions', 'counter', 'sales', '(on-site', 'parts', 'store)', 'genuine', 'parts', 'napa', '']",712.0
-196670,"['want', 'work', 'cvs', 'health', ""we're"", 'hiring', 'niceville', 'fl', 'click', 'details', 'retail', 'job', 'jobs', 'careerarc']",411.0
-170442,"['tulip', 'time', 'art', 'class', 'crystal', 'beshara', '']",1518.0
-170911,"['kush', 'kloud', 'shawty', 'recording', '🔥🔥🔥', 'tracks', 'rocking', 'george', 'pacers', '\nhustlealert…', '']",1711.0
-33092,"['σquad', 'pittsburgh', 'pennsylvania', '']",1415.0
-192460,"['sales', 'job', 'might', 'great', 'fit', 'sr', 'account', 'mgr', '-', 'livonia', 'mi', 'veterans', 'hiring']",1812.0
-109032,"['favorite', 'health', 'care', 'staffing', 'nursing', 'job', 'registered', 'nurse', '|', 'rn', '|', 'icu', '(contract)', '(hazelcrest', 'il)', 'jobs', 'hiring']",1710.0
-195033,"['underwater', 'robot', 'finds', 'm-long', 'fake', 'film', 'prop', 'monster', 'loch', 'ness', '']",1915.0
-159941,"['f', '(feels', 'f)', '-', 'humidity', '-', 'wind', 'mph', 'e', '-', 'gust', 'mph', '-', 'pressure', 'mb', 'weather', '']",49.0
-17184,"[""i'm"", 'ocean', 'blvd', 'long', 'beach', 'ca', '']",73.0
-106733,"['nordstrom', 'retail', 'job', 'retail', 'sales', '-', ""men's"", 'apparel', '(natick', 'massachusetts)', 'jobs', 'hiring', 'careerarc']",1719.0
-201010,"['billings', 'clinic', 'claims', 'specialist', '(billings', 'mt)', 'healthcare', 'rn', 'rnjobs', 'madewithlove', 'job', 'jobs', 'hiring']",194.0
-137597,"['process', 'start', 'finish', '(bottom', 'left)', 'senior', 'captain', 'sybil', 'watkins', 'scooping', 'soy…', '']",99.0
-177229,"['towson', 'md', 'facilitiesmgmt', 'job', 'nutrition', 'service', 'associate', 'greater', 'baltimore', 'medical', 'center', 'jobs', 'hiring']",1316.0
-74184,"['te', 'amo', 'hermosa', '😘😍', 'facultad', 'de', 'derecho', 'unam', 'oficial', '']",16.0
-88900,"['spring', 'boston', '😍', 'new', 'england', 'aquarium', '']",1819.0
-79706,"['turning', 'cousin', 'graduation', 'aampm', 'in…', '']",811.0
-173721,"['celebrating', 'much', 'love', 'support', '🍦', '|', 'celebratory', 'creamy', 'vanilla', 'soft…', '']",1518.0
-46427,"['jungle', 'book', '🐍🦁🐻🎥']",314.0
-156039,"['interested', 'skilledtrade', 'job', 'near', 'savannah', 'ga', 'could', 'great', 'fit', 'hiring']",514.0
-86285,"['happy', 'friday🏀', '⛹', '⛹⛹⛹', 'abb', 'optical', 'group', '']",111.0
-165009,"['interested', 'healthcare', 'job', 'near', 'vanwert', 'oh', 'could', 'great', 'fit', 'jobhunt', 'hiring']",1612.0
-47080,"['another', 'colorway', 'nike', 'air', 'uptempo', 'hitting', 'shelves', '']",48.0
-28888,"['adorable', 'juicy', 'couture', 'polkadot', 'handbag', 'sale', 'crush', 'shopcrushconsignment', 'style…', '']",101.0
-21193,"[""we're"", 'hiring', 'click', 'apply', 'registered', 'nurse', '|', 'rn', '|', 'ms', '(contract)', '-', 'rn', 'kerrville', 'tx', '']",46.0
-188496,"[""i'm"", 'upiicsa', '-', 'culturales', '']",16.0
-174182,"['recommend', 'anyone', 'job', 'associate', 'director', 'young', 'alumni', 'student', 'programs', '-', 'baltimore', 'md']",1316.0
-124448,"['incident', 'ss', 'sb', 'exit', '(rte', ')', '']",1619.0
-97068,"['hsn', 'internship', 'job', 'corporate', 'retail', 'planning', 'internship', '-', 'fall', '(saintpetersburg', 'fl)', 'jobs', 'hiring']",313.0
-101095,"['parental', 'visit', 'office', '(at', 'shutterstock', 'new', 'york', 'ny)', '']",1518.0
-67185,"['grassy', 'delicious', '-', 'drinking', 'annapolis', 'rocks', 'pale', 'ale', 'lake', 'linganore', 'mud', 'flats', '-', 'photo']",1316.0
-145930,"['loqueseve', 'la', 'pancita', '']",16.0
-32019,"['', '🎪🎟🎯🎈', 'vfw', 'fairgrounds', 'scottsboro', 'ala', '']",811.0
-111789,"['found', 'new', 'favorite', 'post-', 'hike', 'treat', 'fresh', 'squeezed', 'juices', 'fiesta', 'time', 'in…', '']",72.0
-182320,"['healthcare', 'job', 'alert', 'physical', 'therapist', '-', 'ltac', '|', 'supplemental', 'health', 'care', '|', 'desoto', 'tx', 'jobs', 'hiring']",57.0
-162213,"['', 'lincourt', 'vineyards', '']",82.0
-99056,"['chatsworth', 'ca', 'manufacturing', 'job', 'cts', 'production', 'assembler', 'select', 'staffing', 'jobs', 'hiring', 'careerarc']",82.0
-131687,"['want', 'work', 'chicago', 'il', 'view', 'latest', 'opening', 'legal', 'job', 'jobs', 'hiring']",1710.0
-19868,"['come', 'bar']",67.0
-122450,"['going', 'videos', 'found', 'beauty', 'kg', 'squat', 'week', 'bit', 'manchester', '…', '']",53.0
-91964,"['turkeyvulture', 'placerita', 'canyon', 'nature', 'center', '']",82.0
-197733,"['muerooooo', '(', 'centro', 'de', 'enseñanza', 'para', 'extranjeros', '(cepe)', '-', 'unamcepe', 'coyoacán', 'f)', '']",16.0
-31339,"['drinking', 'buffbrew', 'piola', '—', '']",48.0
-123121,"['thank', 'seed', 'packets', 'always', 'flag', 'harborhotel', 'onebostonday', 'bostonstrong', '…', '']",1819.0
-86726,"['flores', 'sobre', 'piedras', '\n\nflowers', 'metepec', 'edo', 'mex', '']",16.0
-33687,"['wonderful', 'datenight', 'surprise', 'oscardelarenta', 'deyoungmuseum', 'sf', 'sanfrancisco', 'de', 'young', 'museum', '']",111.0
-114732,"['hei', 'hotels', 'amp', 'resorts', 'hospitality', 'job', 'massage', 'therapist', '(duckkey', 'fl)', 'jobs', 'hiring', 'careerarc']",214.0
-203270,"['nursing', 'alert', 'certified', 'nursing', '|', 'favorite', 'health', 'care', 'staffing', '|', 'baldwinville', '']",1819.0
-51216,"['yes', 'favorite', 'things', ""champy's"", 'shoals', '']",810.0
-14590,"['friday', ""i'm"", 'love', '💕', 'self', 'west', 'chester', 'university', 'pa', '']",1417.0
-103663,"['', 'sleeps', 'personal', 'beauty', 'concierge', 'app', 'launches', 'mapmybeauty', 'gtgtfollow', 'usltlt…', '']",1915.0
-87172,"['supplemental', 'health', 'care', 'healthcare', 'job', 'physical', 'therapist--', 'pt', '(littleton', 'co)', 'jobs', 'hiring', 'careerarc']",135.0
-6796,"['get', 'live', 'it\nkay-fan', 'aura', 'vinyl', 'richys', 'bday\nrealdj…', '']",138.0
-56775,"['job', 'livermore', 'ca', 'technical', 'operations', 'shared', 'laboratory', 'manager', '(cls)', 'sutter', 'health', 'system', 'office', '']",111.0
-66709,"['new', 'establishes', 'space', 'business', 'franchise', 'personal', 'income', 'tax', 'forms', 'make', 'gift', 'home', 'de', '']",1618.0
-152242,"['jujuboston', 'thedivasofdrag', 'hobnola', 'hobnola', 'thedivasofdrag', 'nola', 'followyournola…', '']",49.0
-56227,"['thanks', 'wearing', 'birthday', 'sombrero', 'love…', '']",1211.0
-197657,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'evs', 'attendant-', 'part', 'time', '-', 'kansascity', 'riverside', 'mo']",138.0
-79890,"['cleared', 'incident', 'gardenstateparkway', 'nb', 'exit', '-', 'central', 'ave']",1517.0
-153707,"['🙈well', 'guess', 'kinda', 'depends', 'ya', 'see', 'things\n\nmodel', '👉🏾', 'shannonhkim…', '']",1316.0
-139716,"['thorny', 'heart', 'lovemore', 'laughmore', 'havemorefun', 'heart', 'cactusheart', 'thorny', 'believe…', '']",47.0
-175785,"[""i'll"", 'pass', 'thx', 'ice', 'cream', ')', 'lighthouse', 'italian', 'ice', '']",1418.0
-59001,"['interested', 'healthcare', 'job', 'near', 'louisville', 'kentucky', 'could', 'great', 'fit', 'hiring']",1111.0
-9646,"['photo', 'woman', 'milking', 'mare', '']",111.0
-178948,"['want', 'work', 'plastipak', 'packaging', ""we're"", 'hiring', 'eastlongmeadow', 'click', 'details', 'manufacturing', 'job']",1719.0
-154335,"['sweet', 'corn', 'fresh', 'thyme', '()', 'plus', 'grilled', 'chicken', 'thighs', 'salad', 'deck', 'tonight', '(', ""coppock's"", 'casa)', '']",178.0
-176838,"['want', 'work', 'hmshost', ""we're"", 'hiring', 'orlando', 'fl', 'click', 'details', 'hospitality', 'job', 'jobs', 'careerarc']",314.0
-141871,"['dinner', 'time', '(at', 'toksmx', 'lerma', 'estado', 'de', 'méxico)', '']",16.0
-65883,"['guyssssss', '(', 'richard', 'rodgers', 'theatre', '-', 'nederlanderbway', 'hamilton', '(ny)', 'new', 'york', 'ny)', '']",1518.0
-67210,"['miss', 'maroonampwhite', 'pageant', 'hbcumeninsuits', 'morehouse', 'college', '']",712.0
-67323,"['going', 'get', 'rakim', 'concert', 'onoldschool', 'six', 'flags', 'georgia', 'amp', 'hurricane', 'harbor', '']",712.0
-136592,"['wind', 'mph', '---', 'barometer', 'steady', 'temperature', '°f', 'rain', 'today', 'humidity', '']",129.0
-15372,"['wrecking', 'eq', 'dj', 'beloved', 'eq', 'nightclub', '']",712.0
-134823,"[""i've"", 'thinking', 'differently', 'quarter', 'century', '\uf8ffapple', 'fanboy', 'plan…', '']",1814.0
-165378,"['recommend', 'anyone', 'job', 'johnsoncity', 'tn', 'hiring', 'careerarc']",1013.0
-117140,"[""i'm"", ""singh's"", 'roti', 'shop', 'south', 'richmond', 'hill', 'ny', '']",1519.0
-187463,"['makin', 'rain', 'bookstore', 'today', '📖📚', 'books', 'usedbookstore', 'happyplace', 'bookworm…', '']",313.0
-61380,"['recommend', 'anyone', 'manufacturing', 'job', 'atlanta', 'ga', 'veterans', 'hiring']",712.0
-117404,"['looking', 'buyer', 'marsh', 'rose', 'path', 'calabash', 'nc', 'realestate', '']",715.0
-19975,"[""i'm"", 'el', 'baluarte', 'de', 'oro', 'ciudad', 'de', 'méxico', 'distrito', 'federal', '']",16.0
-91060,"['recommend', 'anyone', 'healthcare', 'job', 'clayton', 'nc', 'hiring', 'careerarc']",915.0
-113292,"[""we're"", 'mean😤at', 'indian', 'health😜', 'haha', 'helping', 'front', 'today😎', 'northern', 'new', 'mexico', '']",105.0
-12654,"['mmm', 'k', 'iko', '(', 'taquería', 'guadalajara', 'san', 'nicolás', 'de', 'los', 'garza', 'nle', 'nuevo', 'león', 'w', 'kareniracheta)', '']",25.0
-67664,"['hate', 'friends', '']",315.0
-113341,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'carhopskating', 'carhop', '(server)', '-', 'sonic', 'manhattan', 'ks']",138.0
-197909,"['store', 'warehouse', 'associate', '-', 'hhgregg', '(newnan', 'ga)', 'customerservice', 'job', 'jobs', 'hiring', 'careerarc']",611.0
-55162,"['beer', 'steak', 'playoffs', '-', 'drinking', 'four', 'star', 'pils', 'gooseisland', 'blackhawk', 'park', '—', 'photo']",1710.0
-68072,"['got', 'great', 'review', 'theknot', 'thank', 'signaturebanquets', 'signatureweddings', 'wedding…', '']",1610.0
-7745,"['★★★☆☆', '-', 'drinking', 'devil', 'within', 'dipa', 'ironfirebrew', 'barrel', 'republic', '—', 'photo']",53.0
-15776,"[""i'm"", ""aldo's"", 'playa', 'del', 'carmen', 'quintana', 'roo', '']",211.0
-197794,"['tbt', 'three', 'guys', 'became', 'brothers', 'passionate…', '']",1710.0
-6042,"['fire', '(residential)', '-', 'riverwood', 'pkwy', 'bw', 'humber', 'valley', 'road', 'kings', 'point', 'dr', 'etobicoke', '(', 'trucks)']",1915.0
-3890,"[""i'm"", 'sheetz', 'reading', 'pa', 'w', '_man_fart_band', '']",1417.0
-103629,"['lunch', '(', 'taco', 'grill', 'warrenville', 'il)', '']",1710.0
-169259,"['posted', 'photo', 'morelia', 'mexico', '']",15.0
-77123,"['beauty', 'pleasure', 'working', 'last', 'week', 'loved', 'working', 'face', '💁🏾💄💋…', '']",612.0
-200877,"['god', '']",612.0
-154798,"['fourcorners', 'herd', 'make', 'beer', 'street', 'respect', 'taste', 'great…', '']",58.0
-108176,"['recommend', 'anyone', 'job', 'clinical', 'data', 'specialist-', 'simmons', 'comprehensive', 'cancer', 'center-', '-', 'hiring']",57.0
-129747,"['nights', 'white', 'cloud', 'intern', 'nights', 'the…', '']",1519.0
-81629,"['como', 'cuando', 'en', 'tu', 'escuela', 'gracias', 'la', 'feria', 'de', 'merca', 'recibes', 'una', 'experiencia', 'de', 'realidad…', '']",25.0
-167809,"['work', 'pants', '(', 'home', 'mesquite', 'tx)', '']",58.0
-126521,"['construction', 'us', 'directions', 'kirbytown', 'road', 'nym', '']",1617.0
-170173,"['iphone', 'photography', 'amp', 'editing', '📷', 'just_die', 'columbus', 'ohio', '']",1412.0
-58329,"['linkinbio', 'pomona', 'valley', 'indoor', 'swap', 'meet', '']",83.0
-112146,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'caregiver', '-', 'home', 'health', 'aide', '-', 'easton', 'massachusetts']",1719.0
-121143,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'retail', 'store', 'positions', '-', 'pittsburgh', 'pa', 'retail', 'careerarc']",1415.0
-187756,"['want', 'work', 'bethesda', 'md', 'view', 'latest', 'opening', 'nursing', 'job', 'jobs', 'hiring', '']",1316.0
-48423,"['viernes', 'de', 'quincena', 'mezcal', '➕', 'cahuama', 'manglar', '']",15.0
-104514,"['posted', 'photo', 'times', 'square', 'new', 'york', 'city', '']",1518.0
-61126,"['accident', 'left', 'lane', 'blocked', 'miami', 'i-', 'express', 'sb', 'nw', 'th', 'st', 'sfltraffic', '']",214.0
-73656,"['barista', '(us)', '-', 'starbucks', '(', 'main', 'street', 'watsonville', 'ca)', 'hospitality', 'veterans', 'job', 'jobs', 'hiring', 'careerarc']",101.0
-47400,"['موقع', 'أحد', 'أبراج', 'التجاره', 'العالميه', 'الذي', 'أُسقط', 'في', 'احداث', 'national', 'memorial', 'new', 'york', 'city', '']",1518.0
-98749,"['see', 'latest', 'clarksville', 'job', 'click', 'apply', 'operations', 'manager', '-', 'retail', 'hiring', 'careerarc']",1111.0
-53916,"['squeezed', 'lil', 'family', 'time', 'chick', '(we', 'bribe', 'food)', '😏', 'lapinata…', '']",510.0
-35793,"['posted', 'photo', 'dodger', 'stadium', '']",82.0
-56437,"['yep', ""i'm"", 'geek', 'get', 'old', 'see', 'something', 'like', 'worked', 'hard', 'for…', '']",313.0
-186914,"['sales', 'leader', '-', 'wrentham', 'outlet', '-', 'hanna', 'andersson', '(wrentham', 'ma)', 'retail', 'job', 'jobs', 'hiring', 'careerarc']",1719.0
-3097,"['photo', 'mud-splattered', 'mineramps', 'face', '']",111.0
-180960,"['watch', 'subscribe', 'win', 'ride\n', 'insight', 'coffee', 'roasters', '']",121.0
-79475,"['giveaway', 'weekend', 'pair', 'tickets', 'floatfest', 'love', 'floating', 'river…', '']",47.0
-168274,"['transportation', 'job', 'charlotte', 'nc', 'support', 'driver', 'class', '-', 'full', 'time', 'ryder', 'jobs', 'hiring', 'careerarc']",914.0
-195626,"['‘all', 'praise', 'god', 'alone\nthe', 'lord', 'worlds\nthe…', '']",53.0
-44611,"['cafawards', 'president', 'vickimilner', 'cafawards', 'fashionnights', 'fashionismylife', 'canada', 'fairmont…', '']",1915.0
-7955,"[""i'm"", 'holiday', 'inn', 'express', 'waldorf', '-', 'hiexpress', 'waldorf', 'md', '']",1216.0
-58444,"['join', 'dressbarn', 'team', 'see', 'latest', 'sales', 'job', 'opening', 'citrusheights', 'ca', 'hiring']",121.0
-195472,"['la', 'neta', 'si', 'está', 'chingón', '(', 'polideportivo', 'soluciones)', '']",16.0
-138352,"['el', 'negro', 'jiggiri', 'gozando', 'con', 'mi', 'negrita', 'la', 'dura', 'laideaproductions', 'gracias', 'por', 'compartir', 'conmigo…', '']",214.0
-111761,"['made', 'new', 'friend', '🙆🏻', 'venice', 'beach', '']",72.0
-80133,"['outside', 'sales', 'rep', 'ii', '-', 'wm', '(lennon', 'mi)', 'sales', 'wmnationalcareerday', 'veterans', 'job', 'jobs', '']",1812.0
-78569,"['let’s', 'go', 'ahead', 'announce', 'short', 'rain', 'delay', 'make', 'specials', 'quixotes…']",511.0
-136708,"['jasonlyric', ""dragon's"", 'den', '']",49.0
-75936,"['want', 'work', 'robert', 'half', 'technology', ""we're"", 'hiring', 'atlanta', 'ga', 'click', 'details', 'job', 'jobs', 'careerarc']",712.0
-30565,"['🤘😎🤘', 'takemymoney', '\n\nrepost', 'bamf_nation\n・・・\nthis', 'bitch', 'bad\ntag', 'owner\n✔️', 'follow…', '']",63.0
-80709,"['hospitality', 'job', 'inglewood', 'ca', 'part-time', 'opportunities', ""mcdonald's"", 'corporation', 'jobs', 'hiring', 'careerarc']",72.0
-145992,"['registro', 'feito', 'treino', 'para', 'star', 'game', 'de', 'em', 'orlando', 'kobe', 'bryant', 'se', 'despediu', 'das…', '']",313.0
-158023,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'general', 'laborassistant', '-', 'avondale', 'az', 'labor', 'careerarc']",64.0
-199514,"['fashionwarveteran', 'theamericantrap', '📷', 'cearyx', '|', 'fairlawn…', '']",1617.0
-48483,"['sight', 'sounds', 'toyotagplb', '🏎💨🏎🏎', 'long', 'beach', 'grand', 'prix', '']",73.0
-43232,"['birthday', 'boy', 'strikin', 'em', 'out⚾️🔥', 'kleven', 'winstonsalemdash', 'godash', 'milb', 'birthdayboy', '…', '']",914.0
-118190,"['full', 'service)', '""don\'t', 'get', 'cut', 'rest', 'get', 'cut', 'best""', 'barberlife', 'barber…', '']",1517.0
-93771,"['projectmgmt', 'job', 'newyork', 'new', 'york', 'pricingfinancial', 'analyst', 'rr', 'donnelley', 'publishing', 'newmedia', 'jobs']",1518.0
-128361,"[""let's"", 'start', 'friday', 'rightwith', 'caffeine', '(', 'starbucks', 'denver', 'co)', '']",135.0
-142508,"['take', 'time', 'appreciate', 'journey', '✊', 'growing', 'pains', 'make', 'sweet', 'end…', '']",82.0
-75328,"['tea', 'time', 'local', 'goods', 'chicago', '']",1710.0
-46539,"['yaaaaas', 'works', '🏛', 'teddygoestodc', 'selfiestick', 'newyork', 'nyc', 'madison', 'square', 'garden', '']",1518.0
-61913,"['mercy', 'practice', 'coordinator', '(edmond', 'ok)', 'healthcare', 'job', 'jobs', 'hiring', '']",97.0
-60171,"['day', 'one', 'ipa', '-', 'ka-pau', '-', 'esbcbrews', 'playoff', 'hockey', '(including', 'ducks)', 'pub', 'grub…', '']",82.0
-109361,"['belle', 'jack', 'johnson', 'nowplaying', 'thumb', 'coast', 'brewing', 'co', 'port', 'huron']",1813.0
-189479,"[""we're"", 'hiring', 'click', 'apply', 'sat', 'act', 'classroom', 'instructor', 'tutor', '-', 'washington', 'dc', '-', 'job', 'washington', 'dc']",1316.0
-95855,"['recommend', 'anyone', 'healthcare', 'job', 'doraville', 'georgia', 'hiring', 'careerarc']",712.0
-10209,"['mood', 'santa', 'fe', 'springs', 'california', '']",73.0
-33653,"['first', 'game', 'tonight', 'ubs', 'flag', 'football', 'gobills', 'hillside', 'community', 'church', '']",83.0
-75653,"['recommend', 'anyone', 'job', 'hair', 'stylist', '-', 'bartlett', 'il', 'cosmetology', 'hiring', 'careerarc']",1710.0
-119392,"['union', 'thursday', 'iowa', 'got', 'best', 'us', '😅', 'milesbrro', 'union', 'bar', '']",179.0
-112344,"['uc', 'creeeeewwwww', '🐾🐾🐾', 'university', 'cincinnati', '']",1312.0
-193350,"['recommend', 'anyone', 'job', 'health', 'care', 'customer', 'service', 'representative', '-', 'omaha', 'ne', 'customerservice']",168.0
-114177,"['euzkero', '😎', '(', 'los', 'burros', 'de', 'andalasia', 'querétaro)', '']",25.0
-118626,"['graciaschentepor', 'inspirarnos', 'tanto', 'andrealegarreta', 'foro', 'televisa', 'san', 'angel', '']",16.0
-9171,"['inside', 'vibesfriday', 'madame', 'x', '']",1518.0
-23072,"['pisgahstagerace', 'pisgah', 'national', 'forest', '']",913.0
-118186,"['\n\ncollegeofthecanine\n\nhappy', 'funfactfriday', '\n\njoin', 'periscope', 'today', 'am…', '']",82.0
-8743,"['workingdowntown', 'riverside', 'california', '']",73.0
-113290,"['poco', 'poco', 'mejorando', 'te', 'desesperes', 'ganamos', 'friends', 'tijuana', 'mexico', '']",53.0
-138437,"['workout', 'bestiewife', '👭👭👭', 'got', 'keep', 'motivated', 'holiday_blu', 'briancervates…', '']",72.0
-196486,"['nursing', 'job', 'might', 'great', 'fit', 'clinical', 'supervisor-kindred', 'home', '-', 'indianapolis', 'indiana']",1311.0
-112643,"[""zoey's"", 'st', 'time', 'beach', 'mission', 'beach', '-', 'belmont', 'park', '']",53.0
-43860,"['ola', 'ke', 'ase', 'todavía', 'en', 'la', 'oficina', 'ke', 'ase', '(', 'dgeci', 'mexico', 'city)', '']",16.0
-69010,"['dolab', 'coachella', 'coachella', 'coachella', 'empire', 'polo', '']",64.0
-170438,"['found', 'mampm', 'radio', 'one', '']",1316.0
-7026,"['also', 'spy', 'daisrecords', 'echoplex', 'los', 'angeles', '']",92.0
-80811,"['want', 'work', 'wis', 'international', ""we're"", 'hiring', 'houston', 'tx', 'click', 'details', 'customerservice', 'job', 'jobs']",48.0
-61308,"['recommend', 'anyone', 'sales', 'job', 'sanfrancisco', 'ca', 'hiring', 'careerarc']",111.0
-39499,"['girls', 'tweenyoga', 'tonight', 'made', 'abstract', 'selfportraits', 'twistedtreeyoga', 'desplaines…', '']",1710.0
-121211,"[""we're"", 'hiring', 'read', 'latest', 'job', 'opening', 'bb', 'sales', 'representative', 'kansas', 'city', 'mo', '-', 'sales']",138.0
-141093,"['menshumor', 'smottae', 'te', 'soporto']",25.0
-144894,"['salmon', 'sushi', 'pizza', '🍣🍙🍕yo', 'use', '""tofoodies""', 'promo', 'code', 'first', 'delivery', 'from…', '']",1915.0
-2408,"['pirates', 'home', 'run', 'k', 'pittsburgh', 'k', 'pittsburghpirates', 'pnc', 'park', '']",1415.0
-180103,"['', '']",111.0
-174025,"['two', 'years', 'ago', 'un', 'deemed', 'dangerous', 'terrorist', 'group', 'today', 'boko', 'haram…', '']",1216.0
-79241,"['', 'rhhs', 'athletic', 'physicals', '']",68.0
-27875,"['smoothie', 'de', 'fresa', 'netflix', '(', 'depa', 'de', 'barbie)', '']",16.0
+125373,"['im', 'mexfam', 'tlalpan', 'tlalpan', 'df', 'df']",12.0
+45553,"['chingado', 'con', 'william', 'da', 'silva']",12.0
+33988,"['celebrating', 'mchixon', 'num', 'birthday', 'hands', 'smiles', '💞', 'buca', 'di', 'beppo', 'dallas', '-', '…']",22.0
+194935,"['corporate', 'recruiter', '-', 'apex', 'systems', 'mo']",33.0
+160281,"['american', 'woodmark', 'sales', 'rep', 'builder', 'direct', 'az']",21.0
+38113,"['drinking', 'nicks', 'purple', 'surprise', '—']",21.0
+177890,"['carlsgood', 'amazing', 'perfect', 'end', 'num', '…']",34.0
+76085,"['counter', 'sales', 'retail', 'part', '-', 'time', '-', 'genuine', 'parts', 'napa', 'md']",45.0
+170862,"['want', 'work', 'tx', 'view', 'latest', 'opening']",12.0
+156160,"['click', 'apply', 'full', 'time', 'personal', 'banker', '-', 'wi']",53.0
+168717,"['natural', 'gas', 'leak', '|', 'summerhill', 'ave', 'amp', 'edgewood', 'cres', 'num', 'div', 'num', 'num', 'num', 'num']",54.0
+62684,"['know', 'gonna', 'good', 'night', 'youve', 'less', 'num', 'minutes', '…']",12.0
+204631,"['never', 'expected', 'mean', 'good', 'bad', 'way']",55.0
+81184,"['might', 'great', 'fit', 'surgical', 'techn', 'adv', '-', 'tx']",22.0
+28111,"['fue', 'entre', 'auditorio', 'fuente', 'de', 'petroleos']",12.0
+142712,"['check', 'buddies', 'book', 'project', 'cancer', 'research', 'cancerssos', 'dutchs', 'brewhouse']",21.0
+183440,"['join', 'yale', '-', 'new', 'hospital', 'team', 'see', 'latest', 'opening', 'ct']",45.0
+83668,"['registered', 'nurse', '|', 'rn', '|', 'contract', '-', 'favorite', 'health', 'care', 'staffing', 'az']",21.0
+202066,"['benoit', 'paires', 'wide', 'variance', 'level', 'fluctuate', 'match', 'fluctuates', 'middle', 'games', 'even', 'points']",14.0
+81382,"['citi', 'senior', 'vice', 'president', '–', 'statement', 'card', 'carrier', 'crisis', 'fl']",14.0
+180197,"['alert', 'shift', 'supervisor', 'us', '|', 'starbucks', '|']",45.0
+144164,"['🌊', '🌊', '🌊', '🌊', 'paterson', 'new', 'jersey']",45.0
+32438,"['sutter', 'tracy', 'community', 'hospital', 'rn', 'ambulatory', 'care', 'unit', 'giendoscopy', 'ca']",31.0
+88592,"['facilities', 'maintenance', '-', 'select', 'staffing']",21.0
+198721,"['great', 'clips', 'hair', 'stylist', 'il']",53.0
+191214,"['aurora', 'health', 'care', 'nursing', 'assistant', 'amp', 'health', 'unit', 'coordinator', '-', 'part', 'time', '-', 'noc', '-', 'num', 'wi']",53.0
+169851,"['want', 'work', 'cvs', 'health', 'va', 'click', 'details']",34.0
+129861,"['cool', 'rt', 'high', 'school', 'students', 'creating', 'future', 'via']",55.0
+81429,"['🚨', 'bahamas', 'event', 'alert', '🚨', 'labor', 'day', 'weekend', 'num', 'ultimate', 'retreat', 'miami', '…']",14.0
+33599,"['ahora', 'si', 'back', 'home', 'la', 'segunda', 'es', 'la', 'vencida', '-', 'ayer', 'se', 'cancel', 'ó', 'mi', 'vuelo', 'pedido', 'del', '…']",14.0
+124576,"['greeting', 'clarksvilletn', 'spending', 'next', 'weeks', 'south', '…']",33.0
+50432,"['favorite', 'omicron', 'week', 'coaches', '~', 'striking', 'arthritis', '~', 'one', 'pitch', 'time', '❤', '️', '💙']",53.0
+157959,"['num', '-', 'num', 'bryant', 'park']",45.0
+132359,"['dallas', 'march', 'babies', 'scheduled', 'april', 'num', 'white', 'rock', 'lake']",22.0
+75450,"['want', 'work', 'pa', 'view', 'latest', 'opening']",45.0
+60397,"['sales', 'representative', '-', 'lithia', 'auto', 'stores', 'ca']",31.0
+7699,"['girls', 'missed', 'hanging', 'peks', 'molly', 'malone', 'losangeles']",21.0
+200413,"['director', 'clinical', 'equipment', 'solutions', '-', 'chicago', 'il', '-', 'compass', 'group', 'usa', 'il']",53.0
+31723,"['im', 'plaza', 'universidad', '-', 'benito', 'ju', 'á', 'rez', 'df']",12.0
+119792,"['front', 'back', 'fade', '⬅', '️', '➡', '️']",44.0
+119370,"['want', 'work', 'tx', 'view', 'latest', 'opening']",12.0
+33933,"['happy', 'birthday', 'suzanne', 'gianmarcos', 'homewood', 'al']",23.0
+44827,"['need', 'like', 'week', 'shopping', 'trip', 'w', 'unlimited']",23.0
+159662,"['lowes', 'stores', 'store', 'seasonal', 'employee', 'nc']",34.0
+134354,"['join', 'j', 'crew', 'team', 'see', 'latest', 'opening', 'nj']",45.0
+119191,"['pretty', 'spectacular', 'grabbing', 'couple', 'bottles', 'sure', '-', 'drinking', 'au', 'ra', '-']",44.0
+136311,"['salud', 'para', 'todos', 'margaritaville', 'atlantic', 'city']",45.0
+177539,"['click', 'apply', 'manager', 'integrated', 'digital', 'technology', '-', 'nj']",45.0
+198371,"['im', 'cin', 'é', 'polis', 'corporativo', '-', 'alvaro', 'obregon', 'df', 'w']",12.0
+16246,"['im', 'bocanegra', 'miscelanea', 'rustica', 'w']",12.0
+152101,"['lil', 'lady', 'enjoying', 'breeze', 'storm']",14.0
+39754,"['movie', 'time', 'jungle', 'book', 'disney', 'digital', 'num', 'miguel', 'hidalgo', 'df', 'w']",12.0
+171862,"['us', 'commercial', 'real', 'estate', 'prices', 'take', 'dip', 'num']",21.0
+7410,"['el', 'dia', 'de', 'hoy', 'toca', 'felicitar', 'mi', 'madre', 'darle', 'gracias', 'ah', 'dios', '…']",11.0
+95674,"['always', 'num', 'num', 'island', 'phi', 'gamma', 'delta']",23.0
+133923,"['want', 'work', 'il', 'view', 'latest', 'opening']",43.0
+34082,"['natgeo', '🌐', 'washington', 'district', 'columbia']",34.0
+1066,"['mahallamiz', 'moshinlari', 'farmington', 'hills', 'michigan']",53.0
+107552,"['never', 'wanted', 'perfect', 'wanted', '…']",12.0
+166312,"['red', 'flag', 'warning', 'due', 'strong', 'winds', 'low', 'humidities', 'afternoon', 'west', 'central', 'south', 'central', 'minnes']",52.0
+81771,"['recommend', 'anyone', 'sonographer', '-', 'va']",34.0
+44956,"['im', 'downtown', 'st', 'augustine', 'st', 'augustine', 'fl']",14.0
+15623,"['finally', 'got', 'spend', 'quality', 'time', 'hon', 'kennedy', 'added', 'judge', 'personal', '…']",45.0
+120758,"['bayada', 'home', 'health', 'care', 'certified', 'home', 'health', 'aide', 'chha', '-', 'weekends', 'nj']",45.0
+95881,"['spring', 'break', 'fun', '\n', 'frozen', 'fever', 'painting', 'party', '\n', 'little', 'one', 'choose', 'paint', '…']",45.0
+25001,"['num', 'num', 'num', 'napping', 'spongebob', 'thank', 'aunt', 'sandy', '😂', '😙', '🤓', '💙']",53.0
+189871,"['😎', 'bucaneros', 'mariscos', 'playa', 'del', 'carmen', 'quintana', 'roo']",13.0
+191929,"['languageline', 'solutions', 'portuguese', 'interpreters', 'ca']",31.0
+5462,"['want', 'work', 'ca', 'view', 'latest', 'opening']",21.0
+97805,"['fl', 'meat', 'cutter', 'winn', 'dixie']",14.0
+201769,"['really', 'dont', 'feel', 'like', 'getting']",32.0
+165752,"['posted', 'photo', 'matthiessen', 'state', 'park']",43.0
+190031,"['philips', 'north', 'america', 'software', 'application', 'architect', 'ca']",31.0
+121820,"['see', 'video', 'tour', 'num', 'mcdade', 'farm', 'road']",24.0
+94349,"['would', 'love', 'wardrobe', 'connoisseur', '💞', '💕', '💞', '💗', '💖', '💓', '💕', '💞', '💖', '💞', '💕', '💓', '💖', '💗', '💞', '💕', '💞', '\n', '\n', 'xoxo', 'muah', '\n', '\n', 'full', 'look', '…']",12.0
+155811,"['jumped', 'plane', 'amos', 'made', 'bed', 'back', 'seat', 'long', '…']",21.0
+149736,"['tonight', 'num', 'pm', 'baltimorecocktailweek', 'chartruese', 'cocktail', 'throw', '…']",44.0
+28653,"['golf', 'together', 'stay', 'together', '🏌', '🏌', '🏌', 'bunker', 'hills', 'golf', 'club', '…']",53.0
+58917,"['date', 'night', 'hunky', 'husband', 'favorite', 'beverage', '…']",22.0
+129797,"['interested', 'near', 'could', 'great', 'fit']",54.0
+157976,"['international', 'dr', 'amp', 'carrier', 'dr']",14.0
+155482,"['drinks', 'eric', 'dear', 'friend', 'mustafa', '🍻', '🍺', '👍', '\n', '\n', 'netherwood']",45.0
+135572,"['interested', 'near', 'ny', 'could', 'great', 'fit']",45.0
+66419,"['thank', 'red', 'rock', 'canyon', 'natural', 'eye', 'candy', '\n', '\n']",31.0
+128043,"['might', 'great', 'fit', 'data', 'analyst', 'usms', 'arlingtonva', 'ts', 'preferred', 'scif', '-']",34.0
+197534,"['office', 'centro', 'de', 'negocios', 'garza', 'garc', 'í', 'nuevo', 'le', 'ó', 'n']",12.0
+50807,"['roasted', 'hen', 'potato', 'pave', 'creme', 'sorrel', 'lardons', 'thestaffcanteen']",32.0
+119510,"['might', 'great', 'fit', 'food', 'service', 'supervisor', '-', 'mi']",53.0
+81561,"['interested', 'near', 'nc', 'could', 'great', 'fit']",34.0
+198067,"['join', 'aerotek', 'team', 'see', 'latest', 'opening', 'ia']",43.0
+115095,"['mi', 'ex', 'novio', 'plataformero', 'ahora', 'ya', 'hace', 'videos', 'qu', 'é', 'barbaridad', 'saludos', 'todos', 'los', '…']",12.0
+104648,"['im', 'xsport', 'fitness', 'fairfax', 'va']",34.0
+128046,"['ny', 'customer', 'service', 'associate', 'lowes', 'stores']",55.0
+179103,"['recommend', 'anyone', 'picker', '-', 'al']",23.0
+27340,"['amherst', 'finished', 'day', 'one', 'trip', 'tomorrow', 'performance', 'day', '🎶', 'umass', 'amherst']",55.0
+99596,"['want', 'work', 'ca', 'view', 'latest', 'opening']",31.0
+115191,"['provider', 'network', 'specialist', '-', 'cincinnati', '-', 'buckeye', 'community', 'health', 'oh']",43.0
+114686,"['might', 'great', 'fit', 'attending', '-', 'anesthesiologist', '-', 'nj']",45.0
+75713,"['physical', 'therapist', 'outpatient', '-', 'supplemental', 'health', 'care', 'mi']",53.0
+201089,"['strong', 'winds', 'impact', 'parts', 'county', 'today', 'num', 'num', 'ill', 'pinpoint', 'winds', 'could', 'reach', 'num', 'mph', 'num', 'news']",21.0
+131642,"['drinking', 'coco', 'loco', 'paxtons', 'pad', '—']",21.0
+196220,"['breakfast', 'sisterroomie', 'totowa', 'nj', 'w']",45.0
+179507,"['see', 'latest', 'la', 'click', 'apply', 'retail', 'store', 'positions', '-']",23.0
+113629,"['ri', 'technical', 'customer', 'support', 'aerotek']",55.0
+8314,"['see', 'latest', 'ca', 'click', 'apply', 'registered', 'nurse', 'rn', '-']",31.0
+72531,"['huge', 'thank', 'lovely', 'welcome', 'hugs', '…']",21.0
+159244,"['another', 'young', 'generational', 'anti', '-', 'trump']",33.0
+131492,"['wind', 'num', 'num', 'mph', 'w', 'barometer', 'num', 'num', 'steady', 'temperature', 'num', 'num', '°', 'f', 'rain', 'today', 'num', 'num', 'humidity', 'num']",23.0
+62099,"['alert', 'physician', 'emergency', '|', 'providence', 'health', 'amp', 'services', '|', 'mt']",51.0
+59437,"['🔝', '👭', '👭', '👭', '👭', '💕', 'universidad', 'mondragon', 'uco']",12.0
+99663,"['meanwhile', 'hardly', 'watch', 'made', 'real', 'hard', 'wanna', '…']",13.0
+177391,"['recommend', 'anyone', 'num', 'john', 'hawkins', 'pkwy', 'al']",23.0
+101276,"['interested', 'near', 'il', 'could', 'great', 'fit']",53.0
+198761,"['want', 'work', 'remx', 'va', 'click', 'details']",34.0
+177484,"['tonight', 'baltic', 'porter', 'ipl', 'liquid', '…']",45.0
+133804,"['keep', 'doubting', 'im', 'pressin', 'im', 'postin', 'num', '…']",34.0
+3889,"['see', 'latest', 'sc', 'click', 'apply', 'mcat', 'instructor', '-', 'spartanburg', 'sc', '-']",24.0
+43792,"['thought', 'one', 'many', 'experiencing', 'message', 'josephvassiliou', 'num', '…']",45.0
+48816,"['cavaliers', 'advance', 'final', 'hendersonville', 'invitational', 'hendersonville', 'memorial', 'park']",33.0
+20221,"['im', 'amc', 'baton', 'rouge', 'num', '-', 'baton', 'rouge', 'la']",13.0
+7293,"['girl', 'two', 'things', 'classy', 'fabulous', '-', 'coco', 'chanel']",31.0
+161391,"['im', 'adkins', 'household', 'newell', 'alabama', 'woodland', 'al']",23.0
+127655,"['pharmacy', 'technician', '-', 'cvs', 'health', 'ny']",55.0
+159436,"['del', 'md', 'anderson', 'pal', 'mundo', 'dr', 'bruera', '💁', '🏼']",12.0
+184236,"['bucket', 'list', 'crowd', 'surf', 'one', 'favorite', 'bands', '✔', '️', '…']",21.0
+51351,"['nso', 'concert', 'kennedy', 'center', 'concert', 'hall', '-', 'nso', 'washington', 'dc']",34.0
+135004,"['want', 'work', 'ga', 'view', 'latest', 'opening']",23.0
+160140,"['love', 'art', 'deco', 'bloomingdales', 'building', 'font', '💕', 'took', 'pic', 'days', 'ago', 'walking', '…']",45.0
+162945,"['polar', 'bear', 'cub', 'nora', 'make', 'public', 'debut', 'columbus', 'zoo', 'num', 'tv']",43.0
+119254,"['sales', 'associate', 'levis', 'outlet', 'store', 'wrentham', '-', 'levi', 'strauss', 'amp', 'co']",55.0
+1576,"['rise', 'shine', 'training', 'ride', 'time', 'lakefront', 'belmont', 'chicago', 'il']",53.0
+36540,"['la', 'pel', 'í', 'cula', 'empieza', 'las', 'num', 'num', 'pm', 'la', 'verdad', 'puro', 'ni', 'ñ', 'os', 'lo', 'que', 'uno', 'hace', 'por', 'los', 'sobrinos']",21.0
+108079,"['baby', 'say', 'along', 'way', 'lakes', 'grew', 'swimming', '🙏', '🏾', '😎']",14.0
+76931,"['accident', 'shoulder', 'blocked', '-', 'num', 'nb', 'south', 'indian', 'hills', 'rd', 'slow', 'traffic', 'back', 'tecumseh', 'rd', 'delay', 'num', 'mins']",32.0
+128856,"['g', 'ü', 'nayd', 'ı', 'n', '🌞', 'kuweyka', 'malikanesi', 'montgomery', 'al']",23.0
+177371,"['alert', 'gujarati', 'interpreters', '|', 'languageline', 'solutions', '|', 'il']",53.0
+50295,"['⚠', '️', 'severe', 'thunderstorm', 'warning', 'including', 'sturgis', 'ok', 'eva', 'ok', 'num', 'num', 'pm', 'cdt']",32.0
+127671,"['see', 'latest', 'ar', 'click', 'apply', 'maintenance', 'technician', '-']",33.0
+69202,"['see', 'latest', 'tx', 'click', 'apply', 'store', 'manager', '-']",22.0
+171074,"['picking', 'lebron', 'num', 'flagship', 'store', 'los', 'angeles', 'ca']",21.0
+202470,"['usgs', 'reports', 'num', 'num', 'num', 'km', 'wnw', 'pioche', 'nevada', 'num', 'num', 'num', 'num', 'num', 'num', 'utc']",31.0
+139694,"['unusual', 'surrealistic', 'place', 'ny', 'central', 'park', '🌿', 'new', 'york', 'central', 'park']",45.0
+55190,"['recommend', 'anyone', 'caregiver', '-', 'home', 'health', 'aide', '-', 'colorado']",42.0
+179779,"['see', 'latest', 'md', 'click', 'apply', 'director', 'learning', 'organization', 'development', '-']",44.0
+182970,"['might', 'great', 'fit', 'cath', 'lab', '-', 'az']",21.0
+10932,"['good', 'time', 'charley', 'hanging', 'tonight', 'kimthestarvingartist']",21.0
+163231,"['tx', 'dfs', 'sr', 'manager', 'end', 'lease', 'lease', 'servicing', 'dell']",12.0
+130677,"['bike', 'killer', 'jesses', 'burritos', 'stinnett']",32.0
+97133,"['adoro', 'la', 'casa', 'della', 'mia', 'amica', 'annalisa', '😍', 'hampton', 'virginia']",34.0
+44114,"['molly', 'rough', 'week', 'mark', 'aymees', 'house']",23.0
+102130,"['❤', '️', 'ramen', 'beach', 'penscola', 'beach']",13.0
+129178,"['read', 'latest', 'opening', 'press', 'operator', '-', 'oh']",43.0
+152448,"['want', 'work', 'ca', 'view', 'latest', 'opening']",31.0
+44525,"['baptist', 'hospital', 'physician', 'appreciation', 'dinner', 'witte', 'museum']",12.0
+133865,"['tide', 'morehead', 'city', 'north', 'carolina', 'num', 'num', 'num', '\n', 'low', 'num', 'num', 'num', 'num', '\n', 'high', 'num', 'num', 'pm', 'num', 'num', '\n', 'low', 'num', 'num', 'pm', 'num', 'num', '\n', 'high', 'num', 'num', 'num', 'num']",24.0
+89172,"['picture', 'make', 'like', 'ou', 'okay', 'bye', 'lol', 'joke', 'love', 'yall', '💕', '🙈', '👽', 'del', 'city', 'high', 'school']",32.0
+179085,"['see', 'latest', 'tx', 'click', 'apply', 'maintenance', 'technician', '-']",12.0
+73005,"['see', 'latest', 'nm', 'click', 'apply', 'route', 'manager', '-', 'combo', '-']",32.0
+154448,"['acaso', 'te', 'basto', 'con', 'haberte', 'otorgado', 'el', 'privilegio', 'de', 'ser', 'el', 'primero', 'en', 'mi', 'vida', '😍', '😘']",12.0
+111593,"['hb', 'num', 'new', 'amend', 'title', 'num', 'united', 'states', 'code', 'limit', 'length', 'administrative', 'leave', 'federal', 'employ']",34.0
+141439,"['todays', 'ride', 'around', 'dallas', 'pretty', 'nice', 'im', 'enjoying', 'time', '…']",22.0
+52518,"['num', 'tanks', 'gas', 'num', 'mountain', 'goats', 'num', 'woodchuck', 'num', 'hours', 'makes', 'good', 'quick', 'roadie', 'sd', '…']",52.0
+188916,"['lucky', 'animals', '🐒', '🐵', '🐒', '🐵', '🐒', '🐵', 'tampa', 'florida']",14.0
+196467,"['escape', 'cape', '☀', '️', 'hyannis', 'massachusetts']",55.0
+27090,"['surprise', 'new', 'num', '-', 'song', 'ep', 'rooted', 'clarity', 'available', 'limited', 'quantity', 'num', 'hifi', '…']",31.0
+33744,"['see', 'drowsy', 'chaperone', '😎', '🎶', 'herberger', 'school', 'music', '-', 'tempe', 'az']",21.0
+108422,"['favorite', 'gym', 'equinox', 'sports', 'club', 'new', 'york', '-', 'new', 'york', 'ny']",45.0
+176779,"['recommend', 'anyone', 'installer', 'technician', '-', 'sanford', '-', 'fl']",14.0
+173385,"['recommend', 'anyone', 'pharmacy', 'technician', '–', 'target', 'store', '-', 'ca']",21.0
+134096,"['click', 'apply', 'med', 'surg', 'tele', 'rn', 'registered', 'nurse', '-', 'fl']",14.0
+66100,"['im', 'parque', 'el', 'dorado', 'aguascalientes', 'ags']",12.0
+77360,"['num', 'num', '\n', 'middle', 'fingers', 'boor', 'mode', '\n', '🐓', '📷', '…']",22.0
+10798,"['num', 'nd', 'day', 'new', 'products', 'shooting']",31.0
+450,"['good', 'morning', 'baltimore', 'home', 'num', 'suites', 'hilton', 'baltimore', 'downtown', 'baltimore', 'md']",44.0
+179863,"['might', 'great', 'fit', 'macys', 'northwest', 'region', 'regional', 'vice', 'president', '-', 'macys', '-']",31.0
+186918,"['😆', '❤', 'fresco', 'universidad', 'univer', 'milenium']",12.0
+50068,"['meh', '-', 'drinking', 'high', 'road', 'east', 'fields', '—']",35.0
+57040,"['heard', 'new', 'sigmas', 'sam', 'houston', 'state', '👀', '👀', '…']",22.0
+36484,"['stuck', 'box', 'mccarran', 'international', 'airport']",31.0
+161599,"['abril', 'num', '🚨', '🚨', '🚨', 'anotalo', 'los', 'veo', 'en', 'fatts', 'oysters', 'junto', 'el', 'rey', 'supremo', 'luis', 'vargas', 'tix', '…']",13.0
+38577,"['join', 'mandarin', 'oriental', 'hotel', 'las', 'vegas', 'team', 'see', 'latest', 'opening', 'nv']",31.0
+59423,"['scalpers', 'wings', 'polish', 'boy', 'tonight', 'anyone', 'kitchen', 'open', 'til', 'num', 'ming']",44.0
+174041,"['want', 'work', 'supplemental', 'health', 'care', 'az', 'click', 'details']",21.0
+148545,"['icomos', 'charla', 'camara', 'nacional', 'de', 'empresas', 'de', 'consultoria']",12.0
+183525,"['read', 'latest', 'opening', 'carhopskating', 'carhop', 'server', '-', 'md']",35.0
+7395,"['gomab', 'coach', 'marvin', 'menzies', 'expected', 'take', 'unlv', 'head', 'mens', 'basketball', 'coaching', 'job']",31.0
+201350,"['😎', 'fraccionamiento', 'mision', 'del', 'carmen']",13.0
+116502,"['closed', 'graffiti', 'request', 'num', 'baker', 'st', 'case', 'closed', 'case', 'resolved']",31.0
+106025,"['youre', 'corpus', 'christi', 'area', 'live', '…']",12.0
+37594,"['lyfez', 'mysterys', 'lol', 'sacramento', 'california']",31.0
+65738,"['want', 'work', 'cintas', 'corporation', 'nv', 'click', 'details']",41.0
+131774,"['want', 'work', 'sunrise', 'senior', 'living', 'pa', 'click', 'details']",45.0
+182566,"['join', 'department', 'veterans', 'affairs', 'team', 'see', 'latest', 'opening', 'ny']",54.0
+176248,"['read', 'latest', 'opening', 'relationship', 'manager', '-', 'ca']",21.0
+166121,"['wind', 'num', 'num', 'mph', 'barometer', 'num', 'num', 'steady', 'temperature', 'num', 'num', '°', 'f', 'rain', 'today', 'num', 'num', 'humidity', 'num']",41.0
+24322,"['una', 'á', 'de', 'la', 'fabrica', 'de', 'arte', 'f', 'á', 'brica', 'de', 'arte', 'cubano']",14.0
+63307,"['good', 'little', 'sweet', 'think', '-', 'drinking', 'higher', 'math', 'howards', 'fairview', 'villa', '-']",21.0
+102984,"['celebrating', 'came', 'visit', 'mlk', '…']",34.0
+115761,"['recommend', 'anyone', 'management', 'development', 'program', 'sales', 'customer', 'service', 'management', '-']",21.0
+166686,"['birthday', 'rope', 'climb', 'conga', 'line', 'post', 'wod', 'cash', 'erocfitness', '\n', 'num', 'rounds', 'time', '\n', 'num', '…']",45.0
+19298,"['cachimba', 'cantina', 'bar', 'é', 'rida', 'yucat', 'á', 'n']",13.0
+194561,"['interested', 'near', 'nc', 'could', 'great', 'fit']",24.0
+72881,"['day', 'num', 'birthday', 'shenanigans', 'fellas', 'happy', 'birthday', 'kyle', '🎂', '🎁', '🎈', '🎉', '🍻', 'true', 'brew', '…']",55.0
+127747,"['raiders', 'finalize', 'preseason', 'schedule', 'game', 'times', 'tv', 'info']",31.0
+76804,"['audit', 'senior', 'public', '-', 'robert', 'half', 'finance', 'amp', 'accounting', 'ca']",21.0
+99363,"['il', 'cim', 'technician', 'zf', 'trw']",43.0
+42278,"['😂', 'rickowensstorelosangeles', '🙌', 'rick', 'owens']",21.0
+194137,"['currently', 'craving', 'full', 'english', 'owenandengine', 'get', 'us', 'baked', 'beans', 'bangers', 'stat']",53.0
+42042,"['im', 'num', 'num', 'fitness', 'guadalupe', 'nuevo', 'le', 'ó', 'n']",12.0
+95773,"['want', 'work', 'cvs', 'health', 'co', 'click', 'details']",42.0
+16523,"['stellabrating', 'dodger', 'victory', 'giants', 'remember', '…']",21.0
+151526,"['im', 'kens', 'bar', '-', 'b', '-', 'q', 'madison', 'fl']",13.0
+42966,"['repostapp', '\n', '・', '・', '・', '\n', 'stage', 'set', 'tonights', 'amp', '…']",14.0
+19714,"['come', 'mango', 'us', '😗', '💨', 'one', '-', 'stop', '-', 'shop', 'hookahaccessory', 'needs']",43.0
+95069,"['si', 'existen', 'motivos', 'ni', 'para', 'que', 'pensarlo', 'dos', 'veces', '\n', '\n', 'fin', 'de', 'semana', '…']",13.0
+138652,"['😍', '😍', '😍', 'rt', '😍', '🔥', '✨']",53.0
+156893,"['le', 'juegues', 'al', 'vergas', 'si', 'lo', 'vas', 'hacer', 'bien', 'morrito']",12.0
+68393,"['theyre', '\n', 'playing', 'fits', 'lululemon', 'amp', 'getting', 'naked', 'new', 'align', '…']",55.0
+72446,"['little', 'piggy', 'went', 'hebronwhere', 'fell', 'love', '🐷', 'hebron', 'high', 'school']",22.0
+168947,"['cada', 'vez', 'menos', 'universidad', 'á', 'huac', '-', 'huixquilucan', 'estado', 'de', 'é', 'xico']",12.0
+56240,"['first', 'many', 'prahm', 'pics', '🌹', '🌹', 'woodlake', 'country', 'club']",45.0
+194780,"['va', 'primary', 'heavy', 'equip', 'oper', 'ii', 'wm']",34.0
+185906,"['ga', 'parts', 'delivery', 'oreilly', 'auto', 'parts']",23.0
+77033,"['details', 'happy', 'friday', 'people', 'design', 'photo', '…']",33.0
+113187,"['pink', 'striped', 'pants', '🙃', 'size', 'num', 'num', 'num', 'platform', 'loafers', 'multiple', 'sizes', 'num', 'store', 'email', 'us', '…']",34.0
+23996,"['enjoying', 'weather', 'rio', 'vista', 'california']",31.0
+76518,"['toner', 'one', 'amp', 'kayliedavis', '🙌', '🏼', 'brassy', 'classy', '😉', '…']",53.0
+203096,"['eat', 'clean', 'train', 'hard', 'see', 'results', '\n', '\n', 'trust', 'process', '‼', '️', '\n', '\n', 'works', '\n', '\n', 'gimmicks', '…']",45.0
+24301,"['relationship', 'goals', '\n', '\n', '💦', '🎷', '👽', 'weston', 'florida']",14.0
+96785,"['num', 'hvac', 'tune', 'hot', 'num', 'today', 'see', 'dana', 'stark', 'set', 'appointment', 'today']",22.0
+46765,"['dont', 'let', 'yeezys', 'fool', 'im', 'actually', 'sober', 'monitor', '…']",21.0
+15871,"['thanks', 'william', 'sullivan', 'pta', 'choosing', 'fabulous', 'life', 'dr', 'jay', 'motivate', 'inspire', '…']",23.0
+37904,"['christmas', 'show', 'dec', 'num', 'num', 'awesome', '…']",31.0
+107768,"['work', 'bauer', 'skates', 'x', 'num']",53.0
+48639,"['way', 'giants', 'vs', 'dodgers', 'game']",21.0
+52369,"['read', 'latest', 'opening', 'cook', '-', 'az']",31.0
+180820,"['speculation', 'beard', 'leaves', 'menzies', 'hired', 'phone', 'almost', 'immediately', 'already', 'interviewed', '…']",31.0
+115897,"['click', 'apply', 'social', 'worker', 'sudtp', '-', 'az']",21.0
+170687,"['wind', 'num', 'num', 'mph', 'se', 'barometer', 'num', 'num', 'falling', 'temperature', 'num', 'num', '°', 'f', 'rain', 'today', 'num', 'num', 'humidity', 'num']",43.0
+73679,"['posted', 'photo', 'ocean', 'city', 'maryland', 'beach', 'num', 'th', 'st']",35.0
+52878,"['yeah', 'awesome', 'thanks', 'drop', '-', 'ship', 'fly', '…']",53.0
+117862,"['personalised', 'football', 'manchester', 'united', 'dressing', 'room', 'picture', 'amp', 'frame', 'add', 'name']",45.0
+71149,"['district', 'marketing', 'manager', '-', 'compass', 'group', 'usa', 'oh']",43.0
+10654,"['im', 'white', 'castle', 'south', 'plainfield', 'nj']",45.0
+154867,"['🙌', '🏾', '🙌', '🏾', '🙌', '🏾', '🙌', '🏾', '🙌', '🏾', '\n', '\n', 'got', 'text', 'friend', 'amp', 'flow', '-', '-', 'god', 'saying', 'exact', '…']",13.0
+75771,"['desert', 'gettin', 'ready', 'coachella', 'many', 'bands', 'coachella', 'num']",21.0
+40313,"['im', 'esca', 'tepepan', 'mexico', 'city', 'mexico']",12.0
+110767,"['construction', 'eb', 'exit', 'num', 'rte', 'num']",45.0
+197132,"['recommend', 'anyone', 'technical', 'support', 'representative', '-', 'call', 'center', '-', 'nc']",34.0
+148521,"['im', 'karaoke', 'wow', 'new', 'york', 'ny']",45.0
+39067,"['wouldnt', 'mind', 'going', 'back', 'night', '👌', '🏼', 'target', 'center']",53.0
+67441,"['l', 'á', 'stima', 'que', 'seas', 'ajena', 'yo', 'tan', 'fiel']",12.0
+39001,"['krov', 'hd', 'num', 'fm', 'num', 'num']",12.0
+202529,"['im', '-', 'num', 'twin', 'span', 'bridge', 'new', 'orleans', 'amp', 'slidell', 'la']",13.0
+4687,"['num', 'pet', 'products', 'pets', 'n', 'stuff']",42.0
+17501,"['un', 'caf', 'é', 'sito', 'dorm', 'í', '👌', 'los', 'bisquets', 'bisquets', 'obreg', 'ó', 'n', '-', 'é', 'rida', 'yucat', 'á', 'n']",13.0
+39910,"['medical', 'assist', '-', 'yonge', 'st', 'bw', 'gerrard', 'st', 'west', 'college', 'st', 'toronto', 'num', 'trucks']",54.0
+165764,"['click', 'apply', 'service', 'associate', '-', 'la']",13.0
+175086,"['recommend', 'anyone', 'night', 'warehouse', 'order', 'selector', '-', 'tx']",12.0
+185140,"['tx', 'licensed', 'behavioral', 'specialist', 'school', 'accountable', 'healthcare', 'staffing']",22.0
+130643,"['first', 'pizzeria', 'open', 'united', 'states']",45.0
+120205,"['🤕', '🤕', '🤒', '🤒', '😴', '😴', 'hospital', 'angeles', 'lindavista']",12.0
+86486,"['taking', 'nephews', 'see', 'junglebook', 'regal', 'cinemas', 'cielo', 'vista', 'num', 'amp', 'rpx', '-', 'jungle', 'book']",12.0
+193794,"['interested', 'near', 'az', 'could', 'great', 'fit']",21.0
+81568,"['demonstration', 'amazing', 'interactive', 'intelligent', 'applications', 'built', 'soic', 'indiana', 'memorial', 'union']",43.0
+111990,"['want', 'work', 'tn', 'view', 'latest', 'opening']",33.0
+184438,"['karlaotto', '\n', '・', '・', '・', '\n', 'welcome', 'karla', 'otto', 'new', 'york', 'aw', 'num', 'womens', 'press', 'day', '📷']",45.0
+119346,"['-', 'going', 'us', 'num', 'construction', 'cocoa', 'florida', 'michigan', 'avenue', 'love', 'brick', 'look', '…']",14.0
+145431,"['im', 'kona', 'kai', 'resort', 'spa', 'amp', 'marina', 'san', 'diego', 'ca']",21.0
+187916,"['see', 'latest', 'ca', 'click', 'apply', 'returns', '-']",21.0
+115301,"['spotted', 'fashionability', 'look', '-', 'book', 'num', 'inclusionconnections', 'inclusion', 'connections']",32.0
+89325,"['want', 'work', 'ca', 'technologies', 'tx', 'click', 'details']",12.0
+109877,"['interested', 'near', 'tx', 'could', 'great', 'fit']",22.0
+42190,"['cutie', '❤', '😊', 'six', 'flags', 'magic', 'mountain']",21.0
+9584,"['ty', 'everyone', 'came', 'tonight', 'rocking', 'num', '👏', 'faces', 'mears', 'park']",53.0
+72244,"['attorney', 'jobs', '-', 'jdhuntr', '-', 'num', 'counsel', '-', '-', 'house', 'counsel', 'jobs', '|', 'jdhuntr', 'us']",21.0
+89714,"['days', 'installing', 'siding', 'crew', 'super', 'customtoday', 'exception']",43.0
+127289,"['push', 'button', '⚫', '️', '💣', 'coffee', 'ready', 'go', '¡', '✌', '🏼', 'blumenstudio']",55.0
+53275,"['ca', 'corporate', 'controller', 'kelly', 'services']",21.0
+155653,"['remember', 'trapping', 'momma', 'jeep', '🙏', '🏾', 'southbeach', 'miami']",14.0
+123327,"['might', 'great', 'fit', 'registered', 'nurse', 'rn', 'medicalsurgical', 'ms', '-', 'tn']",33.0
+43999,"['enjoying', 'oysters', 'amp', 'ros', 'é', 'beautiful', 'drive', 'coast', 'seaside', 'metal']",31.0
+65533,"['getting', 'cleaned', 'bed', 'life', 'good', 'heath', 'house']",55.0
+135104,"['ever', 'heard', 'trillia', 'massacre', 'epcot', '-', 'walt', 'disney', 'world']",14.0
+12239,"['game', 'time', 'bowlmor', 'chelsea', 'piers']",45.0
+184230,"['snake', 'season', 'snake', 'whisper', 'back', 'haha', 'weird', 'thing', 'smell', '…']",12.0
+174321,"['yesterdays', 'setlist', 'shorter', 'usual', 'still', 'fun', 'said', '…']",22.0
+23923,"['well', 'promo', 'vid', 'blackout', 'num', 'live', 'go', 'check', 'link', 'bio', 'epic', 'cant', '…']",54.0
+29796,"['shop', '\n', '\n', 'num', 'online', 'transition', 'spring', 'summer', '…']",23.0
+147787,"['posted', 'photo', 'carson', 'creek', 'ranch']",12.0
+159463,"['much', 'love', 'thatchocolatedrop', 'num', 'quicken', 'loans', 'arena']",44.0
+195506,"['want', 'work', 'nc', 'view', 'latest', 'opening']",34.0
+138617,"['unruly', 'gang', 'building', 'w', 'tonight', 'monroe', 'unruly', '🔥', 'monroe']",55.0
+96325,"['im', 'denver', 'gardens', 'denver', 'co']",42.0
+57210,"['world', 'series', 'attitude', '⚾', '️', '💋', 'pnc', 'park']",44.0
+97960,"['alert', 'nurse', '|', 'department', 'veterans', 'affairs', '|', 'nc']",24.0
+86269,"['excited', 'perform', 'atl', 'cant', 'wait', 'see', 'amp', 'kill', '…']",23.0
+188103,"['walk', 'future', 'seniors', 'welcoming', 'kindergarteners', 'big', 'school', '😭', '…']",22.0
+183180,"['mi', 'retail', 'customer', 'service', 'associate', 'fedex', 'office']",53.0
+65038,"['tried', 'kill', 'us', 'way', 'num', 'daughters', 'brewery', '-', 'saint', 'petersburg', 'fl']",14.0
+171527,"['fall', 'love', 'pink', 'pants', 'lace', 'top', 'cant', 'go', 'wrong', 'simple', 'necklace', '…']",24.0
+113415,"['interested', 'near', 'ca', 'could', 'great', 'fit']",31.0
+20428,"['num', 'th', 'annual', 'ct', 'capoeira', 'event', 'may', 'num', 'st']",45.0
+139414,"['entregando', 'documentaci', 'ó', 'n', 'para', 'el', 'respectivo', 'registro', 'instituto', 'estatal', 'electoral', 'de', 'hidalgo', 'ieeh']",12.0
+45826,"['live', 'classic', 'rock', 'fresh', 'seafood', 'family', '\n', '\n', 'cc', '…']",14.0
+128124,"['interested', 'near', 'tx', 'could', 'great', 'fit']",12.0
+115914,"['tristonyaklin', 'num', 'caught', 'first', 'catfish', '😂', 'fred', 'berry', '…']",33.0
+191971,"['see', 'latest', 'mi', 'click', 'apply', 'corporate', 'sales', 'amp', 'marketing', 'assistant', '-']",53.0
+81462,"['southland', 'park', 'spring', 'futurity', 'stakes', 'round', 'num', 'sunday', 'program', 'schedule']",23.0
+788,"['al', 'num', 'jajajajaj', 'instituto', 'tecnol', 'ó', 'gico', 'de', 'é', 'rida', 'campus', 'poniente', '-', 'merida', 'yuc']",13.0
+27095,"['haber', 'que', 'tal', 'fe', 'de', 'ciegos', 'coyoac', 'á', 'n', 'distrito', 'federal']",12.0
+100064,"['see', 'latest', 'ia', 'click', 'apply', 'nclex', 'rn', 'instructor', '-', 'sioux', 'city', 'ia', '-']",52.0
+66844,"['listos', 'ya', 'foro', 'sol', 'coldplay', 'lianne', 'la', 'havas', 'iztacalco', 'df']",12.0
+67392,"['gingin', 'mule', 'lemon', 'negroni', 'muldoons', 'patio', '\n', '\n']",12.0
+152717,"['robert', 'half', 'finance', 'amp', 'accounting', 'senior', 'accountant', 'il']",53.0
+102317,"['strategy', 'manager', '-', 'fresenius', 'medical', 'care']",55.0
+180662,"['thursdays', 'wear', 'celine', 'pink', 'macchiato', 'espresso', 'bar']",45.0
+167894,"['recommend', 'anyone', 'general', 'manager', '-', 'tx']",22.0
+46794,"['thats', 'say', 'yu', '-', 'high', '-', 'ruh']",14.0
+86474,"['recommend', 'anyone', 'store', 'manager', '-']",44.0
+62389,"['-', 'num', 'num', 'num', 'marquee', 'theatre']",21.0
+54482,"['see', 'latest', 'california', 'click', 'apply', 'senior', 'devops', 'engineer', '-', 'sf', '-']",31.0
+193237,"['recommend', 'anyone', 'rn', 'case', 'manager', '-', 'mo']",32.0
+81122,"['jammed', '-', 'num', 'nb', 'columbus', 'blvd', 'allegheny', 'ave', 'delay', 'num', 'mins']",45.0
+65159,"['tootsies', 'hurt', 'chair', 'hadwhats', 'gal', 'viva', 'las', 'vegas', '…']",31.0
+186117,"['click', 'apply', 'outside', 'sales', 'representative', '-', 'ny']",54.0
+54569,"['lets', 'terminal', 'central', 'de', 'autobuses', 'del', 'norte', '-', 'gustavo', 'madero', 'é', 'xico', 'df']",12.0
+44518,"['cada', 'ñ', 'de', 'vida', 'es', 'una', 'puerta', 'abierta', '\n', '\n', 'un', 'ciclo', 'cerrado', 'una', 'bendici', 'ó', 'n', '\n', '\n', 'esta', 'ciudad', 'merece', '…']",12.0
+196533,"['awesome', 'time', 'last', 'christmas', 'cbasrolo', 'num', 'delivering', 'presents', 'fam', '…']",14.0
+36394,"['odd', 'market', 'autry', 'museum', 'tonight', 'num', 'food', 'trucks', 'live', 'band', 'kid', 'zone', '…']",21.0
+196412,"['best', 'part', 'whats', 'wednesday', 'lip', 'sync', 'night', '…']",34.0
+152380,"['interested', 'near', 'ca', 'could', 'great', 'fit']",31.0
+77071,"['interested', 'near', 'texas', 'could', 'great', 'fit']",12.0
+149655,"['hoy', 'toc', 'ó', 'pierna', 'ñ', 'ana', 'milanesa', 'smart', 'fit', 'zaragoza', 'santiago', 'de', 'quer', 'é', 'taro', 'queretaro']",12.0
+149255,"['recap', 'num', 'k', 'link', 'profile', 'cant', 'wait', 'run', 'september']",54.0
+37466,"['must', 'contreras', 'cochina', 'market', 'square', 'downtown', 'san', 'antonio']",12.0
+89860,"['cimc', 'enric', 'sjz', 'gas', 'equipment', 'sr', 'business', 'analyst', 'tx']",12.0
+60225,"['last', 'flee', 'degree', '🎓', '🎉', 'macdintons', 'irish', 'pub']",14.0
+172032,"['alert', 'physical', 'therapist', '-', 'per', 'diem', '|', 'honorhealth', '|', 'az']",21.0
+147009,"['stop', 'violence', '•', 'shatter', 'silence', 'youngstown', 'state', 'university']",44.0
+20175,"['drinking', 'peachy', 'pom', 'pom', '—']",53.0
+37926,"['recommend', 'anyone', 'driver', 'formula', 'shuttle', 'columbia', 'sc', '-', 'south', 'carolina']",24.0
+114542,"['want', 'work', 'view', 'latest', 'opening']",53.0
+31094,"['balloon', 'dog', 'jeff', 'koons', 'broad']",21.0
+27990,"['let', 'smile', 'change', 'world', 'dont', 'let', 'world', 'change', '…']",31.0
+189178,"['nomas', 'venimos', 'despedirnos', 'hotel', 'hacienda', 'mazatlan', 'sinaloa']",12.0
+18351,"['disfrutando', 'nuestra', 'estancia', 'en', 'el', 'south', 'congress', 'hotel', 'en', 'austin', 'muy', 'recomendable']",12.0
+70497,"['accident', 'ann', 'rd', 'durango', 'dr']",31.0
+182084,"['might', 'great', 'fit', 'sales', 'associate', 'jcrew', 'retail', 'dartmouth', '-', 'nh']",55.0
+159178,"['dream', 'big', 'never', 'let', 'anyone', 'tell', 'youre', 'scary', '\n', '\n']",14.0
+64420,"['cvs', 'health', 'pharmacy', 'technician', 'la']",23.0
+36894,"['drinking', 'ipa', 'village', 'pub', 'amp', 'beer', 'garden', '—']",33.0
+82410,"['recommend', 'anyone', 'busser', 'runner', '-', 'ia']",52.0
+131275,"['avalonbay', 'bilingual', 'leasing', 'consultant', 'md']",44.0
+70794,"['great', 'day', 'fun', 'reunite', 'team', '-', '\n', 'fbf', 'bts', '…']",21.0
+180290,"['want', 'work', 'ut', 'view', 'latest', 'opening']",41.0
+124296,"['beams', 'see', 'today', 'num', '-', 'num', 'pm', 'spears', '…']",32.0
+198955,"['cvs', 'health', 'pharmacy', 'technician', 'md']",44.0
+190024,"['centura', 'health', 'operating', 'room', 'registered', 'nurse', 'num', 'sign', '-', 'ortho', 'team', 'job', 'co']",42.0
+130868,"['hopefully', 'wins', 'ranking', 'points', 'today', 'go', 'num', 'bethlehem', 'pa']",45.0
+102064,"['see', 'latest', 'maryland', 'click', 'apply', 'full', 'time', 'home', 'health', 'physical', 'therapist', 'assistant', '-']",44.0
+114993,"['recommend', 'anyone', 'locum', 'medical', 'dosimetrist', '-', 'ok']",32.0
+188283,"['congrats', 'mr', 'neal', 'named', 'student', 'day', 'gentleman', 'comes', 'multiple', 'times', '…']",23.0
+84611,"['funny', 'faces', 'make', 'life', 'enjoyable', '\n']",42.0
+26147,"['real', 'trouble', 'trying', 'put', 'google', 'store', 'kindle']",34.0
+170177,"['weeki', 'fox', 'weeki', 'wachee', 'river']",14.0
+50545,"['ummmm', 'goal', 'hawks', 'homoky', 'tiki', 'bar', 'chicago', 'il']",53.0
+125227,"['que', 'loca', 'puse', 'al', 'rayarme', 'yo', 'sola', '🙄', '😭']",11.0
+165776,"['kind', 'happy', 'hour', '🍆', '🍅', '🍠', '🌶', '🌽', '\n', '\n', '\n', '\n']",44.0
+144690,"['ahogando', 'mi', 'depresi', 'ó', 'n', 'en', 'sopes', 'pozole', '😭', '😢', 'el', 'pozole', 'jos', 'é', 'guadalajara', 'jalisco']",12.0
+29212,"['simply', 'afternoon', 'brooklyn', 'gym', 'deserved', 'carbonara']",45.0
+140722,"['celeste', 'akoro', 'putting', 'work', 'num', 'num', 'num', '…']",33.0
+133335,"['im', 'historic', 'downtown', 'flagstaff', 'flagstaff', 'az']",31.0
+73348,"['alert', 'travel', 'nurse', 'emergency', 'room', 'rn', 'night', 'shift', 'job', '-', 'num', '|', 'fastaff', 'travel', 'nursing', '|', 'ca']",31.0
+91546,"['come', 'play', 'hoes', 'tallahassee', 'florida']",13.0
+78672,"['im', 'animation', 'academy', '-', 'anaheim', 'ca']",21.0
+22542,"['sunrise', 'senior', 'living', 'cook', 'va']",34.0
+130400,"['guess', 'day', 'today', 'first', 'day', 'good', 'luck', 'competing', 'baristas']",53.0
+19640,"['happy', 'beautiful', 'soul', 'know', '❤', '️', 'couldnt', 'born', 'luckier', '…']",14.0
+50287,"['im', 'fraccionamiento', 'la', 'joya', 'ocotlan', 'tlaxcala']",12.0
+148064,"['huron', 'county', 'poetry', 'slam', 'judge', 'holly', 'painter', 'painter']",54.0
+137452,"['im', 'olympus', 'stairs', 'san', 'francisco', 'ca']",31.0
+199081,"['want', 'work', 'citizens', 'bank', 'click', 'details']",55.0
+13676,"['shall', 'call', 'cause', 'hes', 'motha', 'fuxken', 'paseos', 'montclair', '…']",21.0
+1418,"['finally', 'cant', 'wait', 'see', 'everyone', 'looking', 'best']",14.0
+85811,"['interested', 'near', 'nc', 'could', 'great', 'fit']",34.0
+127335,"['\n', 'best', 'self', 'motivation', '\n']",45.0
+52346,"['sound', 'check', 'eeeeeeeeeeeeeek', 'house', 'blues', 'las', 'vegas']",31.0
+120794,"['wind', 'num', 'num', 'mph', 'w', 'barometer', 'num', 'num', 'rising', 'temperature', 'num', 'num', '°', 'f', 'rain', 'today', 'num', 'num', 'humidity', 'num']",23.0
+90535,"['click', 'apply', 'registered', 'nurse', '-', 'ok']",22.0
+8465,"['mc', 'num', 'adla', '-', 'num']",31.0
+188488,"['much', 'respect', 'continuing', 'advocates', 'glad', 'made', '…']",34.0
+8651,"['lil', 'brotha', 'zeldasnightclub', 'zeldas', 'night', 'club']",21.0
+135448,"['ltoriongt', 'love', 'escelators', 'never', 'break', 'temporarially', 'turn', 'stairs']",31.0
+97062,"['limeconference', 'today', 'ready', 'senyorlime', 'invite', '…']",33.0
+46126,"['another', 'colorway', 'nike', 'air', 'uptempo', 'hitting', 'shelves']",12.0
+2206,"['coldplay', 'alla', 'vamos', 'aeropuerto', 'internacional', 'de', 'monterrey', 'mty', '-', 'apodaca', 'nl', 'w']",12.0
+185688,"['join', 'houston', 'methodist', 'sugar', 'land', 'hos', 'team', 'see', 'latest', 'opening']",12.0
+67404,"['posted', 'photo', 'chicago', 'state', 'university']",53.0
+128948,"['interested', 'near', 'ny', 'could', 'great', 'fit']",54.0
+14070,"['omg', 'happy', 'num', 'nd', 'birthday', 'mitch', 'thank', 'buying', 'shots', '…']",44.0
+3615,"['medical', 'assistant', '-', 'mercy', 'mo']",32.0
+41924,"['amazing', 'times', 'tonight', 'sifen', 'elite', 'meet', 'ran', 'personal', 'best', 'num', 'k', 'laura', 'num', 'º', 'num', 'num', 'min', '…']",45.0
+97618,"['drinking', 'vietnamese', 'speedway', 'stout', 'num', '—']",55.0
+99286,"['hb', 'num', 'engross', 'partnerships', 'statute', 'frauds', 'governing', 'law']",42.0
+100584,"['hhgregg', 'retail', 'manager', 'training', 'wi']",53.0
+170970,"['next', 'stop', '✈', '️', 'london', '🇬', '🇧']",45.0
+119125,"['join', 'aerotek', 'team', 'see', 'latest', 'opening', 'az']",21.0
+120323,"['ran', 'spider', '-', 'man', 'less', 'smelly', 'counterpart', 'times', 'square', 'midtown', 'comics', 'times', '…']",45.0
+37089,"['letting', 'home', 'run', 'balls', 'hit', 'flinching', 'boston']",55.0
+167811,"['hanging', 'matt', 'grevers', 'lake', 'forest', 'high', 'school', 'weight', '…']",53.0
+204553,"['read', 'latest', 'opening', 'systems', 'engineer', 'government', 'sales', '-', 'va']",44.0
+23249,"['perfect', 'way', 'end', 'day', 'filled', 'baseball', 'happy', 'jackie', 'robinson', 'day', 'texas', 'rangers', '…']",22.0
+33673,"['got', 'tonight', 'join', 'us', 'next', 'time', 'see', 'like', 'get', 'better', '…']",44.0
+116776,"['see', 'video', 'tour', 'num', 'thornewood', 'dr']",23.0
+132306,"['hjr', 'num', 'passed', 'williamsburg', 'session', 'expressing', 'appreciation', 'hospitality', 'extended']",34.0
+141715,"['witty', 'imaginary', 'victimization', 'nothing', 'legitimacy', 'angry', 'finger', 'pointing', 'bs']",42.0
+138140,"['ca', 'per', 'diem', 'clinical', 'dietitian', 'fresno', 'ca', 'compass', 'group', 'usa']",31.0
+77791,"['keine', 'kalifornien', '-', 'reise', 'ohne', '-', 'n', '-', 'burger', 'fishermans', 'wharf', '…']",31.0
+17417,"['lights', 'dark', 'lynn', 'classical', 'high', 'school']",55.0
+58234,"['successful', 'first', 'time', 'visiting', 'los', 'angeles', 'zoo', 'bergstagram', 'num', 'los', '…']",21.0
+180686,"['multi', 'unit', 'leadersupervisor', '-', 'sonic', 'drive', '-', 'mo']",43.0
+42807,"['im', 'mcdonalds', 'broken', 'arrow', 'ok']",32.0
+194882,"['alert', 'physician', 'assistant', '-', 'primary', 'care', '|', 'department', 'veterans', 'affairs', '|', 'wi']",53.0
+192442,"['im', 'angelos', 'ann', 'arbor', 'mi']",53.0
+131726,"['jorge', 'celedon', 'de', 'fiesta', 'en', 'é', 'xico', 'lindo', 'querido', 'jorgeceledonoficial']",12.0
+161217,"['hang', 'bee', 'fun', 'new', 'people', 'nearby', 'sign', 'badoo']",45.0
+153024,"['see', 'nothing', 'wrong', 'dr', 'songs', 'whore', 'comment', 'clinton', 'wall', 'street', 'whore']",34.0
+23535,"['futuro', 'j', 'á', 'come', 'ç', 'ou', 'presentinho', 'que', 'lembrou', 'uma', 'palavra', 'prof', 'é', 'tica', 'da', 'laura', 'futuro', '…']",12.0
+62030,"['great', 'night', 'baseball', 'spalding', 'u', 'baseball']",33.0
+108169,"['accident', 'right', 'lane', 'blocked', 'century', 'ave', 'nb', 'north', 'num']",53.0
+186834,"['join', 'forward', 'air', 'transportation', 'services', 'team', 'see', 'latest', 'opening']",43.0
+64009,"['day', 'best', 'chickasaw', 'state', 'park']",33.0
+99767,"['federal', '-', 'mogul', 'manufacturing', 'production', 'mi']",53.0
+105672,"['interested', 'near', 'co', 'could', 'great', 'fit']",42.0
+8586,"['🍸', '🍸', '🍸', 'melrose', 'umbrella', 'co', 'los', 'angeles', 'ca']",21.0
+186293,"['im', 'bridgewater', 'commons', 'mall', 'bridgewater', 'nj']",45.0
+48607,"['sometimes', 'friday', 'night', 'need', 'live', 'music', 'unwind', 'pour', 'house', '…']",24.0
+38673,"['tonight', 'get', 'busy', 'lil', 'lonnie', 'come', 'kick', 'eight', 'mke']",53.0
+60828,"['theres', 'nothing', 'love', 'seeing', 'kids', 'family', 'truly', '…']",33.0
+92520,"['alert', 'sales', 'associate', '|', 'express', '|', 'nh']",55.0
+3766,"['join', 'quincy', 'medical', 'group', 'team', 'see', 'latest', 'opening', 'il']",43.0
+184385,"['ok', 'assistant', 'manager', 'sonic', 'drive', '-']",32.0
+154167,"['today', '’', 'puzzle', 'jason', 'flinn', '—', 'cse', 'colleague']",53.0
+72258,"['arehappy', 'attended', 'toni', 'blakes', 'session', 'today', '♡', '…']",12.0
+158819,"['click', 'apply', 'physician', '-', 'pa']",44.0
+181268,"['get', 'trying', 'get', 'ticket', 'step', 'show', 'tomorrow', 'num', 'tickets', 'left', 'num', '…']",23.0
+203166,"['stray', 'cats', 'ive', 'petted', 'throughout', 'lifetime', 'endorsing', 'campaign', 'even', '…']",43.0
+188294,"['vanilla', 'marshmallow', 'chocolate', 'reeses', 'cup', 'swirl', 'sampan', 'restaurant', '…']",45.0
+37346,"['thanks', 'spontaneously', 'skipping', 'movie', 'go', 'see', 'baseball', 'game', 'congrats', '…']",44.0
+177434,"['alert', 'barista', 'us', '|', 'starbucks', '|']",31.0
+7761,"['miami', 'num', 'apr', 'num', 'num', '°', 'f', 'much', 'needed', 'rain', 'continue', 'day', 'temps', 'num', '°', 'f', 'sun', 'num', 'num', 'good', 'morning']",14.0
+164104,"['dinner', 'moms', '😍', 'eagles', 'nest']",44.0
+93530,"['join', 'aerotek', 'team', 'see', 'latest', 'opening', 'mo']",33.0
+9785,"['click', 'apply', 'assistant', 'manager', '-', 'oklahoma', 'city', 'ok', '-', 'ok']",32.0
+14029,"['first', 'time', 'ive', 'parking', 'lot', 'drinking', 'budweiser', 'blaring', 'donnie', 'trumpet', 'amp', 'social', 'experiment', 'phone']",13.0
+158301,"['want', 'work', 'vcu', 'health', 'system', 'va', 'click', 'details']",34.0
+179891,"['happy', 'birthday', 'webber', 'love', 'moon', 'backamp', 'blessed', 'life', 'hope', 'num', 'treats', 'well', '💙']",33.0
+13621,"['cleared', 'incident', 'eb', 'bellt', 'parkway', 'brooklyn']",45.0
+52285,"['blake', 'mills', 'opening', 'mumford', 'amp', 'sons', 'bridgestone', 'arena']",33.0
+98472,"['flannel', 'new', 'homeless', '📦', 'rags', 'riches']",53.0
+169153,"['ingram', 'content', 'group', 'order', 'processor', 'part', '-', 'time', 'ca']",21.0
+2234,"['im', 'new', 'york', 'city', 'bagel', 'amp', 'coffee', 'house', 'astoria', 'ny']",45.0
+103931,"['panera', 'bread', 'baker', '-', 'night', 'va']",34.0
+124228,"['interested', 'near', 'ok', 'could', 'great', 'fit']",32.0
+67018,"['im', 'showcase', 'bridgeport', 'bridgeport', 'ct']",45.0
+128465,"['buenos', 'í', 'canc', 'ú', 'n']",13.0
+64785,"['recommend', 'anyone', 'services', 'architect', '-', 'tdm', '-', 'grid', 'tools', '-', 'ca']",31.0
+4011,"['pretty', 'fleek', 'collectiont', '-', 'shirt', 'tote', 'bag', 'num', '\n']",33.0
+56473,"['amo', 'los', 'viernes', 'de', 'parque', 'su', 'lado']",12.0
+137602,"['usgs', 'reports', 'num', 'num', 'num', 'km', 'w', 'cobb', 'california', 'num', 'num', 'num', 'num', 'num', 'num', 'utc']",31.0
+4049,"['well', 'since', 'im', 'leftover', 'icing', 'cake', 'batter', 'two', 'cakes', 'finished', '…']",44.0
+124895,"['want', 'work', 'tx', 'view', 'latest', 'opening']",22.0
+186603,"['see', 'latest', 'az', 'click', 'apply', 'registry', 'respiratory', 'therapist', '-', 'respiratory', 'therapy', '-']",21.0
+115908,"['heading', 'soon', 'see', 'amazing', 'lady', 'ink', 'therapy', 'saratoga', 'tattoo', 'expo']",55.0
+5359,"['temp', 'num', 'num', 'f', 'w', 'c', 'num', 'num', 'f', 'wind', '-', '-', '-', 'num', 'num', 'kts', 'baro', 'num', 'num', 'mb', 'rising', 'slowly', 'rain', 'today', 'num', 'num', 'r', 'h', 'num']",44.0
+59901,"['ya', 'llegu', 'é', '😍', '😍', '😍', '😍', '😍', 'monterrey', 'nle', 'nuevo', 'le', 'ó', 'n', 'w']",12.0
+190395,"['im', 'newark', 'liberty', 'international', 'airport', 'ewr', 'newark', 'nj']",45.0
+100074,"['alert', 'assistant', 'manager', '|', 'sonic', 'drive', '-', '|', 'md']",44.0
+87462,"['oh', 'panera', 'bread', 'hiring', 'managers', 'new', 'location', 'opening', 'covelli', 'enterprises']",44.0
+67348,"['grinding', '\n', 'lvac', 'north', '-', 'las', 'vegas', '…']",31.0
+182388,"['see', 'latest', 'tx', 'click', 'apply', 'installed', 'sales', 'coordinator', '-']",12.0
+126051,"['medical', 'record', 'technician', 'tumor', 'registrar', '-', 'department', 'veterans', 'affairs', 'co']",42.0
+112589,"['num', 'kudzu', 'dr', 'spring', 'tx', 'num', 'num', 'num', 'num', 'beds', 'num', 'num', 'baths']",12.0
+62861,"['awesome', 'views', 'hiking', 'gloss', 'mountain', 'state', 'park', 'gloss', 'mountain', 'state', 'park']",32.0
+49653,"['filter', 'isnt', 'even', 'needed', 'gods', 'beautiful', 'creation', 'soooo', 'amazing', 'great', 'know', '…']",33.0
+26480,"['jungle', 'book', 'tonight', 'kind', 'excited', 'watch', 'movie', 'one', 'favorites', 'childhood', '…']",14.0
+168587,"['headed', 'first', 'game', 'tonight', 'make', 'sure', 'check', 'new', '…']",23.0
+84849,"['hanging', 'scaa', 'expo', 'vendors', 'show']",23.0
+193066,"['bear', 'lake', 'bound', 'day', 'affair', 'rockies']",42.0
+55262,"['fed', 'courthouse', 'lasvegas', 'people', 'went', 'inside', 'arraignment', 'bundy', 'brothers', 'oregonstandoff', '…']",31.0
+143832,"['luv', 'titan', 'gear', 'stand', 'strong', 'titan', 'family', '💪', '👑', '💪', '👑', '💪', '👑', '\n', '\n', 'get', 'board', '…']",14.0
+41152,"['iron', 'maiden', 'stalkers', 'num', 'team', 'photo']",21.0
+126293,"['running', 'hurts', 'little', 'less', 'neck', 'woods']",34.0
+8161,"['temp', 'num', 'num', 'f', 'w', 'c', 'num', 'num', 'f', 'wind', '-', '-', '-', 'num', 'num', 'kts', 'baro', 'num', 'num', 'mb', 'rising', 'slowly', 'rain', 'today', 'num', 'num', 'r', 'h', 'num']",44.0
+92723,"['join', 'linde', 'us', 'team', 'see', 'latest', 'opening', 'ga']",23.0
+74582,"['¡', 'feliz', 'cumplea', 'ñ', 'os', 'num', 'la', 'cumplea', 'ñ', 'era', 'bueno', 'mas', 'menos', 'porque', 'quizo', 'sonre', 'í', 'r', 'para', 'la', '…']",12.0
+173000,"['interested', 'near', 'tx', 'could', 'great', 'fit']",12.0
+114586,"['retail', 'store', 'warehouse', 'associate', '-', 'bobs', 'discount', 'furniture', 'md']",44.0
+15749,"['•', 'day', 'num', 'stark', 'muh', 'little', '•', 'best', 'trip', 'stark', 'yet', 'lolz', 'ricks', 'cafe']",23.0
+187990,"['anniversary', 'lunch', 'himalayan', 'curry', 'amp', 'grill', 'lancaster', 'pa']",44.0
+180815,"['md', 'store', 'seasonal', 'employee', '-', 'building', 'materials', 'lowes', 'stores']",34.0
+204813,"['e', '-', 'cigarette', 'explodes', 'mall', 'kiosk', 'leaving', 'teen', 'blind', 'one', 'eye', 'fox', 'num', 'morning']",43.0
+85343,"['proud', 'piece', 'unpopped', 'popcorn', 'next', 'num', 'years', '-', '…']",44.0
+80550,"['lowes', 'stores', 'store', 'seasonal', 'employee', 'mo']",42.0
+91453,"['wave', 'god', '™', 'coachella', 'valley', 'preserve', '-', 'thousand', 'palms', 'oasis']",21.0
+40084,"['found', 'kung', 'fu', 'panda', 'bench', 'middle', 'central', 'park', 'jungles', '🐼', 'central', 'park']",45.0
+27544,"['ajustar', 'mi', 'dieta', 'por', 'que', 'de', 'plano', 'aguante', 'el', 'ejercicio', 'de', 'hoy', 'toks', 'santa', 'fe', 'df']",12.0
+100973,"['words', 'cant', 'describe', 'graditude', 'towards', '-', 'im', 'one', 'ask', '…']",45.0
+26824,"['num', 'num', '°', 'f', 'please', 'keep', 'thoughts', 'mercy', '…']",54.0
+90158,"['ky', 'travel', 'physical', 'therapist', 'supplemental', 'health', 'care']",33.0
+61288,"['cancun', 'playa', 'delfines', 'el', 'mirador']",13.0
+101128,"['click', 'apply', 'call', 'center', '-', 'customer', 'service', '-']",55.0
+49272,"['spicy', 'guac', 'amp', 'spicy', 'blood', 'orange', 'margs', 'geronimo', 'tequila', 'bar', 'southwest', 'grill', 'fairfield']",45.0
+37381,"['ca', 'staff', 'nurse', 'ii', '-', 'davacute', 'rehab', 'noc', 'num', 'num', '-', 'california', 'pacific', 'medical', 'center']",31.0
+36732,"['mochi', 'date', 'babe', '❤', '️', '❤', '️', '❤', '️', '😘', 'little', 'tokyo', 'japanese', 'village']",21.0
+51007,"['excited', 'announce', 'piece', 'please', 'kind', 'im', 'mess', 'performed', '…']",45.0
+201395,"['im', 'track', 'num', 'chicago', 'il']",53.0
+144993,"['celebrating', 'friend', 'lilly', 'b', '-', 'day', '\n']",44.0
+41489,"['miss', 'creamat', 'miss', 'na', 'din', 'namin', 'ang', 'paumajwow', 'thank', 'angela', '\n']",21.0
+56318,"['relay', 'life', 'num', 'west', 'kendall', 'baptist', 'hospital']",14.0
+29984,"['goool', 'de', 'tony', 'lopez', 'un', 'tronco', 'mete', 'goool', 'num', '-', 'num', 'al', 'num']",12.0
+164468,"['want', 'work', 'mi', 'view', 'latest', 'opening']",53.0
+114997,"['want', 'work', 'tx', 'view', 'latest', 'opening']",12.0
+173875,"['im', 'normandale', 'community', 'college', '-', 'bloomington', 'mn']",52.0
+188911,"['mumford', 'sons', 'donate', 'profits', 'charlotte', 'show', 'local', 'lgbt', 'charity', 'hb', 'num']",34.0
+29298,"['oklahomas', 'ag', 'wasting', 'taxpayer', 'money', 'unprecedented', 'budget', 'crisis', 'vote']",32.0
+56518,"['num', 'years', 'young', 'δ', 'δ', 'δ', 'soldiers', 'amp', 'sailors', 'memorial', 'hall', 'amp', 'museum', 'trust']",44.0
+117242,"['posted', 'photo', 'wizarding', 'world', 'harry', 'potter', 'universal', 'studios', 'hollywood']",21.0
+35205,"['horchata', 'subtle', 'works', 'well', 'p', 'se', 'ñ', 'orita', 'horchata', 'imperial', 'porter', 'num']",42.0
+55187,"['alert', 'store', 'seasonal', 'employee', 'inside', 'outside', 'garden', '|', 'lowes', 'stores', '|', 'ca']",21.0
+163145,"['ok', 'cook', 'sonic', 'drive', '-']",32.0
+181335,"['posted', 'photo', 'producciones', 'los', 'plebes']",12.0
+141017,"['snoop', 'dogg', 'coming', 'imperial', 'valley', 'brawley', 'places', 'lindavaguiar', 'veronicavianey', '…']",21.0
+22593,"['darle', 'el', 'gaucho', 'tradicional', 'le', 'ó', 'n', 'gto']",12.0
+202533,"['vegan', 'terror', '🙊', '🐄', '🍆', '🗽', 'brooklyn', 'greenpoint', 'ny']",45.0
+54613,"['num', 'hr', '\n', 'nothing', '\n', '\n']",22.0
+197933,"['im', 'aeropuerto', 'internacional', 'de', 'la', 'ciudad', 'de', 'é', 'xico', 'mex', '-', 'venustiano', 'carranza', 'df']",12.0
+183124,"['store', 'manager', '-', 'whbm', 'az']",21.0
+78168,"['kid', 'put', 'edible', 'spray', 'paint', 'pizza', 'im', 'fucking', 'done']",54.0
+1805,"['im', 'parque', 'nacional', 'desierto', 'de', 'los', 'leones', '-', 'cuajimalpa', 'df']",12.0
+55035,"['drinking', 'pink', 'boots', 'apricot', 'gose', '—']",34.0
+41379,"['lml', '☀', '️', 'wentzville', 'missouri']",33.0
+154559,"['listo', 'en', 'el', 'peso', 'roberto', 'el', 'perro', 'leon', 'para', 'su', 'pelea', 'el', 'dia', 'num', 'de', 'abril', 'en']",11.0
+189918,"['might', 'great', 'fit', 'medical', 'precision', 'assembly', '-', 'ca']",31.0
+93962,"['drinkable', '-', 'drinking', 'funky', 'gold', 'simcoe', '—']",12.0
+68587,"['great', 'power', 'comes', 'great', 'responsibility', '-', 'amazing', 'spider', '-', 'man', 'cosplay', '\n', '🌟', '\n']",14.0
+138585,"['full', 'house', '💃', '💪', 'ragna', '…']",11.0
+72766,"['num', 'tvs', 'working', 'perfectly', 'free', 'num', 'amp', 'num', 'sony', 'celebration']",14.0
+33941,"['dream', 'car', '😍', '😁', 'bobs', 'big', 'boy']",21.0
+48709,"['might', 'bad', 'place', 'num', 'seconds', 'apartment', 'darlins', 'ipa']",55.0
+57313,"['house', 'platter', 'grilled', 'chicken', 'rice', 'workout', 'meal', '\n', '\n']",45.0
+55444,"['rock', 'n', 'roller', 'coaster', 'aerosmith', 'fun', '🔥', '🎢', '🎸', 'disneys', 'hollywood', 'studios']",14.0
+48555,"['click', 'apply', 'expert', 'services', 'specialist', '-', 'il']",53.0
+74950,"['alert', 'barista', 'us', '|', 'starbucks', '|', 'num', 'first', 'avenue', 'ny']",45.0
+140139,"['money', 'wall', 'march', 'num', '✨', 'laurel', 'canyonmulholland']",21.0
+37586,"['precision', '-', 'num', 'men', 'drumming']",31.0
+121218,"['ri', 'manager', 'trainee', '-', 'retail', 'sales', 'speedway']",55.0
+135006,"['oops', 'caf', 'é', 'para', 'í', 'é', 'xico', 'df']",12.0
+33365,"['fd', 'dance', 'new', 'life', 'church']",31.0
+162309,"['recommend', 'anyone', 'med', 'surgtele', '-', 'ca']",21.0
+178776,"['might', 'great', 'fit', 'palletizer', '-', 'mn']",53.0
+106939,"['ca', 'cnc', 'lathe', 'machinist', 'aerotek']",21.0
+130343,"['im', 'ready', '\n', '\n', 'everything', 'enjoy', 'weekend', '\n', '\n', 'good', 'morning', '\n', '\n']",45.0
+13160,"['sonic', 'drive', '-', 'cook', 'wv']",34.0
+91050,"['kiddos', 'fun', 'animals', 'winston', 'brielle', 'aliyanna', 'brevard', 'zoo', '—']",14.0
+115098,"['reliving', 'u', 'edge', 'days', '🍍', '\n', '\n', 'amp', 'thank', 'always', 'making', 'forget', 'old', 'really', '🍹', '👵', '🏼']",44.0
+89071,"['store', 'director', 'madewell', 'bridgewater', 'commons', '-', 'madewell', 'nj']",45.0
+181062,"['finanzas', 'time', 'banorte', 'san', 'pedro', 'garza', 'garc', 'í', 'nl']",12.0
+189464,"['arkstek', 'clarity', 'reports', 'developer', 'co']",42.0
+191880,"['sure', 'reason', 'smile', 'face', 'recently', '😊', 'ridges']",34.0
+65936,"['riding', 'rain', 'worth', 'views', 'hymasa', 'trail']",31.0
+116590,"['w', 'friends', 'amp', 'claro', 'con', 'el', 'doctor', 'peligro']",12.0
+31023,"['first', 'game', 'season', 'dodger', '…']",21.0
+62655,"['opened', 'graffiti', 'request', 'via', 'iphone', 'num', 'chenery', 'st', 'graffiti', 'removal']",31.0
+24746,"['v', 'charlotte', 'broadcasting', 'live', 'num', 'p', '-', 'num', 'num', 'fridays', 'presents', 'coconut', 'affair', '…']",34.0
+100813,"['plastipak', 'packaging', 'legal', 'assistant', 'mi']",53.0
+94409,"['ever', 'wish', 'reason', 'dress', '💁', '🏼', 'huntington', 'beach', 'california']",21.0
+40369,"['friend', 'made', 'tonight', 'ryerson', 'university']",54.0
+185477,"['win', 'tickets', 'amp', 'april', 'num', 'th', 'w']",45.0
+77685,"['whats', 'happening', 'week', 'april', 'num', '-', 'num']",22.0
+51844,"['mountains', 'tropicalia', 'super', 'golden', 'girls', 'weekend', 'great', 'smokey', 'mountains']",33.0
+63882,"['una', 'chela', 'buen', 'rock', 'para', 'el', 'caloroooo', 'ó', 'n', 'cueva', 'de', 'lobos', 'mexico', 'city', 'mexico']",12.0
+192232,"['interested', 'near', 'md', 'could', 'great', 'fit']",34.0
+59895,"['today', 'remember', 'peter', 'steele', 'negative', 'one', 'biggest', 'influences', '…']",31.0
+197083,"['owner', 'operator', '-', 'landstar', 'mt']",51.0
+179199,"['click', 'apply', 'cad', 'drafter', '-', 'co']",42.0
+83917,"['bayada', 'home', 'health', 'care', 'certified', 'home', 'health', 'aide', 'nj']",45.0
+161284,"['vamosh', 'vamosh', '😘', 'jaja', 'aunque', 'prox', 'sem', 'nos', 'abandonas', '🏢']",12.0
+43089,"['rosenberg', 'officials', 'warn', 'weekend', 'traffic', 'woes']",12.0
+50610,"['interested', 'near', 'az', 'could', 'great', 'fit']",21.0
+132593,"['esa', 'es', 'la', 'cara', 'que', 'pone', 'mi', 'perra', 'cuando', 'le', 'estoy', 'echando', 'la', 'bronca', 'por', 'algo', 'que', 'hizo', '…']",12.0
+166788,"['fresenius', 'medical', 'care', 'full', 'time', 'patient', 'care', 'technician', '-', 'milwaukee', 'wi', 'wi']",53.0
+185262,"['cook', '-', 'ihop', 'acg', 'texas', 'tx']",22.0
+89447,"['im', 'rite', 'aid', 'mission', 'hills', 'ca']",21.0
+157301,"['graffiti', 'tracking', 'num', 'lincoln', 'ave', 'buena', 'park', 'ca', 'num']",21.0
+55538,"['good', 'life', 'mini', 'mansion', 'throw', 'shade', '🐮']",14.0
+2648,"['temp', 'num', 'num', 'f', 'w', 'c', 'num', 'num', 'f', 'wind', '-', '-', '-', 'num', 'num', 'kts', 'baro', 'num', 'num', 'mb', 'rising', 'rain', 'today', 'num', 'num', 'r', 'h', 'num']",44.0
+31129,"['cheers', '☺', '️', 'coffee', 'exchange']",53.0
+40647,"['girls', 'night', '👑', 'miyako', 'sushi', 'group']",24.0
+170089,"['state', 'vermont', 'database', 'administrator', 'vt']",55.0
+106576,"['😭', 'really', 'read', 'acct', 'twice', 'head', 'kept', 'going', 'lol']",22.0
+16774,"['wind', 'num', 'num', 'kmh', 'ene', 'barometer', 'num', 'num', 'hpa', 'falling', 'slowly', 'temperature', 'num', 'num', '°', 'c', 'rain', 'today', 'num', 'num', 'mm', 'humidity', 'num']",54.0
+9603,"['в', 'е', 'р', 'н', 'у', 'т', 'ь', 'с', 'я', 'в', 'la', 'и', 'з', 'san', 'diego', 'э', 'т', 'о', 'к', 'а', 'к', 'п', 'р', 'и', 'е', 'х', 'а', 'т', 'ь', 'в', 'new', 'york', '…']",21.0
+157291,"['alert', 'store', 'counter', 'sales', '|', 'oreilly', 'auto', 'parts', '|', 'ca']",31.0
+92904,"['happy', 'baby', 'big', 'protein', 'shake', 'lol', 'harbor', 'point', '…']",45.0
+188490,"['interested', 'near', 'mi', 'could', 'great', 'fit']",53.0
+89558,"['checked', 'bucket', 'list', 'today', '🦄', 'africa', 'wildlife', 'park']",21.0
+181673,"['im', 'num', '¢', 'store', 'bullhead', 'city', 'az']",21.0
+99406,"['filming', 'gets', 'really', 'complicated', 'sometimes', '😂', 'laguna', 'beach', '…']",21.0
+25399,"['pro', '-', 'anti', '-', 'historic', 'downtown', '-', 'savannahga']",24.0
+81387,"['drinking', 'pierpont', 'ipa', 'anacapa', 'brewing', 'company', '—']",21.0
+48671,"['im', 'port', 'ontario', 'pulaski', 'ny']",55.0
+39667,"['serious', 'wine', 'decisions', '\n', '\n']",53.0
+160115,"['click', 'apply', 'warehouse', 'worker', '-']",14.0
+148868,"['want', 'work', 'sonic', 'drive', '-', 'fl', 'click', 'details']",14.0
+29446,"['finished', 'product', '😊', 'painting', 'twist', '-', 'colorado', 'springs', 'east', 'co']",32.0
+180093,"['want', 'work', 'california', 'view', 'latest', 'opening']",31.0
+35220,"['posted', 'photo', 'num', 'house', 'inn', 'amp', 'tavern']",55.0
+1960,"['im', 'north', 'raleigh', 'raleigh', 'nc']",34.0
+152902,"['💃', '✈', '👀', '☁', 'mccarran', 'international', 'airport']",31.0
+65526,"['want', 'work', 'ca', 'view', 'latest', 'opening']",41.0
+22440,"['want', 'work', 'msc', 'industrial', 'click', 'details']",43.0
+144523,"['thank', 'god', 'salmon', 'bud', 'light', 'rackem', 'pub', '…']",34.0
+92581,"['reminded', 'anew', 'power', 'fgt', 'candy', 'spill', 'viewing', 'everything', 'museum', 'piece', 'ross', 'mouth']",45.0
+52897,"['miner', 'strong', '⛏', 'utep', 'sun', 'bowl', 'stadium']",22.0
+41929,"['bruce', 'wayne', 'meets', 'clark', 'kent', 'love', 'bringing', 'people', 'together', '~', '…']",14.0
+71224,"['see', 'latest', 'wy', 'click', 'apply', 'licensed', 'practical', '-']",52.0
+40595,"['bourbon', 'street', 'calle', 'de', 'borb', 'ó', 'n', 'interestingly', 'two', 'centuries', 'parallel', '…']",13.0
+21552,"['gracias', 'por', 'tu', 'apoyo', 'por', 'hacerme', 'tanto', 'í', 'r', 'que', 'har', 'í', 'sin', 'ustedes', 'felicidades', 'todo', 'sali', 'ó', 'de', 'num']",12.0
+33135,"['top', 'num', 'low', 'pass', 'flybys', 'time']",31.0
+42585,"['yep', 'totally', 'ran', 'gas', 'im', 'impressed', 'w', 'either', 'muse', 'altshuller', 'playoff', 'push']",34.0
+38739,"['num', 'new', 'revises', 'time', 'period', 'unit', 'owners', 'assume', 'control', 'homeowners', 'associations']",45.0
+32081,"['im', 'delegacion', 'coyoacan', 'distrito', 'federal']",12.0
+152734,"['-', 'ramp', 'blocked', 'num', 'nbsb', 'j', 'st']",21.0
+21569,"['hanging', 'fizz', 'matt', 'goss', 'show', 'guy', 'still', 'remembers', 'lauras', 'custom', 'made', 'drink', '…']",31.0
+58224,"['sigma', 'chi', 'sigma', 'kappa', '♡', 'sigma', 'kappa', 'formal']",31.0
+111803,"['im', 'hotel', 'amp', 'casino', 'atlantic', 'city', 'nj']",45.0
+1451,"['join', 'bayada', 'home', 'health', 'care', 'team', 'see', 'latest', 'opening', 'nc']",34.0
+31832,"['missing', 'something', 'bad', 'tonightkind', 'hit', 'like', 'ton', 'bricks']",21.0
+169030,"['disabled', 'vehicle', '-', 'num', 'sb', 'greenlawn', 'ave']",43.0
+46620,"['wherein', 'creepeth', 'fruitful', 'deep', 'without', 'winged', 'beginning', 'open', 'cant', 'green', 'sixth', 'shed']",31.0
+140142,"['release', 'event', 'supporting', '\n', 'pre', 'order', '…']",45.0
+9073,"['movie', 'review', 'disney', '’', '‘', 'jungle', 'book', '’']",22.0
+129600,"['click', 'apply', 'registered', 'nurse', '|', 'rn', '|', 'contract', '-', 'ga']",23.0
+7070,"['recommend', 'anyone', 'assistant', 'store', 'manager', '-', 'nj']",45.0
+149274,"['im', 'kids', 'playground', 'fork', 'union', 'va', 'w']",34.0
+24336,"['sour', '-', 'blues', 'lost', 'game', '-', 'beer', 'good', 'enough', 'sour', 'orange', 'gose']",33.0
+60232,"['back', 'sweetwater', 'brewerys', 'brew', 'cask']",23.0
+25125,"['finally', 'went', 'years', 'nascar', 'hall', 'fame']",34.0
+158756,"['omg', '😂', '😂', '😂', '😂']",34.0
+152177,"['class', '\n', '\n', 'millennium', 'dance', 'complex']",21.0
+161020,"['general', 'laborer', '-', 'packaging', 'corporation', 'america', 'pa']",45.0
+12936,"['wanna', 'stunt', '💕', '👯', 'kimbella', 'num', 'mercer', 'num']",53.0
+185350,"['male', 'make', 'rule', 'creeping', 'winged', 'female', 'deep', 'heaven', 'herb', 'gathering', 'heaven', 'dry']",31.0
+34165,"['treehousebrewco', 'sap', 'canned', 'num', 'num', 'num']",55.0
+36688,"['party', 'amp', 'bullshit', 'w', 'favorite', 'pink', '-', 'haired', 'lady', 'athens', '💞', '💞', '💞', 'ohio', 'university']",44.0
+20011,"['happy', 'hour', 'chilis', 'grill', 'amp', 'bar']",22.0
+170530,"['new', 'york', 'new', 'york', 'im', 'back', 'millenium', 'hilton']",45.0
+10466,"['sonic', 'drive', '-', 'multi', 'unit', 'leadersupervisor', 'tn']",33.0
+53648,"['im', 'palacio', 'de', 'bellas', 'artes', 'cuauht', 'é', 'moc', 'é', 'xico', 'df']",12.0
+148646,"['might', 'great', 'fit', 'busser', 'runner', '-', 'ca']",31.0
+34622,"['sirens', 'jla', 'l', 'á', 'szl', 'ó', 'z', 'bit', 'ó', 'building', 'bard', 'college']",55.0
+122537,"['lampd', 'rn', 'labor', 'amp', 'delivery', 'registered', 'nurse', '-', 'supplemental', 'health', 'care', 'tx']",12.0
+157324,"['im', 'crooked', 'pint', 'ale', 'house', 'apple', 'valley', 'mn']",53.0
+90724,"['back', 'philadelphia', 'marriott', 'downtown', 'philadelphia', 'pa']",45.0
+141895,"['im', 'autozone', 'mission', 'hills', 'ca']",21.0
+91139,"['get', 'new', 'shirts', 'ladiesmy', 'guy', 'geo', 'fast', 'great', 'quality', 'get', '…']",21.0
+158943,"['yard', 'associate', 'benefits', 'num', 'num', 'g', 'num', '-', 'num', 'lumber', 'ny']",54.0
+89276,"['accident', 'hwy', 'num', 'nbsb', 'hwy', 'num']",54.0
+43225,"['show', '|', '|', '🎥', '|', '\n', '\n']",21.0
+70137,"['join', 'us', 'today', 'fiu', 'panther', 'scrimmage', 'match', 'extremely', 'excited', 'presented', '…']",14.0
+57883,"['one', 'best', 'ive', 'known', 'awesome', 'souls', 'never', 'forget', 'im', 'happy', '…']",21.0
+49443,"['long', 'thanks', 'cheese', 'blast', 'canadian', 'cheese', 'awards', 'gala', 'last', '…']",55.0
+33463,"['interested', 'near', 'mn', 'could', 'great', 'fit']",53.0
+128792,"['much', 'us', 'manufacturing', 'initiated', 'big', 'diff', 'producing', 'jobs', 'amp', 'building', 'hotels', 'relying', 'gamblers', 'num', 'profit']",55.0
+2888,"['im', 'aeropuerto', 'internacional', 'de', 'monterrey', 'mty', '-', 'apodaca', 'nl']",12.0
+123411,"['recommend', 'anyone', 'client', 'services', 'analyst', '-', 'pa']",45.0
+111865,"['ga', 'integrated', 'business', 'solutions', 'counter', 'sales', '-', 'site', 'parts', 'store', 'genuine', 'parts', 'napa']",23.0
+196670,"['want', 'work', 'cvs', 'health', 'fl', 'click', 'details']",13.0
+170442,"['tulip', 'time', 'art', 'class', 'crystal', 'beshara']",45.0
+170911,"['kush', 'kloud', 'shawty', 'recording', '🔥', '🔥', '🔥', 'tracks', 'rocking', 'george', '\n']",53.0
+192460,"['might', 'great', 'fit', 'sr', 'account', 'mgr', '-', 'mi']",53.0
+109032,"['favorite', 'health', 'care', 'staffing', 'registered', 'nurse', '|', 'rn', '|', 'icu', 'contract', 'il']",53.0
+195033,"['underwater', 'robot', 'finds', 'num', '-', 'long', 'fake', 'film', 'prop', 'monster', 'loch', 'ness']",54.0
+159941,"['num', 'num', 'f', 'feels', 'num', 'num', 'f', '-', 'humidity', 'num', '-', 'wind', 'num', 'num', 'mph', 'e', '-', 'gust', 'num', 'num', 'mph', '-', 'pressure', 'num', 'num', 'mb']",13.0
+17184,"['im', 'ocean', 'blvd', 'long', 'beach', 'ca']",21.0
+106733,"['nordstrom', 'retail', 'sales', '-', 'mens', 'apparel', 'massachusetts']",55.0
+201010,"['billings', 'clinic', 'claims', 'specialist', 'mt']",51.0
+137597,"['process', 'start', 'finish', 'bottom', 'left', 'senior', 'captain', 'sybil', 'watkins', 'scooping', 'soy', '…']",33.0
+177229,"['md', 'nutrition', 'service', 'associate', 'greater', 'baltimore', 'medical', 'center']",44.0
+74184,"['te', 'amo', 'hermosa', '😘', '😍', 'facultad', 'de', 'derecho', 'unam', 'oficial']",12.0
+88900,"['spring', 'boston', '😍', 'new', 'england', 'aquarium']",55.0
+79706,"['turning', 'cousin', 'graduation', 'aampm', '…']",23.0
+173721,"['celebrating', 'num', 'num', 'much', 'love', 'support', '🍦', '|', 'celebratory', 'creamy', 'vanilla', 'soft', '…']",45.0
+46427,"['jungle', 'book', '🐍', '🦁', '🐻', '🎥']",14.0
+156039,"['interested', 'near', 'ga', 'could', 'great', 'fit']",24.0
+86285,"['happy', 'friday', '🏀', '⛹', '⛹', '⛹', '⛹', 'abb', 'optical', 'group']",31.0
+165009,"['interested', 'near', 'oh', 'could', 'great', 'fit']",43.0
+47080,"['another', 'colorway', 'nike', 'air', 'uptempo', 'hitting', 'shelves']",12.0
+28888,"['adorable', 'juicy', 'couture', 'polkadot', 'handbag', 'sale', 'crush', 'num', 'num']",31.0
+21193,"['click', 'apply', 'registered', 'nurse', '|', 'rn', '|', 'ms', 'contract', '-', 'tx']",12.0
+174182,"['recommend', 'anyone', 'associate', 'director', 'young', 'alumni', 'student', 'programs', '-', 'md']",44.0
+124448,"['incident', 'sb', 'exit', 'num', 'rte', 'num']",45.0
+97068,"['hsn', 'corporate', 'retail', 'planning', 'internship', '-', 'fall', 'num', 'fl']",14.0
+101095,"['parental', 'visit', 'office', 'new', 'york', 'ny']",45.0
+67185,"['grassy', 'delicious', '-', 'drinking', 'annapolis', 'rocks', 'pale', 'ale', 'lake', 'linganore', 'mud', 'flats', '-']",44.0
+32019,"['num', 'num', 'num', '🎪', '🎟', '🎯', '🎈', 'vfw', 'fairgrounds', 'scottsboro', 'ala']",23.0
+111789,"['found', 'new', 'post', '-', 'hike', 'treat', 'fresh', 'squeezed', 'fiesta', 'time', '…']",21.0
+182320,"['alert', 'physical', 'therapist', '-', 'ltac', '|', 'supplemental', 'health', 'care', '|', 'tx']",22.0
+99056,"['ca', 'cts', 'production', 'assembler', 'select', 'staffing']",21.0
+131687,"['want', 'work', 'il', 'view', 'latest', 'opening']",53.0
+122450,"['going', 'videos', 'found', 'beauty', 'num', 'kg', 'squat', 'week', 'bit', 'manchester']",21.0
+197733,"['muerooooo', 'centro', 'de', 'ense', 'ñ', 'anza', 'para', 'extranjeros', 'cepe', '-', 'coyoac', 'á', 'n', 'f']",12.0
+123121,"['thank', 'seed', 'packets', 'always', 'flag']",55.0
+86726,"['flores', 'sobre', 'piedras', '\n', '\n', 'metepec', 'edo', 'mex']",12.0
+33687,"['wonderful', 'surprise', 'de', 'young', 'museum']",31.0
+114732,"['hei', 'hotels', 'amp', 'resorts', 'massage', 'therapist', 'fl']",14.0
+203270,"['alert', 'certified', 'nursing', '|', 'favorite', 'health', 'care', 'staffing', '|']",55.0
+51216,"['yes', 'favorite', 'things', 'champys', 'shoals']",23.0
+14590,"['friday', 'im', 'love', '💕', 'west', 'chester', 'university', 'pa']",45.0
+103663,"['num', 'sleeps', 'personal', 'beauty', 'concierge', 'app', 'launches', 'mapmybeauty', 'gtgtfollow', 'usltlt', '…']",54.0
+87172,"['supplemental', 'health', 'care', 'physical', 'therapist', '-', '-', 'pt', 'co']",42.0
+6796,"['get', 'live', '\n', 'kay', '-', 'fan', 'aura', 'vinyl', 'richys', 'bday', '\n']",42.0
+56775,"['ca', 'technical', 'operations', 'shared', 'laboratory', 'manager', 'cls', 'sutter', 'health', 'system', 'office']",31.0
+66709,"['num', 'new', 'establishes', 'space', 'business', 'franchise', 'personal', 'income', 'tax', 'forms', 'make', 'gift', 'home', 'de']",45.0
+56227,"['thanks', 'wearing', 'birthday', 'sombrero', 'wouldnt', 'love', '…']",33.0
+197657,"['read', 'latest', 'opening', 'evs', 'attendant', '-', 'part', 'time', '-', 'mo']",42.0
+79890,"['cleared', 'incident', 'nb', 'exit', 'num', '-', 'central', 'ave']",45.0
+153707,"['🙈', 'well', 'guess', 'kinda', 'depends', 'ya', 'see', 'things', '\n', '\n', 'model', '👉', '🏾']",44.0
+175785,"['ill', 'pass', 'thx', 'ice', 'cream', 'lighthouse', 'italian', 'ice']",45.0
+59001,"['interested', 'near', 'kentucky', 'could', 'great', 'fit']",33.0
+178948,"['want', 'work', 'plastipak', 'packaging', 'click', 'details']",55.0
+154335,"['sweet', 'corn', 'fresh', 'thyme', 'num', 'num', 'num', 'plus', 'grilled', 'chicken', 'thighs', 'salad', 'deck', 'tonight', 'coppocks', 'casa']",52.0
+176838,"['want', 'work', 'hmshost', 'fl', 'click', 'details']",14.0
+141871,"['dinner', 'time', 'lerma', 'estado', 'de', 'é', 'xico']",12.0
+65883,"['guyssssss', 'richard', 'rodgers', 'theatre', '-', 'hamilton', 'ny', 'new', 'york', 'ny']",45.0
+67210,"['miss', 'maroonampwhite', 'pageant', 'morehouse', 'college']",23.0
+67323,"['going', 'get', 'rakim', 'concert', 'six', 'flags', 'georgia', 'amp', 'hurricane', 'harbor']",23.0
+136592,"['wind', 'num', 'num', 'mph', '-', '-', '-', 'barometer', 'num', 'num', 'steady', 'temperature', 'num', 'num', '°', 'f', 'rain', 'today', 'num', 'num', 'humidity', 'num']",33.0
+15372,"['wrecking', 'eq', 'dj', 'beloved', 'eq', 'nightclub']",23.0
+134823,"['ive', 'thinking', 'differently', 'quarter', 'century', '\uf8ff', 'apple', 'fanboy', 'doesnt', 'plan', '…']",54.0
+117140,"['im', 'singhs', 'roti', 'shop', 'south', 'richmond', 'hill', 'ny']",45.0
+187463,"['makin', 'rain', 'bookstore', 'today', '📖', '📚']",14.0
+117404,"['looking', 'buyer', 'num', 'marsh', 'rose', 'path']",24.0
+19975,"['im', 'el', 'baluarte', 'de', 'oro', 'ciudad', 'de', 'é', 'xico', 'distrito', 'federal']",12.0
+113292,"['mean', '😤', 'indian', 'health', '😜', 'haha', 'helping', 'front', 'today', '😎', 'northern', 'new', 'mexico']",32.0
+12654,"['mmm', 'k', 'iko', 'taquer', 'í', 'guadalajara', 'san', 'nicol', 'á', 'de', 'los', 'garza', 'nle', 'nuevo', 'le', 'ó', 'n', 'w']",12.0
+113341,"['read', 'latest', 'opening', 'carhopskating', 'carhop', 'server', '-', 'ks']",42.0
+197909,"['store', 'warehouse', 'associate', '-', 'hhgregg', 'ga']",23.0
+55162,"['beer', 'steak', 'playoffs', '-', 'drinking', 'four', 'star', 'pils', 'blackhawk', 'park', '—']",53.0
+68072,"['got', 'great', 'review', 'theknot', 'thank']",43.0
+7745,"['★', '★', '★', '☆', '☆', 'num', '-', 'drinking', 'devil', 'within', 'dipa', 'barrel', 'republic', '—']",21.0
+15776,"['im', 'aldos', 'playa', 'del', 'carmen', 'quintana', 'roo']",13.0
+197794,"['three', 'guys', 'became', 'brothers', 'passionate', '…']",53.0
+6042,"['fire', 'residential', '-', 'riverwood', 'pkwy', 'bw', 'humber', 'valley', 'road', 'kings', 'point', 'dr', 'etobicoke', 'num', 'trucks']",54.0
+103629,"['lunch', 'taco', 'grill', 'warrenville', 'il']",53.0
+77123,"['beauty', 'pleasure', 'working', 'last', 'week', 'loved', 'working', 'face', '💁', '🏾', '💄', '💋', '…']",23.0
+154798,"['herd', 'make', 'beer', 'street', 'taste', 'great', '…']",22.0
+108176,"['recommend', 'anyone', 'clinical', 'data', 'specialist', '-', 'simmons', 'comprehensive', 'cancer', 'center', '-', '-']",22.0
+129747,"['nights', 'youre', 'white', 'cloud', 'intern', 'nights', 'youre', '…']",45.0
+81629,"['como', 'cuando', 'en', 'tu', 'escuela', 'gracias', 'la', 'feria', 'de', 'merca', 'recibes', 'una', 'experiencia', 'de', 'realidad', '…']",12.0
+167809,"['work', 'pants', 'home', 'mesquite', 'tx']",22.0
+126521,"['construction', 'directions', 'kirbytown', 'road', 'ny', 'num']",45.0
+170173,"['iphone', 'photography', 'amp', 'editing', '📷', 'justdie', 'columbus', 'ohio']",43.0
+58329,"['pomona', 'valley', 'indoor', 'swap', 'meet']",21.0
+112146,"['read', 'latest', 'opening', 'caregiver', '-', 'home', 'health', 'aide', '-', 'massachusetts']",55.0
+121143,"['read', 'latest', 'opening', 'retail', 'store', 'positions', '-', 'pa']",44.0
+187756,"['want', 'work', 'md', 'view', 'latest', 'opening']",44.0
+48423,"['viernes', 'de', 'quincena', '➕', 'manglar']",12.0
+104514,"['posted', 'photo', 'times', 'square', 'new', 'york', 'city']",45.0
+61126,"['accident', 'left', 'lane', 'blocked', '-', 'num', 'express', 'sb', 'nw', 'num', 'th', 'st']",14.0
+73656,"['barista', 'us', '-', 'starbucks', 'num', 'main', 'street', 'ca']",31.0
+47400,"['م', 'و', 'ق', 'ع', 'أ', 'ح', 'د', 'أ', 'ب', 'ر', 'ا', 'ج', 'ا', 'ل', 'ت', 'ج', 'ا', 'ر', 'ه', 'ا', 'ل', 'ع', 'ا', 'ل', 'م', 'ي', 'ه', 'ا', 'ل', 'ذ', 'ي', 'أ', 'ُ', 'س', 'ق', 'ط', 'ف', 'ي', 'ا', 'ح', 'د', 'ا', 'ث', 'num', 'num', 'num', 'num', 'national', 'memorial', 'new', 'york', 'city']",45.0
+98749,"['see', 'latest', 'click', 'apply', 'operations', 'manager', '-']",33.0
+53916,"['squeezed', 'lil', 'family', 'time', 'chick', 'bribe', 'food', '😏', 'lapinata', '…']",23.0
+56437,"['yep', 'im', 'geek', 'doesnt', 'get', 'old', 'see', 'something', 'like', 'youve', 'worked', 'hard', '…']",14.0
+186914,"['sales', 'leader', '-', 'wrentham', 'outlet', '-', 'hanna', 'andersson']",55.0
+3097,"['photo', 'mud', '-', 'splattered', 'mineramp', 'face']",31.0
+180960,"['watch', 'subscribe', 'win', 'ride', '\n', 'insight', 'coffee', 'roasters']",31.0
+79475,"['giveaway', 'weekend', 'pair', 'tickets', 'doesnt', 'love', 'floating', 'river', '…']",12.0
+168274,"['nc', 'support', 'driver', 'class', '-', 'full', 'time', 'ryder']",34.0
+195626,"['‘', 'praise', 'god', 'alone', '\n', 'lord', 'worlds', '\n', '…']",21.0
+7955,"['im', 'holiday', 'inn', 'express', 'waldorf', '-', 'waldorf', 'md']",34.0
+58444,"['join', 'dressbarn', 'team', 'see', 'latest', 'opening', 'ca']",31.0
+195472,"['la', 'neta', 'si', 'est', 'á', 'ching', 'ó', 'n', 'polideportivo', 'soluciones']",12.0
+138352,"['el', 'negro', 'jiggiri', 'gozando', 'con', 'mi', 'negrita', 'la', 'dura', 'laideaproductions', 'gracias', 'por', 'compartir', 'conmigo', '…']",14.0
+111761,"['made', 'new', 'friend', '🙆', '🏻', 'venice', 'beach']",21.0
+80133,"['outside', 'sales', 'rep', 'ii', '-', 'wm', 'mi']",53.0
+78569,"['let', '’', 'go', 'ahead', 'announce', 'short', 'rain', 'delay', 'make', 'specials', 'quixotes', '…']",23.0
+75936,"['want', 'work', 'robert', 'half', 'technology', 'ga', 'click', 'details']",23.0
+30565,"['🤘', '😎', '🤘', '\n', '\n', 'bamfnation', '\n', '・', '・', '・', '\n', 'bitch', 'bad', '\n', 'tag', 'owner', '\n', '✔', '️', 'follow', '…']",21.0
+80709,"['ca', 'part', '-', 'time', 'opportunities', 'mcdonalds', 'corporation']",21.0
+145992,"['registro', 'feito', 'treino', 'para', 'star', 'game', 'de', 'num', 'em', 'orlando', 'kobe', 'bryant', 'se', 'despediu', 'das', '…']",14.0
+158023,"['read', 'latest', 'opening', 'general', 'laborassistant', '-', 'az']",21.0
+48483,"['sight', 'sounds', '🏎', '💨', '🏎', '🏎', 'long', 'beach', 'grand', 'prix']",21.0
+43232,"['birthday', 'boy', 'strikin', 'em', '⚾', '️', '🔥']",34.0
+118190,"['full', 'service', 'dont', 'get', 'cut', 'rest', 'get', 'cut', 'best']",45.0
+93771,"['new', 'york', 'pricingfinancial', 'analyst', 'rr', 'donnelley']",45.0
+128361,"['lets', 'start', 'friday', 'rightwith', 'caffeine', 'starbucks', 'denver', 'co']",42.0
+142508,"['take', 'time', 'appreciate', 'journey', '✊', 'growing', 'pains', 'make', 'sweet', 'end', '…']",21.0
+75328,"['tea', 'time', 'local', 'goods', 'chicago']",53.0
+46539,"['yaaaaas', 'works', 'madison', 'square', 'garden']",45.0
+60171,"['day', 'one', '-', 'ka', '-', 'pau', '-', 'playoff', 'hockey', 'including', 'ducks', 'pub', 'grub', '…']",21.0
+109361,"['belle', 'jack', 'johnson', 'thumb', 'coast', 'brewing', 'co', 'port', 'huron']",54.0
+189479,"['click', 'apply', 'sat', 'act', 'classroom', 'instructor', 'tutor', '-', 'washington', 'dc', '-', 'dc']",44.0
+10209,"['mood', 'santa', 'fe', 'springs', 'california']",21.0
+33653,"['first', 'game', 'tonight', 'ubs', 'flag', 'football', 'hillside', 'community', 'church']",21.0
+75653,"['recommend', 'anyone', 'hair', 'stylist', '-', 'il']",53.0
+119392,"['union', 'thursday', 'iowa', 'got', 'best', 'us', '😅', 'union', 'bar']",53.0
+112344,"['uc', 'creeeeewwwww', '🐾', '🐾', '🐾', 'university', 'cincinnati']",43.0
+193350,"['recommend', 'anyone', 'health', 'care', 'customer', 'service', 'representative', '-', 'ne']",42.0
+114177,"['😎', 'los', 'burros', 'de', 'andalasia', 'quer', 'é', 'taro']",12.0
+118626,"['inspirarnos', 'tanto', 'foro', 'num', 'televisa', 'san', 'angel']",12.0
+118186,"['num', 'num', 'num', '\n', '\n', '\n', '\n', 'happy', '\n', '\n', 'join', 'today', 'num', 'num', '…']",21.0
+113290,"['poco', 'poco', 'mejorando', 'te', 'desesperes', 'tijuana', 'mexico']",21.0
+138437,"['workout', 'bestiewife', '👭', '👭', '👭', 'got', 'keep', 'motivated', 'briancervates', 'num', '…']",21.0
+196486,"['might', 'great', 'fit', 'clinical', 'supervisor', '-', 'kindred', 'home', '-', 'indiana']",43.0
+112643,"['zoeys', 'num', 'st', 'time', 'beach', 'mission', 'beach', '-', 'belmont', 'park']",21.0
+43860,"['ola', 'ke', 'ase', 'todav', 'í', 'en', 'la', 'oficina', 'ke', 'ase', 'dgeci', 'mexico', 'city']",12.0
+7026,"['also', 'spy', 'echoplex', 'los', 'angeles']",31.0
+80811,"['want', 'work', 'wis', 'international', 'tx', 'click', 'details']",12.0
+121211,"['read', 'latest', 'opening', 'b', 'num', 'b', 'sales', 'representative', 'kansas', 'city', 'mo', '-']",42.0
+144894,"['salmon', 'sushi', 'pizza', '🍣', '🍙', '🍕', 'yo', 'use', 'tofoodies', 'promo', 'code', 'num', 'first', 'delivery', '…']",54.0
+2408,"['pirates', 'home', 'run', 'num', 'k', 'pnc', 'park']",44.0
+174025,"['two', 'years', 'ago', 'un', 'deemed', 'dangerous', 'terrorist', 'group', 'today', 'boko', 'haram', '…']",34.0
+79241,"['num', 'num', 'rhhs', 'athletic', 'physicals']",22.0
+27875,"['smoothie', 'de', 'fresa', 'netflix', 'depa', 'de', 'barbie']",12.0
