@@ -4,6 +4,16 @@ import json
 import pandas as pd
 import numpy as np
 
+# Imports para algoritimos de vectorização
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+import gensim
+from gensim.corpora import Dictionary
+from gensim.models.ldamulticore import LdaMulticore
+import pyLDAvis.gensim
+
+import scipy
+
 class DataBase():
     def __init__(self, path, text_column, tags_columns):
         """
@@ -32,8 +42,12 @@ class DataBase():
         self.df.to_csv(self.storage_path)
 
 
-    def text(self):
-        return self.df[self.text_column]
+    def export(self, target="Text"):
+        with open('storage/texts.txt', 'w', encoding='utf8') as file:
+
+            texts = self.df[self.text_column]            
+            for sentence in texts:
+                file.write(" ".join([tok for tok in sentence]) + "\n")
 
 
     def create_index(self, per_tag=True, save=True):
@@ -98,5 +112,56 @@ class DataBase():
         return sorted(scores, key=scores.get, reverse=True)[:get]
 
 
+    def generate_tags(self, method="tf-idf"):
 
+        texts = self.df[self.text_column]
 
+        if method == "tf-idf":
+            model = TfidfVectorizer(min_df=5, 
+                                    max_df=0.9, 
+                                    max_features=5000, 
+                                    sublinear_tf=False, 
+                                    analyzer=lambda x: x)
+
+            vectors = model.fit_transform(texts)
+
+        if method == "word2vec" or  method == "cbow":
+            model = gensim.models.Word2Vec(corpus_file='storage/texts.txt',
+                                           window=5,
+                                           size=200,
+                                           seed=42,
+                                           iter=100,
+                                           workers=4)
+
+        if method == "cbow":
+            vectors = []
+            for text in texts:
+                vec = np.zeros(model.wv.vector_size)
+                for word in text:
+                    if word in model:
+                        vec += model.wv.get_vector(word)
+                        
+                norm = np.linalg.norm(vec)
+                if norm > np.finfo(float).eps:
+                    vec /= norm
+                vectors.append(vec)
+
+            vector = scipy.sparse.csr.csr_matrix(vectors)
+
+        if method == "doc2vec":
+
+            doc2vec = gensim.models.Doc2Vec(
+                            corpus_file='storage/texts.txt',
+                            vector_size=200,
+                            window=5,
+                            min_count=5,
+                            workers=12,
+                            epochs=100)
+
+            vector = scipy.sparse.csr.csr_matrix(doc2vec.docvecs.vectors_docs)
+
+        return vector
+
+    def generate_embedings(self, n_tags=10):
+
+        return None 

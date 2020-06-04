@@ -110,14 +110,14 @@ class Preprocess():
 
         return new_data
 
-    def preprocess_tags(self, tags_labels):
+    def preprocess_tags(self):
         """
         Abre e processa todas as tags em um novo dataframe
         """  
         done = []
         tags_series = self.tags_series.copy()
         self.tags_series = pd.DataFrame(index=tags_series.index)
-        for tag in tags_labels:
+        for tag in database.tags_columns:
             if tag in self.tags_types.keys() and tag not in done:
                 
                 done.append(tag)
@@ -151,7 +151,7 @@ class Preprocess():
         self.tags_series  = database.df[database.tags_columns]
 
         self.preprocess_text()
-        self.preprocess_tags(database.tags_columns)
+        self.preprocess_tags()
 
         df = pd.concat([self.text_series, self.tags_series], axis=1)
         database.df = df[df[database.text_column].str.len()>4]

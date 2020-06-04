@@ -18,3 +18,6 @@ preprocess.preprocess(database)
 database.save() 
 
 database.create_index()
+
+#teste
+#tt.Generate().run(database = database)
