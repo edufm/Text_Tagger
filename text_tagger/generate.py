@@ -1,19 +1,21 @@
-#from tensorflow.keras.layers import Embedding, LSTM, Dense, Bidirectional
-#from tensorflow.keras.models import Sequential
-#from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.layers import Embedding, LSTM, Dense, Bidirectional
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.models import Sequential
+
 from collections import defaultdict
+
 import numpy as np
 
-#from nltk.corpus import reuters
-class generate:
+class Generate():
     def __init__(self):
         pass
 
-    def get_random_seed(docs, seed_size):
+    def get_random_seed(self, docs, seed_size=100):
         """
         gera um texto com carracteristicas de sua classe.
         """
-        pass
+        return "Abra Cadabra"
 
     def create_model(self, total_words, max_sequence_len):
         """
@@ -39,7 +41,7 @@ class generate:
         self.model.fit(X_train, y_train, epochs=50, batch_size=4096, 
                     validation_data=(X_valid, y_valid))
 
-    def sequence_generate(docs):
+    def sequence_generate(self, docs):
         """
         Args: 
             docs:
@@ -79,7 +81,7 @@ class generate:
 
         return seed_text
 
-    def run(self, tag = None, database, seed_text = None):
+    def run(self, database, tag=None, seed_text=None):
         """
         Start the generate component
         Args: 
@@ -87,11 +89,11 @@ class generate:
             repo:
             seed_text:
         """
-        tag = set(database[""])
+        docs = database.df[database.df[database.tags_columns[0]]== tag]
+        
         if(seed_text is None):
-            seed_text = get_random_seed()
-
-        docs = database[database[database.tags_columns] == tag]
+            seed_text = self.get_random_seed(docs)
+        
         sequence = self.sequence_generate(docs)
         
         #self.create_model()

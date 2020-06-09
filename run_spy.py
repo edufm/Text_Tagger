@@ -15,9 +15,12 @@ database.open()
 preprocess = tt.Preprocess(tags_types, filter_flags)
 preprocess.preprocess(database)
 
-database.save() 
+database.export(target="text")
+database.export(target="csv")
 
 database.create_index()
+database.generate_embedings(method="tf-idf")
 
-#teste
-#tt.Generate().run(database = database)
+database.save() 
+
+#tt.Generate().run(database, tag=12.0)

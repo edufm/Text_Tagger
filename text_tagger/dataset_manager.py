@@ -1,5 +1,6 @@
 from collections import defaultdict
 import json
+import pickle
 
 import pandas as pd
 import numpy as np
@@ -12,8 +13,11 @@ from gensim.corpora import Dictionary
 from gensim.models.ldamulticore import LdaMulticore
 import pyLDAvis.gensim
 
+# Import outros módulos
+from sklearn.cluster import KMeans
 import scipy
 
+# Inicia a classe
 class DataBase():
     def __init__(self, path, text_column, tags_columns):
         """
@@ -24,10 +28,13 @@ class DataBase():
         tags_labels : Colunas do dataframe com as tags numericas
         """
         self.path = path
-        self.storage_path = "./storage/" + path.split("/")[-1]
+        self.storage_path = "./storage/" + path.split("/")[-1].split(".")[0]
 
         self.text_column = text_column
         self.tags_columns = tags_columns
+        
+        self.doc_embedings = {}
+        self.word_embedings = {}
 
 
     def open(self):
@@ -35,20 +42,25 @@ class DataBase():
 
 
     def load(self):
-        self.df = pd.read_csv(self.storage_path, index_col=0)
+        with open(self.storage_path + ".pkl", "rb") as file:
+            self = pickle.load(file)
 
 
     def save(self):
-        self.df.to_csv(self.storage_path)
+        with open(self.storage_path + ".pkl", "wb") as file:
+            pickle.dump(self, file)
 
 
-    def export(self, target="Text"):
-        with open('storage/texts.txt', 'w', encoding='utf8') as file:
+    def export(self, target="text"):
+        
+        if target == "text":
+            with open('storage/texts.txt', 'w', encoding='utf8') as file:    
+                texts = self.df[self.text_column]            
+                for sentence in texts:
+                    file.write(" ".join([tok for tok in sentence]) + "\n")
 
-            texts = self.df[self.text_column]            
-            for sentence in texts:
-                file.write(" ".join([tok for tok in sentence]) + "\n")
-
+        if target == "csv":
+            self.df.to_csv(self.storage_path + ".csv")
 
     def create_index(self, per_tag=True, save=True):
         '''Indexa os documentos de um corpus.
@@ -112,56 +124,74 @@ class DataBase():
         return sorted(scores, key=scores.get, reverse=True)[:get]
 
 
-    def generate_tags(self, method="tf-idf"):
+    def generate_embedings(self, method="tf-idf"):
 
         texts = self.df[self.text_column]
 
-        if method == "tf-idf":
-            model = TfidfVectorizer(min_df=5, 
-                                    max_df=0.9, 
-                                    max_features=5000, 
-                                    sublinear_tf=False, 
-                                    analyzer=lambda x: x)
+        if method in self.doc_embedings:
+            vectors = self.doc_embedings[method]
+        
+        elif method in self.word_embedings:
+            vectors = self.word_embedings[method]
 
-            vectors = model.fit_transform(texts)
+        else:
+            if method == "tf-idf":
+                model = TfidfVectorizer(min_df=5, 
+                                        max_df=0.9, 
+                                        max_features=5000, 
+                                        sublinear_tf=False, 
+                                        analyzer=lambda x: x)
+    
+                vectors = model.fit_transform(texts)
+                self.doc_embedings[method] = vectors
+                
+            if method == "word2vec" or  method == "cbow":
+                model = gensim.models.Word2Vec(corpus_file='storage/texts.txt',
+                                               window=5,
+                                               size=200,
+                                               seed=42,
+                                               iter=100,
+                                               workers=4)
+                
+                vectors = model.wv
+                self.word_embedings[method] = vectors
+    
+            if method == "cbow":
+                vectors = []
+                for text in texts:
+                    vec = np.zeros(model.wv.vector_size)
+                    for word in text:
+                        if word in model:
+                            vec += model.wv.get_vector(word)
+                            
+                    norm = np.linalg.norm(vec)
+                    if norm > np.finfo(float).eps:
+                        vec /= norm
+                    vectors.append(vec)
+    
+                vectors = scipy.sparse.csr.csr_matrix(vectors)
+                self.doc_embedings[method] = vectors
+                
+            if method == "doc2vec":
+    
+                doc2vec = gensim.models.Doc2Vec(
+                                corpus_file='storage/texts.txt',
+                                vector_size=200,
+                                window=5,
+                                min_count=5,
+                                workers=12,
+                                epochs=100)
+    
+                vectors = scipy.sparse.csr.csr_matrix(doc2vec.docvecs.vectors_docs)
+                self.doc_embedings[method] = vectors
+            
+        return vectors
 
-        if method == "word2vec" or  method == "cbow":
-            model = gensim.models.Word2Vec(corpus_file='storage/texts.txt',
-                                           window=5,
-                                           size=200,
-                                           seed=42,
-                                           iter=100,
-                                           workers=4)
+    def generate_tags(self, method="tf_idf", n_tags=10, embedings=None):
 
-        if method == "cbow":
-            vectors = []
-            for text in texts:
-                vec = np.zeros(model.wv.vector_size)
-                for word in text:
-                    if word in model:
-                        vec += model.wv.get_vector(word)
-                        
-                norm = np.linalg.norm(vec)
-                if norm > np.finfo(float).eps:
-                    vec /= norm
-                vectors.append(vec)
-
-            vector = scipy.sparse.csr.csr_matrix(vectors)
-
-        if method == "doc2vec":
-
-            doc2vec = gensim.models.Doc2Vec(
-                            corpus_file='storage/texts.txt',
-                            vector_size=200,
-                            window=5,
-                            min_count=5,
-                            workers=12,
-                            epochs=100)
-
-            vector = scipy.sparse.csr.csr_matrix(doc2vec.docvecs.vectors_docs)
-
-        return vector
-
-    def generate_embedings(self, n_tags=10):
+        if embedings == None:
+            vectors = self.generate_embedings(method)        
+            
+        
 
         return None 

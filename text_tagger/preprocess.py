@@ -117,7 +117,7 @@ class Preprocess():
         done = []
         tags_series = self.tags_series.copy()
         self.tags_series = pd.DataFrame(index=tags_series.index)
-        for tag in database.tags_columns:
+        for tag in tags_series.columns:
             if tag in self.tags_types.keys() and tag not in done:
                 
                 done.append(tag)
