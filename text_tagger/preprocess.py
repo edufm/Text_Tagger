@@ -114,30 +114,21 @@ class Preprocess():
         """
         Abre e processa todas as tags em um novo dataframe
         """  
-        done = []
         tags_series = self.tags_series.copy()
         self.tags_series = pd.DataFrame(index=tags_series.index)
-        for tag in tags_series.columns:
-            if tag in self.tags_types.keys() and tag not in done:
-                
-                done.append(tag)
-                tag_type = self.tags_types[tag]
-                if isinstance(tag_type, tuple):
-                    if tag_type[0].split("-")[0] == "numeric":
-                        method = tag_type[0].split("-")[1]
-                        if len(tag_type) == 3:
-                            self.tags_series[tag] = self.numeric_process(tags_series[[tag]+tag_type[2]], method=method, n=tag_type[1])
-                            for other_tag in tag_type[2]:
-                                done.append(other_tag)
-                        else:
-                            self.tags_series[tag] = self.numeric_process(tags_series[[tag]], method=method, n=tag_type[1])
+        for tag_name, tag_type in self.tags_types.items():
+            if tag_type[0].split("-")[0] == "numeric":
+                method = tag_type[0].split("-")[1]
+                self.tags_series[tag_name] = self.numeric_process(tags_series[tag_type[2]], method=method, n=tag_type[1])
 
-                elif tag_type == "absolute":
-                    self.tags_series[tag] = tags_series[tag]
-
+            elif tag_type == "absolute":
+                if len(tag_type[-1]) > 1:
+                    raise ValueError("Absolute tags cant have more then one subtag")
                 else:
-                    raise ValueError(f"tag_type {self.tags_types[tag]} does no exist")
+                    self.tags_series[tag_name] = tags_series[tag_type[-1]]
 
+            else:
+                raise ValueError(f"tag_type {tag_type[0]} does no exist")
 
     def preprocess(self, database):
         """

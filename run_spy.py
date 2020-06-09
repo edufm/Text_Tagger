@@ -4,7 +4,7 @@ file = "./datasets_samples/Tweets_USA.csv"
 text_column = "Tweet content"
 tags_columns = ["Latitude", "Longitude"]
 
-tags_types = {"Latitude":("numeric-simple", 200, ["Longitude"])}
+tags_types = {"Lat_Long":("numeric-simple", 200, ["Longitude", "Latitude"])}
 filter_flags = {"digits"   : True, "stopwords": True, "text_only": False,
                 "simbols"  : True, "punct"    : True, "links"    : True,
                 "refs"     : True}
@@ -18,8 +18,10 @@ preprocess.preprocess(database)
 database.export(target="text")
 database.export(target="csv")
 
-database.create_index()
 database.generate_embedings(method="tf-idf")
+database.generate_tags()
+
+database.create_index()
 
 database.save() 
 
