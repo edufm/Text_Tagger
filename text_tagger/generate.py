@@ -48,7 +48,7 @@ class Generate():
         """
         sequences = []
         for line in docs:
-            token_list = tokenizer.texts_to_sequences([line])[0]
+            token_list = Tokenizer.texts_to_sequences([line])[0]
             for i in range(2, len(token_list)):
                 n_gram_sequence = token_list[:i+1]
                 sequences.append(n_gram_sequence)
@@ -91,11 +91,21 @@ class Generate():
         """
         docs = database.df[database.df[database.tags_columns[0]]== tag]
         
+        print(list(docs[database.text_column][0:5]))
+
         if(seed_text is None):
             seed_text = self.get_random_seed(docs)
+
+
+        docs = docs[database.text_column]
+        print(docs)
         
-        sequence = self.sequence_generate(docs)
+        tokenizer = Tokenizer()
+        tokenizer.fit_on_texts(docs)
+
+#        sequence = self.sequence_generate(docs)
         
+
         #self.create_model()
         #self.train_model()
         #generate_lerolero(seed_text)
