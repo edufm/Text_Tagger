@@ -89,14 +89,18 @@ class Generate():
             repo:
             seed_text:
         """
+    
+        # Filtra os dados rederentes a tag escolhida
         docs = database.df[database.df[database.tags_columns[0]]== tag]
-        
-        print(list(docs[database.text_column][0:5]))
+
+        #lista de documentos do texto original
+        docs = list(docs[f"orig_{database.text_column}"])
+
+        print(docs[0:5])
 
         if(seed_text is None):
             seed_text = self.get_random_seed(docs)
-
-
+            
         docs = docs[database.text_column]
         print(docs)
         
