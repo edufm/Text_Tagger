@@ -138,12 +138,13 @@ class Preprocess():
         """
         # Abre o arquivo de dados
         
+        self.text        = (database.df[database.text_column]).rename(colums={database.text_column: 'X'})
         self.text_series = database.df[database.text_column]
-        self.tags_series  = database.df[database.tags_columns]
+        self.tags_series = database.df[database.tags_columns]
 
         self.preprocess_text()
         self.preprocess_tags()
 
-        df = pd.concat([self.text_series, self.tags_series], axis=1)
+        df = pd.concat([self.text, self.text_series, self.tags_series], axis=1)
         database.df = df[df[database.text_column].str.len()>4]
         database.tags_columns = list(self.tags_types.keys())
