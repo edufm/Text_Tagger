@@ -27,4 +27,4 @@ database.create_index()
 
 database.save() 
 
-#tt.Generate().run(database, tag=12.0)
+tt.Generate(max_sequence_len = 16).run(database, tag= 2.0)

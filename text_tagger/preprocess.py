@@ -51,35 +51,36 @@ class Preprocess():
             text = re.sub(r"http\S+", "", text, flags=re.DOTALL|re.MULTILINE)
 
         if(self.filter_flags["simbols"]):
-            text = re.sub(r"[@$%^&*#/]+", "", text, flags=re.DOTALL|re.MULTILINE)
+            text = re.sub(r"[$%^&*/]+", "", text, flags=re.DOTALL|re.MULTILINE)
         
         if(self.filter_flags["punct"]):
-            text = re.sub(r"[!?\[\]\{\}\(\);:.,'\-\+\_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
+            text = re.sub(r"[!?\[\]\{\}\(\);:.,...'\-\+\_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
+
 
         # adiciona espaço antes de emojis e aracteres especiais
         text = re.sub(r"([^a-zA-Z0-9 ])", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
         text = re.sub(r"(num)", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
 
-        # tokeniza o texto
-        text = text.lower().split(" ")
-        
-        # Remove stopwords
-        to_remove = [""]
         if(self.filter_flags["stopwords"]):
-            for language in self.languages:
+            # tokeniza o texto
+            text = text.lower().split(" ")
+            
+            # Remove stopwords
+            to_remove = [""]
+            if(self.filter_flags["stopwords"]):
+                for language in self.languages:
                 to_remove += stopwords.words(language)
-        
-        for word in  to_remove:
-            while word in text:
-                text.remove(word)
-        
+                
+            for word in  to_remove:
+                while word in text:
+                    text.remove(word)
+            
         # Fazer Stemming
         return text
 
 
-    def preprocess_text(self):
-
-        self.text_series = self.text_series.apply(self.filter)      
+    def preprocess_text(self, text_series):
+        return text_series.apply(self.filter) 
     
 
     def numeric_process(self, data, method, n):
@@ -141,15 +142,15 @@ class Preprocess():
             file: nome do arquivo de entrada
         """
         # Abre o arquivo de dados
+        print(database.df.columns)
         
         original_text = database.df[database.text_column].copy()
         original_text.name = f"orig_{database.text_column}"
-        
-        
+
         self.text_series = database.df[database.text_column]
         self.tags_series = database.df[database.tags_columns]
 
-        self.preprocess_text()
+        self.text_series = self.preprocess_text(self.text_series) 
         self.preprocess_tags()
 
         df = pd.concat([original_text, self.text_series, self.tags_series], axis=1)
