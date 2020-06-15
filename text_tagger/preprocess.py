@@ -48,34 +48,34 @@ class Preprocess():
             text = re.sub(r"http\S+", "", text, flags=re.DOTALL|re.MULTILINE)
 
         if(self.filter_flags["simbols"]):
-            text = re.sub(r"[@$%^&*#/]+", "", text, flags=re.DOTALL|re.MULTILINE)
+            text = re.sub(r"[$%^&*/]+", "", text, flags=re.DOTALL|re.MULTILINE)
         
         if(self.filter_flags["punct"]):
-            text = re.sub(r"[!?\[\]\{\}\(\);:.,'-+_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
+            text = re.sub(r"[!?\[\]\{\}\(\);:.,...'\-\+\_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
 
         # adiciona espaço antes de emojis e aracteres especiais
         text = re.sub(r"([^a-zA-Z0-9 ])", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
         text = re.sub(r"(num)", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
 
-        # tokeniza o texto
-        text = text.lower().split(" ")
-        
-        # Remove stopwords
-        to_remove = [""]
         if(self.filter_flags["stopwords"]):
-            to_remove += stopwords.words('english')
-        
-        for word in  to_remove:
-            while word in text:
-                text.remove(word)
-        
+            # tokeniza o texto
+            text = text.lower().split(" ")
+            
+            # Remove stopwords
+            to_remove = [""]
+            if(self.filter_flags["stopwords"]):
+                to_remove += stopwords.words('english')
+            
+            for word in  to_remove:
+                while word in text:
+                    text.remove(word)
+            
         # Fazer Stemming
         return text
 
 
-    def preprocess_text(self):
-
-        self.text_series = self.text_series.apply(self.filter)      
+    def preprocess_text(self, text_series):
+        return text_series.apply(self.filter) 
     
 
     def numeric_process(self, data, method, n):
@@ -114,30 +114,21 @@ class Preprocess():
         """
         Abre e processa todas as tags em um novo dataframe
         """  
-        done = []
         tags_series = self.tags_series.copy()
         self.tags_series = pd.DataFrame(index=tags_series.index)
-        for tag in tags_series.columns:
-            if tag in self.tags_types.keys() and tag not in done:
-                
-                done.append(tag)
-                tag_type = self.tags_types[tag]
-                if isinstance(tag_type, tuple):
-                    if tag_type[0].split("-")[0] == "numeric":
-                        method = tag_type[0].split("-")[1]
-                        if len(tag_type) == 3:
-                            self.tags_series[tag] = self.numeric_process(tags_series[[tag]+tag_type[2]], method=method, n=tag_type[1])
-                            for other_tag in tag_type[2]:
-                                done.append(other_tag)
-                        else:
-                            self.tags_series[tag] = self.numeric_process(tags_series[[tag]], method=method, n=tag_type[1])
+        for tag_name, tag_type in self.tags_types.items():
+            if tag_type[0].split("-")[0] == "numeric":
+                method = tag_type[0].split("-")[1]
+                self.tags_series[tag_name] = self.numeric_process(tags_series[tag_type[2]], method=method, n=tag_type[1])
 
-                elif tag_type == "absolute":
-                    self.tags_series[tag] = tags_series[tag]
-
+            elif tag_type == "absolute":
+                if len(tag_type[-1]) > 1:
+                    raise ValueError("Absolute tags cant have more then one subtag")
                 else:
-                    raise ValueError(f"tag_type {self.tags_types[tag]} does no exist")
+                    self.tags_series[tag_name] = tags_series[tag_type[-1]]
 
+            else:
+                raise ValueError(f"tag_type {tag_type[0]} does no exist")
 
     def preprocess(self, database):
         """
@@ -146,14 +137,19 @@ class Preprocess():
             file: nome do arquivo de entrada
         """
         # Abre o arquivo de dados
+        print(database.df.columns)
+
         
-        self.text        = (database.df[database.text_column]).rename(colums={database.text_column: 'X'})
+        original_text = database.df[database.text_column].copy()
+        original_text.name = f"orig_{database.text_column}"
+        
+        
         self.text_series = database.df[database.text_column]
         self.tags_series = database.df[database.tags_columns]
 
-        self.preprocess_text()
+        self.text_series = self.preprocess_text(self.text_series) 
         self.preprocess_tags()
 
-        df = pd.concat([self.text, self.text_series, self.tags_series], axis=1)
+        df = pd.concat([original_text, self.text_series, self.tags_series], axis=1)
         database.df = df[df[database.text_column].str.len()>4]
         database.tags_columns = list(self.tags_types.keys())
