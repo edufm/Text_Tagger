@@ -17,16 +17,19 @@ class Preprocess():
                                  "simbols"  : True,
                                  "punct"    : True,
                                  "links"    : True,
-                                 "refs"     : True}):
+                                 "refs"     : True},
+                 languages=['english']):
         """
         Args:
             filter_flags: Dicionario de configuração para o processamento de texto
-            tags_types  : dicionario com nome da coluna: tipo (tupla ou string) 
+            tags_types  : Dicionario com nome da coluna: tipo (tupla ou string) 
                         ["absolute", ("numeric-simple", # de divs, [tags]), ("numeric-cluster", # de clusters, [tags])]
                         para tags numeric2d usar (nome da coluna: tipo-numero_unico")
+            language: Lista de Linguagens que está presente nos documentos (para as stopwrods)
         """
         self.tags_types     = tags_types
         self.filter_flags   = filter_flags
+        self.languages = languages
 
 
     def filter(self, text):
@@ -53,6 +56,7 @@ class Preprocess():
         if(self.filter_flags["punct"]):
             text = re.sub(r"[!?\[\]\{\}\(\);:.,...'\-\+\_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
 
+
         # adiciona espaço antes de emojis e aracteres especiais
         text = re.sub(r"([^a-zA-Z0-9 ])", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
         text = re.sub(r"(num)", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
@@ -64,8 +68,9 @@ class Preprocess():
             # Remove stopwords
             to_remove = [""]
             if(self.filter_flags["stopwords"]):
-                to_remove += stopwords.words('english')
-            
+                for language in self.languages:
+                to_remove += stopwords.words(language)
+                
             for word in  to_remove:
                 while word in text:
                     text.remove(word)
@@ -138,12 +143,10 @@ class Preprocess():
         """
         # Abre o arquivo de dados
         print(database.df.columns)
-
         
         original_text = database.df[database.text_column].copy()
         original_text.name = f"orig_{database.text_column}"
-        
-        
+
         self.text_series = database.df[database.text_column]
         self.tags_series = database.df[database.tags_columns]
 

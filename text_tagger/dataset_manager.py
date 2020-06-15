@@ -50,7 +50,7 @@ class DataBase():
         with open(self.storage_path + ".pkl", "wb") as file:
             pickle.dump(self, file)
 
-
+    
     def export(self, target="text"):
         
         if target == "text":
@@ -76,7 +76,7 @@ class DataBase():
         data = self.df.T.to_dict()
         text_ids = self.df.index.to_list()
         
-        per_tag_index = defaultdict(lambda:defaultdict(int))
+        per_tag_index = {tag_column:defaultdict(lambda:defaultdict(int)) for tag_column in self.tags_columns}
         index = defaultdict(lambda:defaultdict(int))
         for doc_id in text_ids:
             
@@ -87,11 +87,11 @@ class DataBase():
                 index[word][doc_id] +=1
 
                 # Faz o index para a tag
-                for tag in self.tags_columns:
-                    per_tag_index[doc_data[tag]][word] += 1
+                for tag_column in self.tags_columns:
+                    per_tag_index[tag_column][doc_data[tag_column]][word] += 1
 
-        self.word_index = index
-        self.word_tag_index = per_tag_index
+        self.word_index = dict(index)
+        self.word_tag_index = {key:dict(value) for key, value in per_tag_index.items()}
 
 
     def most_important_word(self, tag, tag_column=None, get=3, method="PMI"):
@@ -99,10 +99,10 @@ class DataBase():
         if tag_column == None:
             tag_column = self.tags_columns[0]
 
-        if not tag in self.word_tag_index.keys():
-            raise ValueError("Invalid tag {tag}")
+        if not tag in self.word_tag_index[tag_column].keys():
+            raise ValueError(f"Invalid tag {tag}")
 
-        tag_index = self.word_tag_index[tag]
+        tag_index = self.word_tag_index[tag_column][tag]
         index_sum = {word:sum(self.word_index[word].values()) for word in self.word_index.keys()}
 
         total_words_tag = sum(tag_index.values())
@@ -145,7 +145,7 @@ class DataBase():
                 vectors = model.fit_transform(texts)
                 self.doc_embedings[method] = vectors
                 
-            if method == "word2vec" or  method == "cbow":
+            elif method == "word2vec" or  method == "cbow":
                 model = gensim.models.Word2Vec(corpus_file='storage/texts.txt',
                                                window=5,
                                                size=200,
@@ -156,23 +156,23 @@ class DataBase():
                 vectors = model.wv
                 self.word_embedings[method] = vectors
     
-            if method == "cbow":
-                vectors = []
-                for text in texts:
-                    vec = np.zeros(model.wv.vector_size)
-                    for word in text:
-                        if word in model:
-                            vec += model.wv.get_vector(word)
-                            
-                    norm = np.linalg.norm(vec)
-                    if norm > np.finfo(float).eps:
-                        vec /= norm
-                    vectors.append(vec)
-    
-                vectors = scipy.sparse.csr.csr_matrix(vectors)
-                self.doc_embedings[method] = vectors
+                if method == "cbow":
+                    vectors = []
+                    for text in texts:
+                        vec = np.zeros(model.wv.vector_size)
+                        for word in text:
+                            if word in model:
+                                vec += model.wv.get_vector(word)
+                                
+                        norm = np.linalg.norm(vec)
+                        if norm > np.finfo(float).eps:
+                            vec /= norm
+                        vectors.append(vec)
+        
+                    vectors = scipy.sparse.csr.csr_matrix(vectors)
+                    self.doc_embedings[method] = vectors
                 
-            if method == "doc2vec":
+            elif method == "doc2vec":
     
                 doc2vec = gensim.models.Doc2Vec(
                                 corpus_file='storage/texts.txt',
@@ -184,14 +184,22 @@ class DataBase():
     
                 vectors = scipy.sparse.csr.csr_matrix(doc2vec.docvecs.vectors_docs)
                 self.doc_embedings[method] = vectors
+                
+            else:
+                raise ValueError(f"Method {method} is not recognized")
             
         return vectors
 
-    def generate_tags(self, method="tf_idf", n_tags=10, embedings=None):
 
-        if embedings == None:
+    def generate_tags(self, method="tf-idf", n_tags=10, vectors=None):
+
+        if vectors == None:
             vectors = self.generate_embedings(method)        
             
-        
+        k = KMeans(n_clusters=n_tags)
+        k.fit(vectors)
 
-        return None 
+        new_data = pd.Series(k.labels_, index=self.df.index)
+
+        self.df["AutoTag"] = new_data
+        self.tags_columns.append("AutoTag")
