@@ -11,7 +11,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import gensim
 from gensim.corpora import Dictionary
 from gensim.models.ldamulticore import LdaMulticore
-import pyLDAvis.gensim
 
 # Import outros módulos
 from sklearn.cluster import KMeans
@@ -33,8 +32,7 @@ class DataBase():
         self.text_column = text_column
         self.tags_columns = tags_columns
         
-        self.doc_embedings = {}
-        self.word_embedings = {}
+        self.embedings = {}
 
 
     def open(self):
@@ -94,10 +92,12 @@ class DataBase():
         self.word_tag_index = {key:dict(value) for key, value in per_tag_index.items()}
 
 
-    def most_important_word(self, tag, tag_column=None, get=3, method="PMI"):
-        
-        if tag_column == None:
-            tag_column = self.tags_columns[0]
+    def most_important_word(self, tag, tag_column=None, n_words=5, method="PMI"):
+
+        if (tag_column not in self.df.columns):
+            raise ValueError(f"Tag {tag_column} not found in dataset")
+        elif tag not in self.df[tag_column].to_list():
+            raise ValueError(f"Tag {tag} not found in dataset column {tag_column}")
 
         if not tag in self.word_tag_index[tag_column].keys():
             raise ValueError(f"Invalid tag {tag}")
@@ -121,20 +121,38 @@ class DataBase():
             elif method == "NPMI":
                 scores[word] = np.log2(pwordtag/pword) / -np.log2(pwordtag)
 
-        return sorted(scores, key=scores.get, reverse=True)[:get]
+        return sorted(scores, key=scores.get, reverse=True)[:n_words]
 
 
-    def generate_embedings(self, method="tf-idf"):
-
-        texts = self.df[self.text_column]
-
-        if method in self.doc_embedings:
-            vectors = self.doc_embedings[method]
-        
-        elif method in self.word_embedings:
-            vectors = self.word_embedings[method]
-
+    def generate_embedings(self, method="tf-idf", tag=None, tag_column=None, return_model=False):
+        # Coleta os dados dos embedings e salva em um arquivo par ao multiprocess
+        if tag != None and tag_column != None:
+            if (tag_column not in self.df.columns):
+                raise ValueError(f"Tag {tag_column} not found in dataset")
+            elif tag not in self.df[tag_column].to_list():
+                raise ValueError(f"Tag {tag} not found in dataset column {tag_column}")
+            texts = self.df[self.df[tag_column]==tag][self.text_column]
         else:
+            texts = self.df[self.text_column]
+
+        with open('storage/texts.txt', 'w', encoding='utf8') as file:               
+            for sentence in texts:
+                file.write(" ".join([tok for tok in sentence]) + "\n")
+
+        # Verifica se usuario cometeu um erro no imput das tags
+        if tag != None and tag_column == None:
+            raise ValueError("if passing tag must pass tag_column as well")
+        
+        if tag_column != None and tag == None:
+            raise ValueError("if passing tag_column must pass tag as well")
+
+        # Verifica se o vetor ja foi gerado e se o alvo é o corpus inteiro
+        if method in self.embedings and tag == None:
+            vectors = self.embedings[method]
+
+        # Se os vetores não tiverem sdo gerados faz o embedding
+        else:
+            # Realiza o tf-idf
             if method == "tf-idf":
                 model = TfidfVectorizer(min_df=5, 
                                         max_df=0.9, 
@@ -143,19 +161,18 @@ class DataBase():
                                         analyzer=lambda x: x)
     
                 vectors = model.fit_transform(texts)
-                self.doc_embedings[method] = vectors
-                
+            
+            # Realiza o Word2Vec
             elif method == "word2vec" or  method == "cbow":
                 model = gensim.models.Word2Vec(corpus_file='storage/texts.txt',
-                                               window=5,
-                                               size=200,
-                                               seed=42,
-                                               iter=100,
-                                               workers=4)
+                                               window=5, size=200, min_count=5,
+                                               iter=100, workers=4)
                 
                 vectors = model.wv
-                self.word_embedings[method] = vectors
-    
+                if tag == None:
+                    self.embedings["word2vec"] = vectors 
+
+                # Realiza o cbow
                 if method == "cbow":
                     vectors = []
                     for text in texts:
@@ -170,25 +187,55 @@ class DataBase():
                         vectors.append(vec)
         
                     vectors = scipy.sparse.csr.csr_matrix(vectors)
-                    self.doc_embedings[method] = vectors
-                
+            
+            # Realiza o Doc2Vec
             elif method == "doc2vec":
     
-                doc2vec = gensim.models.Doc2Vec(
+                model = gensim.models.Doc2Vec(
                                 corpus_file='storage/texts.txt',
-                                vector_size=200,
-                                window=5,
-                                min_count=5,
-                                workers=12,
+                                vector_size=200, window=5,
+                                min_count=5, workers=12,
                                 epochs=100)
     
-                vectors = scipy.sparse.csr.csr_matrix(doc2vec.docvecs.vectors_docs)
-                self.doc_embedings[method] = vectors
+                vectors = scipy.sparse.csr.csr_matrix(model.docvecs.vectors_docs)
+              
+            # Realiza a LDA
+            elif method == "lda":
+                NUM_TOPICS = 20
+                
+                dictionary = Dictionary(texts)
+                doc2bow = [dictionary.doc2bow(text) for text in texts]
+                ldamodel = LdaMulticore(doc2bow, num_topics=20, id2word=dictionary, passes=30)
+                
+                raw_vecs = [ldamodel.get_document_topics(text) for text in doc2bow]
+                
+                lda_vecs = []
+                for vec in raw_vecs:
+                    this_vec = []
+                    curr = 0
+                    for i in range(NUM_TOPICS):
+                        if (i == vec[curr][0]):
+                            this_vec.append(vec[curr][1])
+                            curr+=1
+                            if curr == len(vec):
+                                curr = -1
+                        else:
+                            this_vec.append(0)
+                    lda_vecs.append(this_vec)
+                    
+                vectors = scipy.sparse.csr.csr_matrix(lda_vecs)
+                model = [ldamodel, doc2bow, dictionary]
                 
             else:
                 raise ValueError(f"Method {method} is not recognized")
-            
-        return vectors
+                
+        if tag == None:
+            self.embedings[method] = vectors 
+
+        if return_model:
+            return vectors, model
+        else:
+            return vectors
 
 
     def generate_tags(self, method="tf-idf", n_tags=10, vectors=None):
