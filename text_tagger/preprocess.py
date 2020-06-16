@@ -69,7 +69,7 @@ class Preprocess():
             to_remove = [""]
             if(self.filter_flags["stopwords"]):
                 for language in self.languages:
-                to_remove += stopwords.words(language)
+                    to_remove += stopwords.words(language)
                 
             for word in  to_remove:
                 while word in text:
@@ -142,8 +142,6 @@ class Preprocess():
             file: nome do arquivo de entrada
         """
         # Abre o arquivo de dados
-        print(database.df.columns)
-        
         original_text = database.df[database.text_column].copy()
         original_text.name = f"orig_{database.text_column}"
 

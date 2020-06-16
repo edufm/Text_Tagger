@@ -27,4 +27,8 @@ database.create_index()
 
 database.save() 
 
-tt.Generate(max_sequence_len = 16).run(database, tag= 2.0)
+tag_column = 0
+tag = database.df[database.tags_columns[tag_column]].iloc[-1]
+
+
+tt.Generate(max_sequence_len = 16).run(database, tag=tag, tag_column=tag_column)

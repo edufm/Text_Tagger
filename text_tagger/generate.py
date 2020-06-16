@@ -87,7 +87,7 @@ class Generate():
 
         return seed_text
 
-    def run(self, database, tag=None, seed_text=None):
+    def run(self, database, tag_column=0, tag=None, seed_text=None):
         """
         Start the generate component
         Args: 
@@ -95,9 +95,12 @@ class Generate():
             repo:
             seed_text:
         """
+        
+        if tag not in database.df[database.tags_columns[tag_column]].to_list():
+            raise ValueError(f"Tag {tag} not found in dataset column {tag_column}")
 
         # Filtra os dados rederentes a tag escolhida
-        docs = database.df[database.df[database.tags_columns[0]]== tag]
+        docs = database.df[database.df[database.tags_columns[tag_column]]== tag]
         
         # lista de documentos do texto original
         docs = docs[f"orig_{database.text_column}"]
