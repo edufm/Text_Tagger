@@ -1,6 +1,7 @@
 import text_tagger as tt
 
-save = False
+#Option to reduce dataframe print size
+tt.dataset_manager.pd.options.display.max_colwidth = 20
 
 
 file = "./datasets_samples/Tweets_USA.csv"
@@ -21,18 +22,18 @@ preprocess = tt.Preprocess(tags_types, filter_flags, languages=languages)
 preprocess.preprocess(database)
 
 database.generate_embedings(method="tf-idf")
-
 database.generate_tags()
 
 database.create_index()
 
-if save:
+tag_column = "AutoTag"
+tag = database.df[tag_column].iloc[-1]
+
+# Para salvar os dados
+if False:
     database.export(target="text")
     database.export(target="csv")
     database.save()
-
-tag_column = "AutoTag"
-tag = database.df[tag_column].iloc[-1]
 
 # Para o extrator
 if False:
@@ -48,5 +49,16 @@ if False:
     extract.get_wordcloud(tag, tag_column)
     
     #extract.get_lda(tag, tag_column)
-    
-#tt.Generate(max_sequence_len = 16).run(database, tag=tag, tag_column=tag_column, seed_text = "Want to")
+
+# Para o Generate
+if False:    
+    generate = tt.Generate(database, max_sequence_len=16)
+    generate.train(tag=tag, tag_column=tag_column)
+    generate.generate(seed_text="Want to")
+
+
+# Para o Indentify
+if False:
+    indentify = tt.Indentify(database)
+    indentify.indentify(["I ran a marathon in los Angeles this week and did not win", 
+                         "A ball rows down the stairs while the boy watch it go"], method="cbow")

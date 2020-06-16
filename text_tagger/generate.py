@@ -11,15 +11,11 @@ from collections import defaultdict
 import numpy as np
 
 class Generate():
-    def __init__(self, max_sequence_len):
+    def __init__(self, database, max_sequence_len):
+
+        self.database = database
         self.max_sequence_len = max_sequence_len
 
-    def get_random_seed(self, docs, seed_size=100):
-        """
-        gera um texto com carracteristicas de sua classe.
-        """
-        return "Want to"
-        #return "Can you recommend"
 
     def create_model(self):
         """
@@ -34,6 +30,7 @@ class Generate():
         optimizer = Adam(lr=0.01)
         self.model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 
+
     def train_model(self, sequences):
         """
         Args: 
@@ -47,22 +44,58 @@ class Generate():
         self.model.fit(X_train, y_train, epochs=50, batch_size=4096, 
                     validation_data=(X_valid, y_valid))
 
-    def sequences_generate(self, docs):
+    
+    def train(self, tag_column, tag):
         """
-        Args:
-            docs:
+        Start the generate component
+        Args: 
+            tag:
+            repo:
         """
+        if (tag_column not in self.database.df.columns):
+            raise ValueError(f"Tag {tag_column} not found in dataset")
+        elif tag not in self.database.df[tag_column].to_list():
+            raise ValueError(f"Tag {tag} not found in dataset column {tag_column}")
+
+        # Filtra os dados rederentes a tag escolhida
+        docs = self.database.df[self.database.df[tag_column]== tag]
+        
+        # lista de documentos do texto original
+        docs = docs[f"orig_{self.database.text_column}"]
+    
+        preprocess = Preprocess(tags_types   = None, 
+                                filter_flags = {"digits"   : False,
+                                                "stopwords": False,
+                                                "text_only": False,
+                                                "simbols"  : True,
+                                                "punct"    : True,
+                                                "links"    : True,
+                                                "refs"     : False})
+        
+        docs = list(preprocess.preprocess_text(docs))
+        
+        self.tokenizer = Tokenizer()
+        self.tokenizer.fit_on_texts(docs)
+        self.total_words = len(self.tokenizer.word_index) + 1
+
+        # Gera as sequencias com base nos textos
         sequences = []
         for line in docs:
             token_list = self.tokenizer.texts_to_sequences([line])[0]
             for i in range(2, len(token_list)):
                 n_gram_sequence = token_list[:i+1]
                 sequences.append(n_gram_sequence)
-                        
+        
         sequences = pad_sequences(sequences, maxlen=self.max_sequence_len+1, padding='pre')
-        return sequences
+
+        # Cria o modelo
+        self.create_model()
+
+        # Treina o modelo
+        self.train_model(sequences = sequences)
     
-    def generate_lerolero(self, seed_text, next_words = 20, T = 0.9):
+
+    def generate(self, seed_text, next_words=20, T=0.9):
         """
         Args: 
             seed_text:
@@ -86,54 +119,3 @@ class Generate():
             seed_text += " " + (index_to_word[predicted] if predicted != 0 else '')
 
         return seed_text
-
-    def run(self, database, tag_column, tag, seed_text=None):
-        """
-        Start the generate component
-        Args: 
-            tag:  
-            repo:
-            seed_text:
-        """
-        if (tag_column not in database.df.columns):
-            raise ValueError(f"Tag {tag_column} not found in dataset")
-        elif tag not in database.df[tag_column].to_list():
-            raise ValueError(f"Tag {tag} not found in dataset column {tag_column}")
-
-        # Filtra os dados rederentes a tag escolhida
-        docs = database.df[database.df[tag_column]== tag]
-        
-        # lista de documentos do texto original
-        docs = docs[f"orig_{database.text_column}"]
-        
-        # Se não foi especificado em texto inicial, este e gerado aleatoriamento.
-        if(seed_text is None):
-            seed_text = self.get_random_seed(docs)
-        
-        preprocess = Preprocess(tags_types   = None, 
-                                filter_flags = {"digits"   : False,
-                                                "stopwords": False,
-                                                "text_only": False,
-                                                "simbols"  : True,
-                                                "punct"    : True,
-                                                "links"    : True,
-                                                "refs"     : False})
-        
-        docs = list(preprocess.preprocess_text(docs))
-        
-        self.tokenizer = Tokenizer()
-        self.tokenizer.fit_on_texts(docs)
-        self.total_words = len(self.tokenizer.word_index) + 1
-
-        # Gera as sequencias com base nos textos
-        sequences = self.sequences_generate(docs)
-        
-        # Cria o modelo
-        self.create_model()
-        
-        # Treina o modelo
-        self.train_model(sequences = sequences)
-
-        # Gera o lero lero
-        seed_text = self.generate_lerolero(seed_text)
-        print(seed_text)
