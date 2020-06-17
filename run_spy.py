@@ -11,9 +11,10 @@ tags_columns = ["Latitude", "Longitude"]
 tags_types = {"Lat_Long":("numeric-simple", 200, ["Longitude", "Latitude"])}
 filter_flags = {"digits"   : True, "stopwords": True, "text_only": False,
                 "simbols"  : True, "punct"    : True, "links"    : True,
-                "refs"     : True}
+                "refs"     : False}
 
 languages = ['english']#, 'spanish']
+other_stopwords = ["&amp;"]
 
 database = tt.DataBase(file, text_column, tags_columns)
 database.open()

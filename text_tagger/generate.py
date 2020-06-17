@@ -11,7 +11,7 @@ from collections import defaultdict
 import numpy as np
 
 class Generate():
-    def __init__(self, database, max_sequence_len):
+    def __init__(self, database, max_sequence_len=20):
 
         self.database = database
         self.max_sequence_len = max_sequence_len
@@ -70,7 +70,8 @@ class Generate():
                                                 "simbols"  : True,
                                                 "punct"    : True,
                                                 "links"    : True,
-                                                "refs"     : False})
+                                                "refs"     : False,
+                                                "tokenize" : False})
         
         docs = list(preprocess.preprocess_text(docs))
         

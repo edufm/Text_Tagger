@@ -17,8 +17,9 @@ class Preprocess():
                                  "simbols"  : True,
                                  "punct"    : True,
                                  "links"    : True,
-                                 "refs"     : True},
-                 languages=['english']):
+                                 "refs"     : True,
+                                 "tokenize" : True},
+                 languages=['english'], other_stopwords=[]):
         """
         Args:
             filter_flags: Dicionario de configuração para o processamento de texto
@@ -30,11 +31,12 @@ class Preprocess():
         self.tags_types     = tags_types
         self.filter_flags   = filter_flags
         self.languages = languages
+        self.other_stopwords = [self.filter(other) for other in other_stopwords]
 
 
     def filter(self, text):
         # Retira caracteres obrigatórios
-        text = re.sub(r"\\n", "", text, flags=re.DOTALL|re.MULTILINE)
+        text = re.sub(r"\n", "", text, flags=re.DOTALL|re.MULTILINE)
 
         # Retira caracteres opcionais
         if(self.filter_flags["refs"]):
@@ -51,31 +53,32 @@ class Preprocess():
             text = re.sub(r"http\S+", "", text, flags=re.DOTALL|re.MULTILINE)
 
         if(self.filter_flags["simbols"]):
-            text = re.sub(r"[$%^&*/]+", "", text, flags=re.DOTALL|re.MULTILINE)
+            text = re.sub(r"[$%^&*/@#]+", "", text, flags=re.DOTALL|re.MULTILINE)
         
         if(self.filter_flags["punct"]):
             text = re.sub(r"[!?\[\]\{\}\(\);:.,...'\-\+\_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
-
 
         # adiciona espaço antes de emojis e aracteres especiais
         text = re.sub(r"([^a-zA-Z0-9 ])", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
         text = re.sub(r"(num)", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)
 
+        # tokeniza o texto
+        text = text.lower().split(" ")
+        
+        # Remove stopwords
+        to_remove = [""] + self.other_stopwords
         if(self.filter_flags["stopwords"]):
-            # tokeniza o texto
-            text = text.lower().split(" ")
+            for language in self.languages:
+                to_remove += stopwords.words(language)
             
-            # Remove stopwords
-            to_remove = [""]
-            if(self.filter_flags["stopwords"]):
-                for language in self.languages:
-                    to_remove += stopwords.words(language)
-                
-            for word in  to_remove:
-                while word in text:
-                    text.remove(word)
+        for word in  to_remove:
+            while word in text:
+                text.remove(word)
+        
+        # Se não for para tokenizar junta o texto
+        if not self.filter_flags["tokenize"]:
+            text = " ".join(text)
             
-        # Fazer Stemming
         return text
 
 
