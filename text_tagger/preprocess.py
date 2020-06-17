@@ -31,12 +31,15 @@ class Preprocess():
         self.tags_types     = tags_types
         self.filter_flags   = filter_flags
         self.languages = languages
-        self.other_stopwords = [self.filter(other) for other in other_stopwords]
+        
+        self.other_stopwords = []
+        if other_stopwords != []:
+            self.other_stopwords = list(np.array([self.filter(other) for other in other_stopwords]).flatten())
 
 
     def filter(self, text):
         # Retira caracteres obrigatórios
-        text = re.sub(r"\n", "", text, flags=re.DOTALL|re.MULTILINE)
+        text = re.sub(r"\n", " ", text, flags=re.DOTALL|re.MULTILINE)
 
         # Retira caracteres opcionais
         if(self.filter_flags["refs"]):
@@ -56,7 +59,7 @@ class Preprocess():
             text = re.sub(r"[$%^&*/@#]+", "", text, flags=re.DOTALL|re.MULTILINE)
         
         if(self.filter_flags["punct"]):
-            text = re.sub(r"[!?\[\]\{\}\(\);:.,...'\-\+\_\"]", "", text, flags=re.DOTALL|re.MULTILINE)
+            text = re.sub(r"[!?\[\]\{\}\(\);:.,'\-\+\_\"\…]", "", text, flags=re.DOTALL|re.MULTILINE)
 
         # adiciona espaço antes de emojis e aracteres especiais
         text = re.sub(r"([^a-zA-Z0-9 ])", r" \1 ", text, flags=re.DOTALL|re.MULTILINE)

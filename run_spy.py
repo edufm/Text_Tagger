@@ -11,7 +11,7 @@ tags_columns = ["Latitude", "Longitude"]
 tags_types = {"Lat_Long":("numeric-simple", 200, ["Longitude", "Latitude"])}
 filter_flags = {"digits"   : True, "stopwords": True, "text_only": False,
                 "simbols"  : True, "punct"    : True, "links"    : True,
-                "refs"     : False}
+                "refs"     : False, "tokenize": True}
 
 languages = ['english']#, 'spanish']
 other_stopwords = ["&amp;"]
@@ -19,7 +19,8 @@ other_stopwords = ["&amp;"]
 database = tt.DataBase(file, text_column, tags_columns)
 database.open()
 
-preprocess = tt.Preprocess(tags_types, filter_flags, languages=languages)
+preprocess = tt.Preprocess(tags_types, filter_flags, 
+                           languages=languages, other_stopwords=other_stopwords)
 preprocess.preprocess(database)
 
 database.generate_embedings(method="tf-idf")
@@ -60,6 +61,6 @@ if False:
 
 # Para o Indentify
 if False:
-    indentify = tt.Indentify(database)
-    indentify.indentify(["I ran a marathon in los Angeles this week and did not win", 
+    identify = tt.Identify(database)
+    identify.identify(["I ran a marathon in los Angeles this week and did not win", 
                          "A ball rows down the stairs while the boy watch it go"], method="cbow")

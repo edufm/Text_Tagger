@@ -4,11 +4,11 @@ from .preprocess import Preprocess
 import numpy as np
 import pandas as pd
 
-class Indentify():
+class Identify():
     def __init__(self, database):
         self.database = database
 
-    def indentify(self, texts, method="tf-idf", n_searches=3):
+    def identify(self, texts, method="tf-idf", n_searches=3):
 
         if isinstance(texts, pd.Series):
             pass
@@ -22,7 +22,7 @@ class Indentify():
         # Preprocess os dados        
         filter_flags = {"digits"   : True, "stopwords": True, "text_only": False,
                         "simbols"  : True, "punct"    : True, "links"    : True,
-                        "refs"     : True}
+                        "refs"     : True, "tokenize":True}
         languages = ['english']#, 'spanish']
 
         preprocess = Preprocess(None, filter_flags, languages=languages)
