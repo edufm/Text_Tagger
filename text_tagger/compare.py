@@ -17,7 +17,7 @@ class Compare():
 
         return vectors1, vectors2
 
-    def get_similarity(self, tag_column1, tag_column2, tag1, tag2, embeding_method="tf-idf" , dist_method="jaccard"):
+    def get_similarity(self, tag_column1, tag_column2, tag1, tag2, embeding_method="tf-idf" , dist_method="cos"):
         vectors1, vectors2 = self.get_embeddings_tags(tag_column1, tag_column2, tag1, tag2, embeding_method )
         
         if dist_method == "cos":
@@ -27,7 +27,7 @@ class Compare():
  
         #spatial.distance.euclidean(a, b)
 
-        if dist_method == "jaccard":
-            dist = spatial.distance.cdist(XA=, XB=, metic="jaccard")
+        #if dist_method == "jaccard":
+        #    dist = spatial.distance.cdist(XA=, XB=, metic="jaccard")
 
         return dist
