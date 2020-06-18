@@ -45,7 +45,7 @@ class Generate():
                     validation_data=(X_valid, y_valid))
 
     
-    def train(self, tag_column, tag):
+    def train(self, tag, tag_column):
         """
         Start the generate component
         Args: 

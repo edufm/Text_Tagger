@@ -4,7 +4,7 @@ class Compare():
     def __init__(self, database):
         self.database   = database
  
-    def get_embeddings_tags(self, tag_column1, tag_column2, tag1, tag2, method):
+    def get_embeddings_tags(self, tag1, tag2, tag_column1, tag_column2, method):
         vectors     = self.database.generate_embedings(method)
         reindex_df  = self.database.df.reset_index(drop=True)
 
@@ -17,8 +17,8 @@ class Compare():
 
         return vectors1, vectors2
 
-    def get_similarity(self, tag_column1, tag_column2, tag1, tag2, embeding_method="tf-idf" , dist_method="cos"):
-        vectors1, vectors2 = self.get_embeddings_tags(tag_column1, tag_column2, tag1, tag2, embeding_method )
+    def get_similarity(self, tag1, tag2, tag_column1, tag_column2, embeding_method="tf-idf" , dist_method="cos"):
+        vectors1, vectors2 = self.get_embeddings_tags(tag1, tag2, tag_column1, tag_column2, embeding_method )
         
         if dist_method == "cos":
             center_vector1 = vectors1.mean(axis=0)

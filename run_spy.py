@@ -23,13 +23,28 @@ preprocess = tt.Preprocess(tags_types, filter_flags,
                            languages=languages, other_stopwords=other_stopwords)
 preprocess.preprocess(database)
 
+# Gera alguns embedings
+print("generating tf-idf")
 database.generate_embedings(method="tf-idf")
+
+print("generating cbow")
+database.generate_embedings(method="cbow")
+
+# Gera tags automaticas
+print("generating tag")
 database.generate_tags()
 
+# Cria o indice de palavras do database
 database.create_index()
 
+# Escolhe a tag que vai ser observada
 tag_column = "AutoTag"
 tag = database.df[tag_column].iloc[-1]
+
+tag_2, i = tag, -2
+while tag_2 != tag:
+    tag_2 = database.df[tag_column].iloc[i]
+    i -= 1
 
 # Para salvar os dados
 if False:
@@ -55,7 +70,7 @@ if False:
 # Para o Generate
 if False:    
     generate = tt.Generate(database, max_sequence_len=16)
-    generate.train(tag=tag, tag_column=tag_column)
+    generate.train(tag, tag_column)
     generate.generate(seed_text="Want to")
 
 
@@ -64,3 +79,8 @@ if False:
     identify = tt.Identify(database)
     identify.identify(["I ran a marathon in los Angeles this week and did not win", 
                          "A ball rows down the stairs while the boy watch it go"], method="cbow")
+    
+# Para o Compare
+if False:
+    compare = tt.Compare(database)
+    compare.get_similarity(tag, tag_2, tag_column, tag_column)
