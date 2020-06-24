@@ -13,7 +13,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
    :maxdepth: 2
    :caption: Contents:
 
-   docs/text_tagger
+   modules/text_tagger
 
 
 Indices and tables
