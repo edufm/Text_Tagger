@@ -1,0 +1,494 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>text_tagger package &mdash; Text Tagger  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Welcome to Text Tagger’s documentation!" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Text Tagger
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">text_tagger package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.compare">text_tagger.compare module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.dataset_manager">text_tagger.dataset_manager module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.extract">text_tagger.extract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.generate">text_tagger.generate module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.identify">text_tagger.identify module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.preprocess">text_tagger.preprocess module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Text Tagger</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>text_tagger package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs/text_tagger.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="text-tagger-package">
+<h1>text_tagger package<a class="headerlink" href="#text-tagger-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-text_tagger.compare">
+<span id="text-tagger-compare-module"></span><h2>text_tagger.compare module<a class="headerlink" href="#module-text_tagger.compare" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="text_tagger.compare.Compare">
+<em class="property">class </em><code class="sig-prename descclassname">text_tagger.compare.</code><code class="sig-name descname">Compare</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="text_tagger.compare.Compare.get_embeddings_tags">
+<code class="sig-name descname">get_embeddings_tags</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag1</span></em>, <em class="sig-param"><span class="n">tag2</span></em>, <em class="sig-param"><span class="n">tag_column1</span></em>, <em class="sig-param"><span class="n">tag_column2</span></em>, <em class="sig-param"><span class="n">method</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare.get_embeddings_tags" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.compare.Compare.get_similarity">
+<code class="sig-name descname">get_similarity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag1</span></em>, <em class="sig-param"><span class="n">tag2</span></em>, <em class="sig-param"><span class="n">tag_column1</span></em>, <em class="sig-param"><span class="n">tag_column2</span></em>, <em class="sig-param"><span class="n">embeding_method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">dist_method</span><span class="o">=</span><span class="default_value">'cos'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare.get_similarity" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-text_tagger.dataset_manager">
+<span id="text-tagger-dataset-manager-module"></span><h2>text_tagger.dataset_manager module<a class="headerlink" href="#module-text_tagger.dataset_manager" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="text_tagger.dataset_manager.DataBase">
+<em class="property">class </em><code class="sig-prename descclassname">text_tagger.dataset_manager.</code><code class="sig-name descname">DataBase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">text_column</span></em>, <em class="sig-param"><span class="n">tags_columns</span></em>, <em class="sig-param"><span class="n">low_memory</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.create_index">
+<code class="sig-name descname">create_index</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">per_tag</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">save</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.create_index" title="Permalink to this definition">¶</a></dt>
+<dd><p>Indexa os documentos de um corpus.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>repo</strong> – dicionario que mapeia docid para uma lista de tokens.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>um dicionario que mapeia token para
+lista de docids.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>O índice reverso do repositorio</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.export">
+<code class="sig-name descname">export</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">target</span><span class="o">=</span><span class="default_value">'text'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.export" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.generate_embedings">
+<code class="sig-name descname">generate_embedings</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">tag</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">tag_column</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">return_model</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.generate_embedings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.generate_tags">
+<code class="sig-name descname">generate_tags</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">n_tags</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">vectors</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.generate_tags" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.load">
+<code class="sig-name descname">load</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.load" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.most_important_word">
+<code class="sig-name descname">most_important_word</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">n_words</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'PMI'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.most_important_word" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.open">
+<code class="sig-name descname">open</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.open" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.dataset_manager.DataBase.save">
+<code class="sig-name descname">save</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.save" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-text_tagger.extract">
+<span id="text-tagger-extract-module"></span><h2>text_tagger.extract module<a class="headerlink" href="#module-text_tagger.extract" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="text_tagger.extract.Extract">
+<em class="property">class </em><code class="sig-prename descclassname">text_tagger.extract.</code><code class="sig-name descname">Extract</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.get_lda">
+<code class="sig-name descname">get_lda</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_lda" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.get_similarity">
+<code class="sig-name descname">get_similarity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">word1</span></em>, <em class="sig-param"><span class="n">word2</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">use_pretrained</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_similarity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes a calulation with word vectors to narrow similar words
+args:</p>
+<p class="rubric">Example</p>
+<p>word1 = “man”, word2=”woman” –&gt; 0.8 (high)</p>
+<p>word1 = “man”, word2=None –&gt; “Woman”</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>words with highest similarity</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.get_size">
+<code class="sig-name descname">get_size</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_size" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.get_text">
+<code class="sig-name descname">get_text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">n_sents</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.get_wordcloud">
+<code class="sig-name descname">get_wordcloud</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">raw</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_wordcloud" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.get_words">
+<code class="sig-name descname">get_words</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">n_words</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'NPMI'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_words" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.make_analogy">
+<code class="sig-name descname">make_analogy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">relation</span></em>, <em class="sig-param"><span class="n">target</span></em>, <em class="sig-param"><span class="n">use_pretrained</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.make_analogy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes an analogy with data from inside the tag
+args:</p>
+<p class="rubric">Example</p>
+<p>relation=[‘man’, ‘king’], target=[‘woman’] –&gt; queen: 0.8965</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>words with highest similarity</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.extract.Extract.make_word_difference">
+<code class="sig-name descname">make_word_difference</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">positive</span></em>, <em class="sig-param"><span class="n">negative</span></em>, <em class="sig-param"><span class="n">use_pretrained</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.make_word_difference" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes a calulation with word vectors to narrow similar words
+args:</p>
+<p class="rubric">Example</p>
+<p>positive=[‘woman’, ‘king’], negative=[‘man’] –&gt; queen: 0.8965</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>words with highest similarity</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-text_tagger.generate">
+<span id="text-tagger-generate-module"></span><h2>text_tagger.generate module<a class="headerlink" href="#module-text_tagger.generate" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="text_tagger.generate.Generate">
+<em class="property">class </em><code class="sig-prename descclassname">text_tagger.generate.</code><code class="sig-name descname">Generate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em>, <em class="sig-param"><span class="n">max_sequence_len</span><span class="o">=</span><span class="default_value">20</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="text_tagger.generate.Generate.create_model">
+<code class="sig-name descname">create_model</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.create_model" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>total_words</strong> – </p></li>
+<li><p><strong>max_sequence_len</strong> – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.generate.Generate.generate">
+<code class="sig-name descname">generate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">seed_text</span></em>, <em class="sig-param"><span class="n">next_words</span><span class="o">=</span><span class="default_value">20</span></em>, <em class="sig-param"><span class="n">T</span><span class="o">=</span><span class="default_value">0.9</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.generate" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seed_text</strong> – </p></li>
+<li><p><strong>next_words</strong> – </p></li>
+<li><p><strong>T</strong> – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.generate.Generate.train">
+<code class="sig-name descname">train</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.train" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the generate component
+:param tag:
+:param repo:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.generate.Generate.train_model">
+<code class="sig-name descname">train_model</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sequences</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.train_model" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>sequences</strong> – </p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-text_tagger.identify">
+<span id="text-tagger-identify-module"></span><h2>text_tagger.identify module<a class="headerlink" href="#module-text_tagger.identify" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="text_tagger.identify.Identify">
+<em class="property">class </em><code class="sig-prename descclassname">text_tagger.identify.</code><code class="sig-name descname">Identify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.identify.Identify" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="text_tagger.identify.Identify.identify">
+<code class="sig-name descname">identify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">texts</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">n_searches</span><span class="o">=</span><span class="default_value">3</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.identify.Identify.identify" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-text_tagger.preprocess">
+<span id="text-tagger-preprocess-module"></span><h2>text_tagger.preprocess module<a class="headerlink" href="#module-text_tagger.preprocess" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="text_tagger.preprocess.Preprocess">
+<em class="property">class </em><code class="sig-prename descclassname">text_tagger.preprocess.</code><code class="sig-name descname">Preprocess</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tags_types</span></em>, <em class="sig-param"><span class="n">filter_flags</span><span class="o">=</span><span class="default_value">{'digits': True, 'links': True, 'punct': True, 'refs': True, 'simbols': True, 'stopwords': True, 'text_only': False, 'tokenize': True}</span></em>, <em class="sig-param"><span class="n">languages</span><span class="o">=</span><span class="default_value">['english']</span></em>, <em class="sig-param"><span class="n">other_stopwords</span><span class="o">=</span><span class="default_value">[]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Realiza o preprocessamento de texto e tageamento absoluto de tags numericas.</p>
+<dl class="py method">
+<dt id="text_tagger.preprocess.Preprocess.filter">
+<code class="sig-name descname">filter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.filter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.preprocess.Preprocess.numeric_process">
+<code class="sig-name descname">numeric_process</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">method</span></em>, <em class="sig-param"><span class="n">n</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.numeric_process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Processa as tags se forem numéricas em 2d (por exemplo: latitude, longitude)
+:param data: series do pandas que deve ser dividida
+:param method: methodo que será usado para a conversão
+:param n: numeros de divisões ou clusters</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.preprocess.Preprocess.preprocess">
+<code class="sig-name descname">preprocess</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.preprocess" title="Permalink to this definition">¶</a></dt>
+<dd><p>Le o arquivo e processa os dados de texto.
+:param file: nome do arquivo de entrada</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.preprocess.Preprocess.preprocess_tags">
+<code class="sig-name descname">preprocess_tags</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.preprocess_tags" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abre e processa todas as tags em um novo dataframe</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="text_tagger.preprocess.Preprocess.preprocess_text">
+<code class="sig-name descname">preprocess_text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text_series</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.preprocess_text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-text_tagger">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-text_tagger" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to Text Tagger’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Leonardo, Eduardo
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
