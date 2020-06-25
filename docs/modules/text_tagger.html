@@ -85,12 +85,12 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">text_tagger package</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.compare">text_tagger.compare module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.dataset_manager">text_tagger.dataset_manager module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.extract">text_tagger.extract module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.generate">text_tagger.generate module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.identify">text_tagger.identify module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.preprocess">text_tagger.preprocess module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.compare">text_tagger.compare</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.dataset_manager">text_tagger.dataset_manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.extract">text_tagger.extract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.generate">text_tagger.generate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.identify">text_tagger.identify</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-text_tagger.preprocess">text_tagger.preprocess</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#module-text_tagger">Module contents</a></li>
 </ul>
 </li>
@@ -165,7 +165,7 @@
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="module-text_tagger.compare">
-<span id="text-tagger-compare-module"></span><h2>text_tagger.compare module<a class="headerlink" href="#module-text_tagger.compare" title="Permalink to this headline">¶</a></h2>
+<span id="text-tagger-compare"></span><h2>text_tagger.compare<a class="headerlink" href="#module-text_tagger.compare" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="text_tagger.compare.Compare">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.compare.</code><code class="sig-name descname">Compare</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare" title="Permalink to this definition">¶</a></dt>
@@ -205,7 +205,7 @@ can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
 
 </div>
 <div class="section" id="module-text_tagger.dataset_manager">
-<span id="text-tagger-dataset-manager-module"></span><h2>text_tagger.dataset_manager module<a class="headerlink" href="#module-text_tagger.dataset_manager" title="Permalink to this headline">¶</a></h2>
+<span id="text-tagger-dataset-manager"></span><h2>text_tagger.dataset_manager<a class="headerlink" href="#module-text_tagger.dataset_manager" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="text_tagger.dataset_manager.DataBase">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.dataset_manager.</code><code class="sig-name descname">DataBase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">text_column</span></em>, <em class="sig-param"><span class="n">tags_columns</span></em>, <em class="sig-param"><span class="n">low_memory</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase" title="Permalink to this definition">¶</a></dt>
@@ -313,7 +313,7 @@ can be [“P”, “PMI”, “NPMI”]</p></li>
 
 </div>
 <div class="section" id="module-text_tagger.extract">
-<span id="text-tagger-extract-module"></span><h2>text_tagger.extract module<a class="headerlink" href="#module-text_tagger.extract" title="Permalink to this headline">¶</a></h2>
+<span id="text-tagger-extract"></span><h2>text_tagger.extract<a class="headerlink" href="#module-text_tagger.extract" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="text_tagger.extract.Extract">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.extract.</code><code class="sig-name descname">Extract</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract" title="Permalink to this definition">¶</a></dt>
@@ -501,7 +501,7 @@ can be [“P”, “PMI”, “NPMI”, “word2vec”]</p></li>
 
 </div>
 <div class="section" id="module-text_tagger.generate">
-<span id="text-tagger-generate-module"></span><h2>text_tagger.generate module<a class="headerlink" href="#module-text_tagger.generate" title="Permalink to this headline">¶</a></h2>
+<span id="text-tagger-generate"></span><h2>text_tagger.generate<a class="headerlink" href="#module-text_tagger.generate" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="text_tagger.generate.Generate">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.generate.</code><code class="sig-name descname">Generate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em>, <em class="sig-param"><span class="n">max_sequence_len</span><span class="o">=</span><span class="default_value">20</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate" title="Permalink to this definition">¶</a></dt>
@@ -557,7 +557,7 @@ closer to 0: more creative and nonsensical</p></li>
 
 </div>
 <div class="section" id="module-text_tagger.identify">
-<span id="text-tagger-identify-module"></span><h2>text_tagger.identify module<a class="headerlink" href="#module-text_tagger.identify" title="Permalink to this headline">¶</a></h2>
+<span id="text-tagger-identify"></span><h2>text_tagger.identify<a class="headerlink" href="#module-text_tagger.identify" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="text_tagger.identify.Identify">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.identify.</code><code class="sig-name descname">Identify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.identify.Identify" title="Permalink to this definition">¶</a></dt>
@@ -594,7 +594,7 @@ can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
 
 </div>
 <div class="section" id="module-text_tagger.preprocess">
-<span id="text-tagger-preprocess-module"></span><h2>text_tagger.preprocess module<a class="headerlink" href="#module-text_tagger.preprocess" title="Permalink to this headline">¶</a></h2>
+<span id="text-tagger-preprocess"></span><h2>text_tagger.preprocess<a class="headerlink" href="#module-text_tagger.preprocess" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="text_tagger.preprocess.Preprocess">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.preprocess.</code><code class="sig-name descname">Preprocess</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tags_types</span></em>, <em class="sig-param"><span class="n">filter_flags</span><span class="o">=</span><span class="default_value">{'digits': True, 'links': True, 'punct': True, 'refs': True, 'simbols': True, 'stopwords': True, 'text_only': False, 'tokenize': True}</span></em>, <em class="sig-param"><span class="n">languages</span><span class="o">=</span><span class="default_value">['english']</span></em>, <em class="sig-param"><span class="n">other_stopwords</span><span class="o">=</span><span class="default_value">[]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess" title="Permalink to this definition">¶</a></dt>
