@@ -151,9 +151,7 @@
             
   <div class="section" id="welcome-to-text-tagger-s-documentation">
 <h1>Welcome to Text Tagger’s documentation!<a class="headerlink" href="#welcome-to-text-tagger-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>A module to analyze texts according to their characteristics, or tags. This module consists of a toll box that
-facilitates resource text management in order to make NLP as accessible to the user as modules such as
-Scikit-Learn and Tensorflow become for Machine Learning.</p>
+<p>A module to analyze texts according to their characteristics, or tags. This module consists of a toll box that facilitates resource text management in order to make NLP as accessible to the user as modules such as Scikit-Learn and Tensorflow become for Machine Learning.</p>
 </div>
 <div class="section" id="model-pipeline">
 <h1>Model Pipeline<a class="headerlink" href="#model-pipeline" title="Permalink to this headline">¶</a></h1>
@@ -206,6 +204,11 @@ similarity.</p>
 </div>
 <div class="section" id="identify">
 <h1>Identify<a class="headerlink" href="#identify" title="Permalink to this headline">¶</a></h1>
+<p>Based on a database and a input text this module will find the closest text in the database to the inputed
+text, and assume, since they are very similar that the tags should be the same. This proccess uses a embeding
+method to compare the vectors generated and compare the distance between the texts. The embedings method can
+vary between  (tf-idf, cbow, doc2vec, lda), and the number of searches to be made (number of similar texts to
+llok for) can be seted by the user</p>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>

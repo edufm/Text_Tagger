@@ -1,9 +1,7 @@
 Welcome to Text Tagger's documentation!
 =======================================
 
-A module to analyze texts according to their characteristics, or tags. This module consists of a toll box that 
-facilitates resource text management in order to make NLP as accessible to the user as modules such as 
-Scikit-Learn and Tensorflow become for Machine Learning.
+A module to analyze texts according to their characteristics, or tags. This module consists of a toll box that facilitates resource text management in order to make NLP as accessible to the user as modules such as Scikit-Learn and Tensorflow become for Machine Learning.
 
 Model Pipeline
 ==================
@@ -61,6 +59,11 @@ With this functions the user can explore some specific properties of a slice of 
 Identify
 ==================
 
+Based on a database and a input text this module will find the closest text in the database to the inputed 
+text, and assume, since they are very similar that the tags should be the same. This proccess uses a embeding 
+method to compare the vectors generated and compare the distance between the texts. The embedings method can 
+vary between  (tf-idf, cbow, doc2vec, lda), and the number of searches to be made (number of similar texts to 
+llok for) can be seted by the user
 
 .. toctree::
    :maxdepth: 2
