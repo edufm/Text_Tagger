@@ -170,15 +170,36 @@
 <dt id="text_tagger.compare.Compare">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.compare.</code><code class="sig-name descname">Compare</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="py method">
-<dt id="text_tagger.compare.Compare.get_embeddings_tags">
-<code class="sig-name descname">get_embeddings_tags</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag1</span></em>, <em class="sig-param"><span class="n">tag2</span></em>, <em class="sig-param"><span class="n">tag_column1</span></em>, <em class="sig-param"><span class="n">tag_column2</span></em>, <em class="sig-param"><span class="n">method</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare.get_embeddings_tags" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
+<p>Class that wraps a database to compare texts two tags</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>database</strong> – the database object with tags the module will work on</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Compare object that can compare different tags on teh database</p>
+</dd>
+</dl>
 <dl class="py method">
 <dt id="text_tagger.compare.Compare.get_similarity">
-<code class="sig-name descname">get_similarity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag1</span></em>, <em class="sig-param"><span class="n">tag2</span></em>, <em class="sig-param"><span class="n">tag_column1</span></em>, <em class="sig-param"><span class="n">tag_column2</span></em>, <em class="sig-param"><span class="n">embeding_method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">dist_method</span><span class="o">=</span><span class="default_value">'cos'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare.get_similarity" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<code class="sig-name descname">get_similarity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag1</span></em>, <em class="sig-param"><span class="n">tag_column1</span></em>, <em class="sig-param"><span class="n">tag2</span></em>, <em class="sig-param"><span class="n">tag_column2</span></em>, <em class="sig-param"><span class="n">embeding_method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">dist_method</span><span class="o">=</span><span class="default_value">'cos'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.compare.Compare.get_similarity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Funcion that compare 2 tags of teh database</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag1</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column1</strong> – column of the database the tag is from</p></li>
+<li><p><strong>tag2</strong> – second tag to slice the database with</p></li>
+<li><p><strong>tag_column2</strong> – second column of the database the tag is from</p></li>
+<li><p><strong>embeding_method</strong> – method that will be used to get the tag, default = “tf-idf”
+can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
+<li><p><strong>dist_method</strong> – method taht will be used to measure the distance between tags</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of most likely tags for each text</p>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
@@ -191,56 +212,102 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.create_index">
-<code class="sig-name descname">create_index</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">per_tag</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">save</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.create_index" title="Permalink to this definition">¶</a></dt>
-<dd><p>Indexa os documentos de um corpus.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>repo</strong> – dicionario que mapeia docid para uma lista de tokens.</p>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>um dicionario que mapeia token para
-lista de docids.</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>O índice reverso do repositorio</p>
-</dd>
-</dl>
+<code class="sig-name descname">create_index</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">per_tag</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.create_index" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to create a index of words:number of appearences of the corpus documents and each tag</p>
 </dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.export">
 <code class="sig-name descname">export</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">target</span><span class="o">=</span><span class="default_value">'text'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.export" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Function to export dataset data into csv or .txt file</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>target</strong> – if “csv” will store the dataset as csv with all modifications
+if “text” will store the text column in a .txt file
+default = “text”</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.generate_embedings">
 <code class="sig-name descname">generate_embedings</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">tag</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">tag_column</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">return_model</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.generate_embedings" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funtion that generates and saves in the object a embeding for the corpus texts</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>method</strong> – method that will be used to perform the embeding, default = “tf-idf”
+can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
+<li><p><strong>tag</strong> – specific tag for the embeing if a specific embeding is
+needed, default = None</p></li>
+<li><p><strong>tag_column</strong> – specific tag_column for the embeing if a specific
+embeding is needed, default = None</p></li>
+<li><p><strong>return_model</strong> – if teh function needs to return only the vectors of the texts
+or also the model used to generate such vectors, default = False</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>embeding vectors for each text in the dataset or tag
+model used to generate embedings if return_model = True</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.generate_tags">
 <code class="sig-name descname">generate_tags</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">n_tags</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">vectors</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.generate_tags" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Function that uses a speific method and clustring to genrate new tags
+for the dataset, those tags will be added as “AutoTag” in teh dataset</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>method</strong> – method that will be used to perform the clustering, default = “tf-idf”
+can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
+<li><p><strong>n_tags</strong> – number of tags to generate</p></li>
+<li><p><strong>vectors</strong> – user embeding vecors for each text if they wish too generate
+tags according to their own embeding system</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.load">
 <code class="sig-name descname">load</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.load" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Function to load a previoulsy pickled database objet</p>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.most_important_word">
-<code class="sig-name descname">most_important_word</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">n_words</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'PMI'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.most_important_word" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<code class="sig-name descname">most_important_word</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">n_words</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'PMI'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.most_important_word" title="Permalink to this definition">¶</a></dt>
+<dd><p>Funcion that find the most important words in a tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+<li><p><strong>n_words</strong> – number of words in tag, default = 5</p></li>
+<li><p><strong>method</strong> – method that will be used to gett teh words, default = “NPMI”
+can be [“P”, “PMI”, “NPMI”]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of most important words in dataframe</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.open">
 <code class="sig-name descname">open</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.open" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Function to open the dataset according to self.path</p>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.dataset_manager.DataBase.save">
 <code class="sig-name descname">save</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.dataset_manager.DataBase.save" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Function to save the database object as pickle</p>
+</dd></dl>
 
 </dd></dl>
 
@@ -251,16 +318,49 @@ lista de docids.</p>
 <dt id="text_tagger.extract.Extract">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.extract.</code><code class="sig-name descname">Extract</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class that wraps a dataframe and allow for the extraction of features
+of each tag sych as main words, texts, wordcloud, and lda interpretations</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>database</strong> – database object to explore.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Explore object with many different funtions that interprete the database</p>
+</dd>
+</dl>
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.get_lda">
 <code class="sig-name descname">get_lda</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_lda" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funcion that geneates lda visualization for the tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A local server that host the lda visualization</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.get_similarity">
 <code class="sig-name descname">get_similarity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">word1</span></em>, <em class="sig-param"><span class="n">word2</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">use_pretrained</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_similarity" title="Permalink to this definition">¶</a></dt>
 <dd><p>Makes a calulation with word vectors to narrow similar words
-args:</p>
+:param tag: tag to slice the database with
+:param tag_column: column of the database the tag is from
+:param word1: first word to use in comparison
+:param word2: word to get the similarity with the first, if none,</p>
+<blockquote>
+<div><p>most similar word to the first will be returned, default, none</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>if the previouslyused embeding for this tag should be reused for this calculation</strong> (<em>use_pretrained;</em>) – </p>
+</dd>
+</dl>
 <p class="rubric">Example</p>
 <p>word1 = “man”, word2=”woman” –&gt; 0.8 (high)</p>
 <p>word1 = “man”, word2=None –&gt; “Woman”</p>
@@ -274,33 +374,100 @@ args:</p>
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.get_size">
 <code class="sig-name descname">get_size</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_size" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funcion to check how many texts there are in a specific tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>number of texts in dataframe</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.get_text">
-<code class="sig-name descname">get_text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">n_sents</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_text" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<code class="sig-name descname">get_text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">n_texts</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Funcion that find the most important texts in a tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+<li><p><strong>n_texts</strong> – number of texts in tag, default = 5</p></li>
+<li><p><strong>method</strong> – method that will be used to get the texts, default = “tf-idf”
+can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of most important texts in dataframe</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.get_wordcloud">
 <code class="sig-name descname">get_wordcloud</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">raw</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_wordcloud" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funcion that geneates a wordcloud fr teh tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+<li><p><strong>raw</strong> – if the data used should be the raw data or the preprocessed data, default False</p></li>
+<li><p><strong>save</strong> – wether to save or not the figure generated in teh ocal folder, default False</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>plots the word cloud of the tag</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.get_words">
 <code class="sig-name descname">get_words</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">n_words</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'NPMI'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.get_words" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funcion that find the most important words in a tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+<li><p><strong>n_words</strong> – number of words in tag, default = 5</p></li>
+<li><p><strong>method</strong> – method that will be used to gett teh words, default = “NPMI”
+can be [“P”, “PMI”, “NPMI”, “word2vec”]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of most important words in dataframe</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.extract.Extract.make_analogy">
 <code class="sig-name descname">make_analogy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">relation</span></em>, <em class="sig-param"><span class="n">target</span></em>, <em class="sig-param"><span class="n">use_pretrained</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.make_analogy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Makes an analogy with data from inside the tag
-args:</p>
+:param tag: tag to slice the database with
+:param tag_column: column of the database the tag is from
+:param relation: 2 words with the desired relation
+:param target: word that the relation will be aplied to</p>
+<blockquote>
+<div><p>most similar word to the first will be returned, default, none</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>if the previouslyused embeding for this tag should be reused for this calculation</strong> (<em>use_pretrained;</em>) – </p>
+</dd>
+</dl>
 <p class="rubric">Example</p>
 <p>relation=[‘man’, ‘king’], target=[‘woman’] –&gt; queen: 0.8965</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>words with highest similarity</p>
+<dd class="field-odd"><p>results of the analogy</p>
 </dd>
 </dl>
 </dd></dl>
@@ -309,12 +476,23 @@ args:</p>
 <dt id="text_tagger.extract.Extract.make_word_difference">
 <code class="sig-name descname">make_word_difference</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em>, <em class="sig-param"><span class="n">positive</span></em>, <em class="sig-param"><span class="n">negative</span></em>, <em class="sig-param"><span class="n">use_pretrained</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.extract.Extract.make_word_difference" title="Permalink to this definition">¶</a></dt>
 <dd><p>Makes a calulation with word vectors to narrow similar words
-args:</p>
+:param tag: tag to slice the database with
+:param tag_column: column of the database the tag is from
+:param postive: list of words taht will be added
+:param negaive: list of words taht will be subtracted</p>
+<blockquote>
+<div><p>most similar word to the first will be returned, default, none</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>if the previouslyused embeding for this tag should be reused for this calculation</strong> (<em>use_pretrained;</em>) – </p>
+</dd>
+</dl>
 <p class="rubric">Example</p>
 <p>positive=[‘woman’, ‘king’], negative=[‘man’] –&gt; queen: 0.8965</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>words with highest similarity</p>
+<dd class="field-odd"><p>results of the analogy</p>
 </dd>
 </dl>
 </dd></dl>
@@ -328,29 +506,35 @@ args:</p>
 <dt id="text_tagger.generate.Generate">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.generate.</code><code class="sig-name descname">Generate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em>, <em class="sig-param"><span class="n">max_sequence_len</span><span class="o">=</span><span class="default_value">20</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="py method">
-<dt id="text_tagger.generate.Generate.create_model">
-<code class="sig-name descname">create_model</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.create_model" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
+<p>Class that wraps a database to generte new texts accoring to a specific tag</p>
+<dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>total_words</strong> – </p></li>
-<li><p><strong>max_sequence_len</strong> – </p></li>
+<li><p><strong>the database object with tags the model will be trained from</strong> (<em>database;</em>) – </p></li>
+<li><p><strong>max_sequence_len</strong> – the maximum number o words the texts the model
+will use to rtrain should have, default = 20</p></li>
 </ul>
 </dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Generate object taht can train a model in a tag and generate new text from it</p>
+</dd>
 </dl>
-</dd></dl>
-
 <dl class="py method">
 <dt id="text_tagger.generate.Generate.generate">
 <code class="sig-name descname">generate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">seed_text</span></em>, <em class="sig-param"><span class="n">next_words</span><span class="o">=</span><span class="default_value">20</span></em>, <em class="sig-param"><span class="n">T</span><span class="o">=</span><span class="default_value">0.9</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.generate" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
+<dd><p>Generate a new text with the trained model</p>
+<dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>seed_text</strong> – </p></li>
-<li><p><strong>next_words</strong> – </p></li>
-<li><p><strong>T</strong> – </p></li>
+<li><p><strong>seed_text</strong> – text the model will try to continue from based on what it learned</p></li>
+<li><p><strong>next_words</strong> – how many words to generat efoward</p></li>
+<li><p><strong>T</strong> – temperature, how much the generate will value the higher probabilties for each word
+closer to 1: more realistic and repetitive the model will be,
+closer to 0: more creative and nonsensical</p></li>
 </ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>newly generated text</p>
 </dd>
 </dl>
 </dd></dl>
@@ -358,17 +542,13 @@ args:</p>
 <dl class="py method">
 <dt id="text_tagger.generate.Generate.train">
 <code class="sig-name descname">train</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">tag_column</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.train" title="Permalink to this definition">¶</a></dt>
-<dd><p>Start the generate component
-:param tag:
-:param repo:</p>
-</dd></dl>
-
-<dl class="py method">
-<dt id="text_tagger.generate.Generate.train_model">
-<code class="sig-name descname">train_model</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sequences</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.generate.Generate.train_model" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
+<dd><p>Function taht trains the generate object in the texts of a specific tag</p>
+<dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>sequences</strong> – </p>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> – tag to slice the database with</p></li>
+<li><p><strong>tag_column</strong> – column of the database the tag is from</p></li>
+</ul>
 </dd>
 </dl>
 </dd></dl>
@@ -382,10 +562,33 @@ args:</p>
 <dt id="text_tagger.identify.Identify">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.identify.</code><code class="sig-name descname">Identify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.identify.Identify" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class that wraps a database to identify in whith tag some new texts belong</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>the database object with tags for the object to refer to</strong> (<em>database;</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Identify object that can indentify a text according to embedings</p>
+</dd>
+</dl>
 <dl class="py method">
 <dt id="text_tagger.identify.Identify.identify">
 <code class="sig-name descname">identify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">texts</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'tf-idf'</span></em>, <em class="sig-param"><span class="n">n_searches</span><span class="o">=</span><span class="default_value">3</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.identify.Identify.identify" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funcion that find the most likely tags for a text</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>texts</strong> – string or list of strings with the text that should be identified</p></li>
+<li><p><strong>method</strong> – method that will be used to get the tag, default = “tf-idf”
+can be [“tf-idf”, “cbow”, “doc2vec”, “lda”]</p></li>
+<li><p><strong>n_searches</strong> – how many tags to return for each text, default = 3</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of most likely tags for each text</p>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
@@ -396,38 +599,83 @@ args:</p>
 <dt id="text_tagger.preprocess.Preprocess">
 <em class="property">class </em><code class="sig-prename descclassname">text_tagger.preprocess.</code><code class="sig-name descname">Preprocess</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tags_types</span></em>, <em class="sig-param"><span class="n">filter_flags</span><span class="o">=</span><span class="default_value">{'digits': True, 'links': True, 'punct': True, 'refs': True, 'simbols': True, 'stopwords': True, 'text_only': False, 'tokenize': True}</span></em>, <em class="sig-param"><span class="n">languages</span><span class="o">=</span><span class="default_value">['english']</span></em>, <em class="sig-param"><span class="n">other_stopwords</span><span class="o">=</span><span class="default_value">[]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<p>Realiza o preprocessamento de texto e tageamento absoluto de tags numericas.</p>
+<p>Class that preproccess a database to filter text and convert tags to absolute ones</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tags_types</strong> – dictionary mapping tag_name list of configurations: [method, number of clusters, original tags]
+example: {“Lat_Long”:(“numeric-simple”, 200, [“Longitude”, “Latitude”])}</p></li>
+<li><p><strong>filter_tags</strong> – dictionary with different keys for the text preprocess</p></li>
+<li><p><strong>languages</strong> – list of languages to be used for teh stopwords</p></li>
+<li><p><strong>other_stopwords</strong> – list of manual stopwords to be used</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>object capable of filtering a dataframe</p>
+</dd>
+</dl>
 <dl class="py method">
-<dt id="text_tagger.preprocess.Preprocess.filter">
-<code class="sig-name descname">filter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.filter" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt id="text_tagger.preprocess.Preprocess.filter_text">
+<code class="sig-name descname">filter_text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.filter_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Funcion to filter a single text according to preprocess object filter_flags</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>text</strong> – text to filter</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>filtered text</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.preprocess.Preprocess.numeric_process">
 <code class="sig-name descname">numeric_process</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">method</span></em>, <em class="sig-param"><span class="n">n</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.numeric_process" title="Permalink to this definition">¶</a></dt>
-<dd><p>Processa as tags se forem numéricas em 2d (por exemplo: latitude, longitude)
-:param data: series do pandas que deve ser dividida
-:param method: methodo que será usado para a conversão
-:param n: numeros de divisões ou clusters</p>
+<dd><p>Process n-d numerical tags into a absolute numerical tag</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> – pd.Series that must be processed</p></li>
+<li><p><strong>method</strong> – method that will be used in the conversion simple or cluster</p></li>
+<li><p><strong>n</strong> – number of divisions or cluesters</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>new tag pd.Series</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.preprocess.Preprocess.preprocess">
 <code class="sig-name descname">preprocess</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.preprocess" title="Permalink to this definition">¶</a></dt>
-<dd><p>Le o arquivo e processa os dados de texto.
-:param file: nome do arquivo de entrada</p>
+<dd><p>Function that recieves a database object and preprocess the data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>database</strong> – database to be preprocessed</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.preprocess.Preprocess.preprocess_tags">
 <code class="sig-name descname">preprocess_tags</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.preprocess_tags" title="Permalink to this definition">¶</a></dt>
-<dd><p>Abre e processa todas as tags em um novo dataframe</p>
+<dd><p>Function that preprocess all tags columns according to the objet configurations</p>
 </dd></dl>
 
 <dl class="py method">
 <dt id="text_tagger.preprocess.Preprocess.preprocess_text">
 <code class="sig-name descname">preprocess_text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text_series</span></em><span class="sig-paren">)</span><a class="headerlink" href="#text_tagger.preprocess.Preprocess.preprocess_text" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Funcion to filter a pd.Series of texts according to preprocess object filter_flags</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>text_series</strong> – pd.Series of texts to filter</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>pd.Series of filtered texts</p>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
