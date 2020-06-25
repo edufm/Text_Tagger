@@ -4,7 +4,7 @@ text\_tagger package
 Submodules
 ----------
 
-text\_tagger.compare module
+text\_tagger.compare
 ---------------------------
 
 .. automodule:: text_tagger.compare
@@ -12,7 +12,7 @@ text\_tagger.compare module
    :undoc-members:
    :show-inheritance:
 
-text\_tagger.dataset\_manager module
+text\_tagger.dataset\_manager
 ------------------------------------
 
 .. automodule:: text_tagger.dataset_manager
@@ -20,7 +20,7 @@ text\_tagger.dataset\_manager module
    :undoc-members:
    :show-inheritance:
 
-text\_tagger.extract module
+text\_tagger.extract
 ---------------------------
 
 .. automodule:: text_tagger.extract
@@ -28,7 +28,7 @@ text\_tagger.extract module
    :undoc-members:
    :show-inheritance:
 
-text\_tagger.generate module
+text\_tagger.generate
 ----------------------------
 
 .. automodule:: text_tagger.generate
@@ -36,7 +36,7 @@ text\_tagger.generate module
    :undoc-members:
    :show-inheritance:
 
-text\_tagger.identify module
+text\_tagger.identify
 ----------------------------
 
 .. automodule:: text_tagger.identify
@@ -44,7 +44,7 @@ text\_tagger.identify module
    :undoc-members:
    :show-inheritance:
 
-text\_tagger.preprocess module
+text\_tagger.preprocess
 ------------------------------
 
 .. automodule:: text_tagger.preprocess

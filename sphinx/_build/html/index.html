@@ -155,52 +155,72 @@
 Esse módulo consiste em um tollbox que facilita análises de texto-característica de
 forma a tornar o NLP tão acessível para o usuário, quanto módulos como Scikit-Learn
 e Tensorflow tornam para Machine Learning.</p>
+<p>A module to analyze texts according to their characteristics, or tags. This module consists of a toll box that
+facilitates resource text management in order to make NLP as accessible to the user as modules such as
+Scikit-Learn and Tensorflow become for Machine Learning.</p>
+</div>
+<div class="section" id="model-pipeline">
+<h1>Model Pipeline<a class="headerlink" href="#model-pipeline" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<img alt="_images/Diagram.png" class="align-center" src="_images/Diagram.png" />
+<p>This module is structured in three layers:</p>
+<p>In the first layer, the information entered by the user is obtained, which represents texts, information to
+correlate (tags) and desired settings. In possession of this data, the second layer, performs a pre-processing
+according to the data structure necessary for the NLP analysis modules, storing them in a structure called
+database, with the configured database it is possible to use different analysis modules in the last layer.</p>
 </div>
 <div class="section" id="submodels">
 <h1>Submodels<a class="headerlink" href="#submodels" title="Permalink to this headline">¶</a></h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
 </div>
+<hr class="docutils" />
 <div class="section" id="generate">
 <h1>Generate<a class="headerlink" href="#generate" title="Permalink to this headline">¶</a></h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+<p>According to a tag and an initial text, it completes that text with words that can form a common sense phrase
+within the context of the selected tag. The operation of this module consists of, through a simple reccorent
+network, which uses a sequential model with layers of embedding, bidirectional LSTM and dense, calculates the
+words most likely to complete a sequence of previous words.</p>
 </div>
 <div class="section" id="compare">
 <h1>Compare<a class="headerlink" href="#compare" title="Permalink to this headline">¶</a></h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+<p>Calculates the similarity between two tags, this module uses methods to calculate the distance between the
+embeddings of the selected tags, such as the cosine method that calculates the distance between the centroid
+of both embeddings and the jaccard method that calculates this distance by dividing the intersection of both
+embeddings by the union of these. The distance values, considered as similarity, are values ​​that belong to the
+range from zero to one, in which the closer to zero the less the similarity and the closer to one the greater the
+similarity.</p>
 </div>
 <div class="section" id="extract">
 <h1>Extract<a class="headerlink" href="#extract" title="Permalink to this headline">¶</a></h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+<p>based on a database and a specific tag the  module aims to give the user a overview of what the texts in that tag are about and how the information present in them is treated.</p>
+<dl class="simple">
+<dt>To give an idea on tag content some of the functions on the extract module are:</dt><dd><ul class="simple">
+<li><p>get the most important words in the tag using different word frequency methods (PMI, NPMI)</p></li>
+<li><p>get the most relevant tags in the tag by using clustering and different embedings (tf-idf, cbow, doc2vec, lda)</p></li>
+<li><p>get the word cloud of the documents in the tag</p></li>
+<li><p>get the lda topics that would be created with the documents in the tag</p></li>
+</ul>
+</dd>
+<dt>To allow the user to understand the relations between the topics in the tag some functions are:</dt><dd><ul class="simple">
+<li><p>make analogies of words by using word2vec embeding</p></li>
+<li><p>find the most similar word to another word</p></li>
+</ul>
+</dd>
+</dl>
+<p>With this functions the user can explore some specific properties of a slice of the dataframe and understand what it talks about in a visual way</p>
 </div>
 <div class="section" id="identify">
 <h1>Identify<a class="headerlink" href="#identify" title="Permalink to this headline">¶</a></h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="modules/text_tagger.html">text_tagger package</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.compare">text_tagger.compare module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.dataset_manager">text_tagger.dataset_manager module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.extract">text_tagger.extract module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.generate">text_tagger.generate module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.identify">text_tagger.identify module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.preprocess">text_tagger.preprocess module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.compare">text_tagger.compare</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.dataset_manager">text_tagger.dataset_manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.extract">text_tagger.extract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.generate">text_tagger.generate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.identify">text_tagger.identify</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger.preprocess">text_tagger.preprocess</a></li>
 <li class="toctree-l2"><a class="reference internal" href="modules/text_tagger.html#module-text_tagger">Module contents</a></li>
 </ul>
 </li>
