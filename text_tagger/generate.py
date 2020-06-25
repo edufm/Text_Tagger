@@ -6,61 +6,42 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
 from .preprocess import Preprocess
-from collections import defaultdict
 
 import numpy as np
 
 class Generate():
+    """
+    Class that wraps a database to generte new texts accoring to a specific tag
+    
+    args:
+        database; the database object with tags the model will be trained from
+        max_sequence_len: the maximum number o words the texts the model 
+                          will use to rtrain should have, default = 20
+                          
+    returns:
+        Generate object taht can train a model in a tag and generate new text from it
+    """
     def __init__(self, database, max_sequence_len=20):
 
         self.database = database
         self.max_sequence_len = max_sequence_len
-
-
-    def create_model(self):
-        """
-        Args: 
-            total_words:
-            max_sequence_len:
-        """
-        self.model = Sequential()
-        self.model.add(Embedding(self.total_words, 256, input_length=self.max_sequence_len))
-        self.model.add(Bidirectional(LSTM(128)))
-        self.model.add(Dense(self.total_words, activation='softmax'))
-        optimizer = Adam(lr=0.01)
-        self.model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
-
-
-    def train_model(self, sequences):
-        """
-        Args: 
-            sequences:
-        """
-        sequences = pad_sequences(sequences, maxlen=self.max_sequence_len+1, padding='pre')
-        X = sequences[:, :-1]
-        y = to_categorical(sequences[:, -1], num_classes=self.total_words)
-        X_train, X_valid, y_train, y_valid = train_test_split(X, y, train_size=0.9)
-
-        self.model.fit(X_train, y_train, epochs=50, batch_size=4096, 
-                    validation_data=(X_valid, y_valid))
-
     
     def train(self, tag, tag_column):
         """
-        Start the generate component
-        Args: 
-            tag:
-            repo:
+        Function taht trains the generate object in the texts of a specific tag
+        
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
         """
         if (tag_column not in self.database.df.columns):
             raise ValueError(f"Tag {tag_column} not found in dataset")
         elif tag not in self.database.df[tag_column].to_list():
             raise ValueError(f"Tag {tag} not found in dataset column {tag_column}")
 
-        # Filtra os dados rederentes a tag escolhida
+        # Filter the tags of the chosen tag
         docs = self.database.df[self.database.df[tag_column]== tag]
         
-        # lista de documentos do texto original
         docs = docs[f"orig_{self.database.text_column}"]
     
         preprocess = Preprocess(tags_types   = None, 
@@ -79,7 +60,7 @@ class Generate():
         self.tokenizer.fit_on_texts(docs)
         self.total_words = len(self.tokenizer.word_index) + 1
 
-        # Gera as sequencias com base nos textos
+        # Generate text sequences for teh model
         sequences = []
         for line in docs:
             token_list = self.tokenizer.texts_to_sequences([line])[0]
@@ -89,19 +70,37 @@ class Generate():
         
         sequences = pad_sequences(sequences, maxlen=self.max_sequence_len+1, padding='pre')
 
-        # Cria o modelo
-        self.create_model()
+        # Creates teh model
+        self.model = Sequential()
+        self.model.add(Embedding(self.total_words, 256, input_length=self.max_sequence_len))
+        self.model.add(Bidirectional(LSTM(128)))
+        self.model.add(Dense(self.total_words, activation='softmax'))
+        optimizer = Adam(lr=0.01)
+        self.model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 
-        # Treina o modelo
-        self.train_model(sequences = sequences)
+        # Trains teh model
+        sequences = pad_sequences(sequences, maxlen=self.max_sequence_len+1, padding='pre')
+        X = sequences[:, :-1]
+        y = to_categorical(sequences[:, -1], num_classes=self.total_words)
+        X_train, X_valid, y_train, y_valid = train_test_split(X, y, train_size=0.9)
+
+        self.model.fit(X_train, y_train, epochs=50, batch_size=4096, 
+                    validation_data=(X_valid, y_valid))
     
 
     def generate(self, seed_text, next_words=20, T=0.9):
         """
+        Generate a new text with the trained model
+        
         Args: 
-            seed_text:
-            next_words:
-            T:
+            seed_text: text the model will try to continue from based on what it learned
+            next_words: how many words to generat efoward
+            T: temperature, how much the generate will value the higher probabilties for each word
+               closer to 1: more realistic and repetitive the model will be, 
+               closer to 0: more creative and nonsensical
+               
+        returns:
+            newly generated text
         """
 
         index_to_word = {index: word for word, index in self.tokenizer.word_index.items()}
@@ -115,7 +114,6 @@ class Generate():
             probas = probas ** (1.0 / T)
             probas /= np.sum(probas)
             predicted = np.random.choice(range(1,self.total_words), p=probas)
-            # predicted = model.predict_classes(token_list, verbose=0)[0]
             
             seed_text += " " + (index_to_word[predicted] if predicted != 0 else '')
 

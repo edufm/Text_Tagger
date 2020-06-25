@@ -5,11 +5,32 @@ import numpy as np
 import pandas as pd
 
 class Identify():
+    """
+    Class that wraps a database to identify in whith tag some new texts belong
+    
+    args:
+        database; the database object with tags for the object to refer to
+                          
+    returns:
+        Identify object that can indentify a text according to embedings
+    """
     def __init__(self, database):
         self.database = database
 
-    def identify(self, texts, method="tf-idf", n_searches=3):
 
+    def identify(self, texts, method="tf-idf", n_searches=3):
+        """ 
+        Funcion that find the most likely tags for a text
+        
+        args:
+            texts: string or list of strings with the text that should be identified
+            method: method that will be used to get the tag, default = "tf-idf"
+                    can be ["tf-idf", "cbow", "doc2vec", "lda"]
+            n_searches: how many tags to return for each text, default = 3
+            
+        returns:
+            list of most likely tags for each text
+        """
         if isinstance(texts, pd.Series):
             pass
         elif isinstance(texts, str):

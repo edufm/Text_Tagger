@@ -1,5 +1,4 @@
 from collections import defaultdict
-import json
 import pickle
 
 import pandas as pd
@@ -20,11 +19,11 @@ import scipy
 class DataBase():
     def __init__(self, path, text_column, tags_columns, low_memory=False):
         """
-        Classe de dados do modulo
+        Class that holds all data for the module, will be used to feed other classes
 
-        path: Caminho até o database que se deseja abrir
-        text_label  : Coluna do dataframe com os textos
-        tags_labels : Colunas do dataframe com as tags numericas
+        path: path to the dataset that will be used (.CSV file)
+        text_label  : dataset column with the texts
+        tags_labels : dataset columns with teh tags
         """
         self.path = path
         self.storage_path = "./storage/" + path.split("/")[-1].split(".")[0]
@@ -38,16 +37,24 @@ class DataBase():
 
 
     def open(self):
+        """
+        Function to open the dataset according to self.path
+        """
         self.df = pd.read_csv(self.path, index_col=0)
 
 
     def load(self):
+        """ 
+        Function to load a previoulsy pickled database objet
+        """
         with open(self.storage_path + ".pkl", "rb") as file:
             self = pickle.load(file)
 
 
     def save(self):
-        
+        """
+        Function to save the database object as pickle
+        """
         self.embedings = {method:(data[0], None) for method, data in self.embedings.items()}
         
         with open(self.storage_path + ".pkl", "wb") as file:
@@ -55,7 +62,14 @@ class DataBase():
 
     
     def export(self, target="text"):
+        """
+        Function to export dataset data into csv or .txt file
         
+        args:
+            target: if "csv" will store the dataset as csv with all modifications
+                    if "text" will store the text column in a .txt file
+                    default = "text"
+        """
         if target == "text":
             with open('storage/texts.txt', 'w', encoding='utf8') as file:    
                 texts = self.df[self.text_column]            
@@ -66,17 +80,10 @@ class DataBase():
             self.df.to_csv(self.storage_path + ".csv")
 
 
-    def create_index(self, per_tag=True, save=True):
-        '''Indexa os documentos de um corpus.
-
-        Args:
-            repo: dicionario que mapeia docid para uma lista de tokens.
-
-        Returns:
-            O índice reverso do repositorio: um dicionario que mapeia token para
-            lista de docids.
-        '''
-
+    def create_index(self, per_tag=True):
+        """
+        Function to create a index of words:number of appearences of the corpus documents and each tag
+        """
         data = self.df.T.to_dict()
         text_ids = self.df.index.to_list()
         
@@ -99,6 +106,23 @@ class DataBase():
 
 
     def generate_embedings(self, method="tf-idf", tag=None, tag_column=None, return_model=False):
+        """
+        Funtion that generates and saves in the object a embeding for the corpus texts
+        
+        args:
+            method: method that will be used to perform the embeding, default = "tf-idf"
+                    can be ["tf-idf", "cbow", "doc2vec", "lda"]
+            tag: specific tag for the embeing if a specific embeding is 
+                 needed, default = None
+            tag_column: specific tag_column for the embeing if a specific 
+                        embeding is needed, default = None
+            return_model: if teh function needs to return only the vectors of the texts 
+                          or also the model used to generate such vectors, default = False
+                          
+        returns:
+            embeding vectors for each text in the dataset or tag
+            model used to generate embedings if return_model = True
+        """
         # Coleta os dados dos embedings e salva em um arquivo par ao multiprocess
         if tag != None and tag_column != None:
             if (tag_column not in self.df.columns):
@@ -218,8 +242,20 @@ class DataBase():
             return vectors
 
 
-    def most_important_word(self, tag, tag_column=None, n_words=5, method="PMI"):
-
+    def most_important_word(self, tag, tag_column, n_words=5, method="PMI"):
+        """ 
+        Funcion that find the most important words in a tag
+        
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            n_words: number of words in tag, default = 5
+            method: method that will be used to gett teh words, default = "NPMI"
+                    can be ["P", "PMI", "NPMI"]
+            
+        returns:
+            list of most important words in dataframe
+        """        
         if (tag_column not in self.df.columns):
             raise ValueError(f"Tag {tag_column} not found in dataset")
         elif tag not in self.df[tag_column].to_list():
@@ -251,7 +287,17 @@ class DataBase():
 
 
     def generate_tags(self, method="tf-idf", n_tags=10, vectors=None):
-
+        """
+        Function that uses a speific method and clustring to genrate new tags 
+        for the dataset, those tags will be added as "AutoTag" in teh dataset
+        
+        args:
+            method: method that will be used to perform the clustering, default = "tf-idf"
+                    can be ["tf-idf", "cbow", "doc2vec", "lda"]
+            n_tags: number of tags to generate
+            vectors: user embeding vecors for each text if they wish too generate 
+                     tags according to their own embeding system
+        """
         if vectors == None:
             vectors = self.generate_embedings(method)        
             

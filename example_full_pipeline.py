@@ -1,14 +1,14 @@
 import text_tagger as tt
 
-#Option to reduce dataframe print size
+# Option to reduce dataframe print size
 tt.dataset_manager.pd.options.display.max_colwidth = 20
 
-
+# User inputs for the database
 file = "./datasets_samples/Tweets_USA.csv"
 text_column = "Tweet content"
 tags_columns = ["Latitude", "Longitude"]
 
-tags_types = {"Lat_Long":("numeric-simple", 200, ["Longitude", "Latitude"])}
+tags_types = {"Lat_Long":("numeric-simple", 10, ["Longitude", "Latitude"])}
 filter_flags = {"digits"   : True, "stopwords": True, "text_only": False,
                 "simbols"  : True, "punct"    : True, "links"    : True,
                 "refs"     : False, "tokenize": True}
@@ -16,43 +16,40 @@ filter_flags = {"digits"   : True, "stopwords": True, "text_only": False,
 languages = ['english']#, 'spanish']
 other_stopwords = ["&amp;"]
 
+# Creates the database
 database = tt.DataBase(file, text_column, tags_columns)
 database.open()
 
+# Preprocess the database
 preprocess = tt.Preprocess(tags_types, filter_flags, 
                            languages=languages, other_stopwords=other_stopwords)
 preprocess.preprocess(database)
 
-# Gera alguns embedings
-print("generating tf-idf")
+# Generates one embeding
 database.generate_embedings(method="tf-idf")
 
-print("generating cbow")
-database.generate_embedings(method="cbow")
-
-# Gera tags automaticas
-print("generating tag")
-database.generate_tags()
-
-# Cria o indice de palavras do database
+# Creates the words indexes
 database.create_index()
 
-# Escolhe a tag que vai ser observada
+# Generate autotags
+database.generate_tags()
+
+# Choose some randon tags
 tag_column = "AutoTag"
 tag = database.df[tag_column].iloc[-1]
 
 tag_2, i = tag, -2
-while tag_2 != tag:
+while tag_2 == tag:
     tag_2 = database.df[tag_column].iloc[i]
     i -= 1
 
-# Para salvar os dados
+# Save the data
 if False:
     database.export(target="text")
     database.export(target="csv")
     database.save()
 
-# Para o extrator
+# Runs the Extractor
 if False:
     extract = tt.Extract(database)
     print("Number of elements in tag", extract.get_size(tag, tag_column))
@@ -67,20 +64,20 @@ if False:
     
     #extract.get_lda(tag, tag_column)
 
-# Para o Generate
+# Runs generate
 if False:    
     generate = tt.Generate(database, max_sequence_len=16)
     generate.train(tag, tag_column)
-    generate.generate(seed_text="Want to")
+    print(generate.generate(seed_text="Want to"))
 
 
-# Para o Indentify
+# Runs identify
 if False:
     identify = tt.Identify(database)
-    identify.identify(["I ran a marathon in los Angeles this week and did not win", 
-                         "A ball rows down the stairs while the boy watch it go"], method="cbow")
+    print(identify.identify(["I ran a marathon in los Angeles this week and did not win", 
+                             "A ball rows down the stairs while the boy watch it go"], method="cbow"))
     
-# Para o Compare
+# Runs compare
 if False:
     compare = tt.Compare(database)
-    compare.get_similarity(tag, tag_2, tag_column, tag_column)
+    print(compare.get_similarity(tag, tag_column, tag_2, tag_column))

@@ -7,9 +7,18 @@ import re
 
 class Preprocess():
     """
-    Realiza o preprocessamento de texto e tageamento absoluto de tags numericas.
+    Class that preproccess a database to filter text and convert tags to absolute ones
+    
+    args:
+        tags_types: dictionary mapping tag_name list of configurations: [method, number of clusters, original tags]
+                    example: {"Lat_Long":("numeric-simple", 200, ["Longitude", "Latitude"])}
+        filter_tags: dictionary with different keys for the text preprocess
+        languages: list of languages to be used for teh stopwords
+        other_stopwords: list of manual stopwords to be used
+        
+    returns:
+        object capable of filtering a dataframe
     """
-
     def __init__(self, tags_types,
                  filter_flags = {"digits"   : True,
                                  "stopwords": True,
@@ -20,24 +29,25 @@ class Preprocess():
                                  "refs"     : True,
                                  "tokenize" : True},
                  languages=['english'], other_stopwords=[]):
-        """
-        Args:
-            filter_flags: Dicionario de configuração para o processamento de texto
-            tags_types  : Dicionario com nome da coluna: tipo (tupla ou string) 
-                        ["absolute", ("numeric-simple", # de divs, [tags]), ("numeric-cluster", # de clusters, [tags])]
-                        para tags numeric2d usar (nome da coluna: tipo-numero_unico")
-            language: Lista de Linguagens que está presente nos documentos (para as stopwrods)
-        """
         self.tags_types     = tags_types
         self.filter_flags   = filter_flags
         self.languages = languages
         
         self.other_stopwords = []
         if other_stopwords != []:
-            self.other_stopwords = list(np.array([self.filter(other) for other in other_stopwords]).flatten())
+            self.other_stopwords = list(np.array([self.filter_text(other) for other in other_stopwords]).flatten())
 
 
-    def filter(self, text):
+    def filter_text(self, text):
+        """ 
+        Funcion to filter a single text according to preprocess object filter_flags
+        
+        args:
+            text: text to filter
+            
+        returns:
+            filtered text
+        """
         # Retira caracteres obrigatórios
         text = re.sub(r"\n", " ", text, flags=re.DOTALL|re.MULTILINE)
 
@@ -86,31 +96,52 @@ class Preprocess():
 
 
     def preprocess_text(self, text_series):
-        return text_series.apply(self.filter) 
+        """ 
+        Funcion to filter a pd.Series of texts according to preprocess object filter_flags
+        
+        args:
+            text_series: pd.Series of texts to filter
+            
+        returns:
+            pd.Series of filtered texts
+        """
+        return text_series.apply(self.filter_text) 
     
 
     def numeric_process(self, data, method, n):
         """
-        Processa as tags se forem numéricas em 2d (por exemplo: latitude, longitude)
+        Process n-d numerical tags into a absolute numerical tag
+        
         Args:
-            data: series do pandas que deve ser dividida
-            method: methodo que será usado para a conversão
-            n: numeros de divisões ou clusters
+            data: pd.Series that must be processed
+            method: method that will be used in the conversion simple or cluster
+            n: number of divisions or cluesters
+            
+        returns:
+            new tag pd.Series
         """ 
         if method == 'simple':
             new_data = pd.DataFrame()
             for column in data.columns:
+                
+                # Lists possible tags
                 tags = sorted(data[column].unique())
+                n = len(tags)//n
+                
+                # Calculates the new tag for each tag
                 tags_ref, i = {}, n
                 while i < len(tags):
                     for tag in tags[i-n:i]:
                         tags_ref[tag] = int(i/n)
                     i += n
-
+                    
                 for tag in tags[i-n:i]:
                     tags_ref[tag] = int(i/n)
-
+                    
+                # Replace the tag in the colunm
                 new_data[column] = data[column].apply(lambda x: str(tags_ref[x]))
+                
+            # Compiles all dimensions in a single mix
             new_data = new_data.sum(axis=1)
 
         elif method == "cluster":
@@ -123,7 +154,7 @@ class Preprocess():
 
     def preprocess_tags(self):
         """
-        Abre e processa todas as tags em um novo dataframe
+        Function that preprocess all tags columns according to the objet configurations 
         """  
         tags_series = self.tags_series.copy()
         self.tags_series = pd.DataFrame(index=tags_series.index)
@@ -143,9 +174,10 @@ class Preprocess():
 
     def preprocess(self, database):
         """
-        Le o arquivo e processa os dados de texto.
+        Function that recieves a database object and preprocess the data
+        
         Args:
-            file: nome do arquivo de entrada
+            database: database to be preprocessed
         """
         # Abre o arquivo de dados
         original_text = database.df[database.text_column].copy()

@@ -1,4 +1,3 @@
-from os import path
 import numpy as np
 
 from PIL import Image
@@ -11,23 +10,54 @@ import pyLDAvis.gensim
 
 
 class Extract():
+    """ 
+    Class that wraps a dataframe and allow for the extraction of features 
+    of each tag sych as main words, texts, wordcloud, and lda interpretations
+    
+    args:
+        database: database object to explore.
+        
+    returns:
+        Explore object with many different funtions that interprete the database    
+    """
     def __init__(self, database):
 
         self.database = database
         self.embedings = {}
 
+
     def get_size(self, tag, tag_column):
+        """ 
+        Funcion to check how many texts there are in a specific tag
         
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            
+        returns:
+            number of texts in dataframe
+        """
         return len(self.database.df[self.database.df[tag_column] == tag])
 
 
     def get_words(self, tag, tag_column, n_words=5, method="NPMI"):
-
+        """ 
+        Funcion that find the most important words in a tag
+        
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            n_words: number of words in tag, default = 5
+            method: method that will be used to gett teh words, default = "NPMI"
+                    can be ["P", "PMI", "NPMI", "word2vec"]
+            
+        returns:
+            list of most important words in dataframe
+        """
         if method in ["P", "PMI", "NPMI"]:
             kew_words =  self.database.most_important_word(tag, tag_column=tag_column, method=method, n_words=n_words)
 
         elif method == "word2vec":
-        
             wv = self.database.generate_embedings("word2vec")
             base_words = self.database.most_important_word(tag, tag_column=tag_column, method="NPMI", n_words=n_words)
 
@@ -46,7 +76,20 @@ class Extract():
         return kew_words
 
 
-    def get_text(self, tag, tag_column, n_sents=5, method="tf-idf"):
+    def get_text(self, tag, tag_column, n_texts=5, method="tf-idf"):
+        """ 
+        Funcion that find the most important texts in a tag
+        
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            n_texts: number of texts in tag, default = 5
+            method: method that will be used to get the texts, default = "tf-idf"
+                    can be ["tf-idf", "cbow", "doc2vec", "lda"]
+            
+        returns:
+            list of most important texts in dataframe
+        """
         if (tag_column not in self.database.df.columns):
             raise ValueError(f"Tag {tag_column} not found in dataset")
         elif tag not in self.database.df[tag_column].to_list():
@@ -57,7 +100,7 @@ class Extract():
         vectors = vectors[reindex_df[reindex_df[tag_column] == tag].index]
 
         center_vector = vectors.mean(axis=0)
-        results = cKDTree(np.array(vectors.asformat("array"))).query(center_vector, k=n_sents)
+        results = cKDTree(np.array(vectors.asformat("array"))).query(center_vector, k=n_texts)
 
         sents = []
         for n in results[1].flatten():
@@ -67,6 +110,18 @@ class Extract():
 
 
     def get_wordcloud(self, tag, tag_column, raw=False, save=False):
+        """ 
+        Funcion that geneates a wordcloud fr teh tag
+        
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            raw: if the data used should be the raw data or the preprocessed data, default False
+            save: wether to save or not the figure generated in teh ocal folder, default False
+            
+        returns:
+            plots the word cloud of the tag
+        """
         if (tag_column not in self.database.df.columns):
             raise ValueError(f"Tag {tag_column} not found in dataset")
         elif tag not in self.database.df[tag_column].to_list():
@@ -97,12 +152,18 @@ class Extract():
         """
         Makes a calulation with word vectors to narrow similar words
         args:
-
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            word1: first word to use in comparison
+            word2: word to get the similarity with the first, if none, 
+                   most similar word to the first will be returned, default, none
+            use_pretrained; if the previouslyused embeding for this tag should be reused for this calculation
 
         example:
             word1 = "man", word2="woman" --> 0.8 (high)
 
             word1 = "man", word2=None --> "Woman"
+            
         returns:
             words with highest similarity
         """
@@ -127,13 +188,18 @@ class Extract():
         """
         Makes a calulation with word vectors to narrow similar words
         args:
-
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            postive: list of words taht will be added
+            negaive: list of words taht will be subtracted
+                   most similar word to the first will be returned, default, none
+            use_pretrained; if the previouslyused embeding for this tag should be reused for this calculation
 
         example:
             positive=['woman', 'king'], negative=['man'] --> queen: 0.8965
 
         returns:
-            words with highest similarity
+            results of the analogy
         """
         if (tag_column not in self.database.df.columns):
             raise ValueError(f"Tag {tag_column} not found in dataset")
@@ -153,13 +219,18 @@ class Extract():
         """
         Makes an analogy with data from inside the tag
         args:
-
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            relation: 2 words with the desired relation
+            target: word that the relation will be aplied to
+                   most similar word to the first will be returned, default, none
+            use_pretrained; if the previouslyused embeding for this tag should be reused for this calculation
 
         example:
             relation=['man', 'king'], target=['woman'] --> queen: 0.8965
 
         returns:
-            words with highest similarity
+            results of the analogy
         """
         if (tag_column not in self.database.df.columns):
             raise ValueError(f"Tag {tag_column} not found in dataset")
@@ -182,7 +253,16 @@ class Extract():
     
     
     def get_lda(self, tag, tag_column):
+        """ 
+        Funcion that geneates lda visualization for the tag
         
+        args:
+            tag: tag to slice the database with
+            tag_column: column of the database the tag is from
+            
+        returns:
+            A local server that host the lda visualization
+        """
         vectors, model = self.database.generate_embedings(method="lda", tag=tag, tag_column=tag_column, return_model=True)
         
         ldamodel, doc2bow, dictionary = model
