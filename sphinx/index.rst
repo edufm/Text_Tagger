@@ -1,11 +1,6 @@
 Welcome to Text Tagger's documentation!
 =======================================
 
-Um módulo para analisar textos de acordo com suas características, ou tags. 
-Esse módulo consiste em um tollbox que facilita análises de texto-característica de 
-forma a tornar o NLP tão acessível para o usuário, quanto módulos como Scikit-Learn 
-e Tensorflow tornam para Machine Learning.
-
 A module to analyze texts according to their characteristics, or tags. This module consists of a toll box that 
 facilitates resource text management in order to make NLP as accessible to the user as modules such as 
 Scikit-Learn and Tensorflow become for Machine Learning.
