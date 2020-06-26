@@ -32,4 +32,4 @@ tag = database.df[tag_column].iloc[-1]
 # Runs the generator
 generate = tt.Generate(database, max_sequence_len=16)
 generate.train(tag, tag_column)
-generate.generate(seed_text="Want to")
+print(generate.generate(seed_text="Want to"))

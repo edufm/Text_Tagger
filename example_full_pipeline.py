@@ -28,11 +28,11 @@ preprocess.preprocess(database)
 # Generates one embeding
 database.generate_embedings(method="tf-idf")
 
-# Creates the words indexes
-database.create_index()
-
 # Generate autotags
 database.generate_tags()
+
+# Creates the words indexes
+database.create_index()
 
 # Choose some randon tags
 tag_column = "AutoTag"
