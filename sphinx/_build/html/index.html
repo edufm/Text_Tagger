@@ -163,8 +163,8 @@ correlate (tags) and desired settings. In possession of this data, the second la
 according to the data structure necessary for the NLP analysis modules, storing them in a structure called
 database, with the configured database it is possible to use different analysis modules in the last layer.</p>
 </div>
-<div class="section" id="submodels">
-<h1>Submodels<a class="headerlink" href="#submodels" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h1>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h1>
 </div>
 <hr class="docutils" />
 <div class="section" id="generate">
@@ -173,6 +173,12 @@ database, with the configured database it is possible to use different analysis 
 within the context of the selected tag. The operation of this module consists of, through a simple reccorent
 network, which uses a sequential model with layers of embedding, bidirectional LSTM and dense, calculates the
 words most likely to complete a sequence of previous words.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">generate</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">Generate</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">generate</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">tag</span><span class="p">,</span> <span class="n">tag_column</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">generate</span><span class="o">.</span><span class="n">generate</span><span class="p">(</span><span class="s2">&quot;I love &quot;</span><span class="p">)</span>
+<span class="go">I love it when i stopped by my favorite coffeespot northendcoffeehouse yumaaz yumaarizona yuma</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="compare">
 <h1>Compare<a class="headerlink" href="#compare" title="Permalink to this headline">¶</a></h1>
@@ -182,6 +188,11 @@ of both embeddings and the jaccard method that calculates this distance by divid
 embeddings by the union of these. The distance values, considered as similarity, are values ​​that belong to the
 range from zero to one, in which the closer to zero the less the similarity and the closer to one the greater the
 similarity.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">compare</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">compare</span><span class="o">.</span><span class="n">get_similarity</span><span class="p">(</span><span class="n">tag1</span><span class="p">,</span> <span class="n">tag2</span><span class="p">,</span>  <span class="n">tag_column1</span><span class="p">,</span> <span class="n">tag_column2</span><span class="p">)</span>
+<span class="go">similarity: 0.8</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="extract">
 <h1>Extract<a class="headerlink" href="#extract" title="Permalink to this headline">¶</a></h1>
@@ -194,12 +205,24 @@ similarity.</p>
 <li><p>get the lda topics that would be created with the documents in the tag</p></li>
 </ul>
 </dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">extract</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">Extract</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">extract</span><span class="o">.</span><span class="n">get_wordcloud</span><span class="p">(</span><span class="n">tag</span><span class="p">,</span> <span class="n">tag_colum</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/wordcloud.png" class="align-center" src="_images/wordcloud.png" />
+<dl class="simple">
 <dt>To allow the user to understand the relations between the topics in the tag some functions are:</dt><dd><ul class="simple">
 <li><p>make analogies of words by using word2vec embeding</p></li>
 <li><p>find the most similar word to another word</p></li>
 </ul>
 </dd>
 </dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">extract</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">Extract</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">extract</span><span class="o">.</span><span class="n">make_analogy</span><span class="p">(</span><span class="n">tag</span><span class="p">,</span> <span class="n">tag_column</span><span class="p">,</span> <span class="n">relation</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;boat&quot;</span><span class="p">,</span> <span class="s2">&quot;car&quot;</span><span class="p">],</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;river&quot;</span><span class="p">)</span>
+<span class="go">Road</span>
+</pre></div>
+</div>
 <p>With this functions the user can explore some specific properties of a slice of the dataframe and understand what it talks about in a visual way</p>
 </div>
 <div class="section" id="identify">
@@ -209,6 +232,11 @@ text, and assume, since they are very similar that the tags should be the same. 
 method to compare the vectors generated and compare the distance between the texts. The embedings method can
 vary between  (tf-idf, cbow, doc2vec, lda), and the number of searches to be made (number of similar texts to
 llok for) can be seted by the user</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">identify</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">Identify</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">identify</span><span class="o">.</span><span class="n">identify</span><span class="p">([</span><span class="s2">&quot;When life gives you lemons, make a lemonade&quot;</span><span class="p">])</span>
+<span class="go">Tag_1 = 0, Tag_2 = 35</span>
+</pre></div>
+</div>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
@@ -254,7 +282,7 @@ llok for) can be seted by the user</p>
   <div role="contentinfo">
     <p>
         
-        &copy; Copyright 2020, Leonardo, Eduardo
+        &copy; Copyright 2020, Eduardo Ferrari, Leonardo Medeiros
 
     </p>
   </div>

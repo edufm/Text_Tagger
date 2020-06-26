@@ -18,8 +18,8 @@ sys.path.append("..")
 # -- Project information -----------------------------------------------------
 
 project = 'Text Tagger'
-copyright = '2020, Leonardo, Eduardo'
-author = 'Leonardo, Eduardo'
+copyright = '2020, Eduardo Ferrari, Leonardo Medeiros'
+author = 'Eduardo Ferrari, Leonardo Medeiros'
 
 
 # -- General configuration ---------------------------------------------------
